@@ -6,6 +6,9 @@ Replication code, frozen symbol lists, and frozen result files for the paper
 > kernel-constrained logit measurement of directional predictability**
 > (N. Kitron)
 
+**The manuscript is included here as [`paper.pdf`](paper.pdf) until the
+arXiv version is live; it will then be replaced by the arXiv link.**
+
 Every number, table, and figure in the manuscript is produced by a module in
 `paper/`. The result files the manuscript was typeset from are frozen in
 `paper/out/` with SHA-256 hashes in `HASHES.sha256`.
@@ -118,6 +121,11 @@ uv run python -m paper.kernel_shapes       # power-law vs exponential vs flat ke
 uv run python -m paper.gap_test --all      # skip-one-bar microstructure test
 uv run python -m paper.liquidity           # volume stratification + flat-bar AUC
 uv run python -m paper.negative_controls   # shuffled labels, IAAFT surrogates, time reversal
+uv run python -m paper.wide_null           # shuffled-label null over the FULL 370-asset universe,
+                                           #   identical pipeline incl. joint BH-FDR -> paper/out/wide_null.json
+uv run python -m paper.full_boot           # full-procedure bootstrap: complete walk-forward refits inside
+                                           #   each of B=200 raw-series block resamples, focal coins +
+                                           #   50 representative assets -> paper/out/full_boot.json
 uv run python -m paper.generative          # Glauber self-consistency
 uv run python -m paper.dfa                 # DFA-1 Hurst exponents + joint block bootstrap of the class-mean H gap
 uv run python -m paper.signlag             # model-free multi-lag SIGN autocorrelation, Ljung-Box Q(12),
