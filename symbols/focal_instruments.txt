@@ -1,0 +1,11 @@
+# Focal instruments (Section 2 of the paper)
+# crypto (Binance spot USDT pairs)
+btc eth sol xrp
+# equity index / small-cap (Alpaca)
+spx qqq iwm
+# single stocks (Alpaca)
+aapl nvda tsla
+# commodity / rates (Alpaca)
+gld tlt
+# spot FX (Dukascopy)
+eurusd usdjpy gbpusd

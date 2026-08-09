@@ -1,0 +1,150 @@
+{
+  "n_crypto_total": 183,
+  "n_exante_existing": 133,
+  "n_late_listed": 50,
+  "late_listed": [
+    "0g",
+    "a2z",
+    "allo",
+    "aster",
+    "avnt",
+    "baby",
+    "bananas31",
+    "broccoli714",
+    "eden",
+    "epic",
+    "ff",
+    "form",
+    "giggle",
+    "gps",
+    "gun",
+    "haedal",
+    "hei",
+    "holo",
+    "home",
+    "huma",
+    "hyper",
+    "kite",
+    "la",
+    "linea",
+    "mira",
+    "mito",
+    "morpho",
+    "nil",
+    "nom",
+    "nxpc",
+    "ondo",
+    "open",
+    "parti",
+    "plume",
+    "pump",
+    "resolv",
+    "sahara",
+    "sky",
+    "spk",
+    "sto",
+    "tree",
+    "tut",
+    "usd1",
+    "usde",
+    "virtual",
+    "wlfi",
+    "xpl",
+    "xusd",
+    "yb",
+    "zbt"
+  ],
+  "n_stocks": 187,
+  "stock_mean_auc": 0.4992729250058776,
+  "exante_window": [
+    "2025-01-01",
+    "2025-01-31"
+  ],
+  "n_boot": 1000,
+  "spearman_exante_vol_vs_auc": -0.16262841635975964,
+  "universes": {
+    "full": {
+      "n_crypto": 183,
+      "obs_gap": 0.03126416612975802,
+      "gap_ci": [
+        0.027608390276151185,
+        0.03466185259293168
+      ],
+      "p_gap_le0": 0.0
+    },
+    "exante_existing": {
+      "n_crypto": 133,
+      "obs_gap": 0.0345474184728789,
+      "gap_ci": [
+        0.030246675979331318,
+        0.03832678536848781
+      ],
+      "p_gap_le0": 0.0
+    },
+    "exante_top100": {
+      "n_crypto": 100,
+      "obs_gap": 0.03326382214309165,
+      "gap_ci": [
+        0.028866456570470073,
+        0.03721067390132161
+      ],
+      "p_gap_le0": 0.0
+    },
+    "exante_top150": {
+      "n_crypto": 133,
+      "obs_gap": 0.0345474184728789,
+      "gap_ci": [
+        0.030246675979331318,
+        0.03832678536848781
+      ],
+      "p_gap_le0": 0.0
+    }
+  },
+  "quintiles": [
+    {
+      "quintile": 1,
+      "n": 26,
+      "mean_crypto_auc": 0.5328758866465848,
+      "vol_range": [
+        2243890804.3372397,
+        84636487144.9829
+      ]
+    },
+    {
+      "quintile": 2,
+      "n": 27,
+      "mean_crypto_auc": 0.530363779397693,
+      "vol_range": [
+        814168743.1892008,
+        2235337112.3099327
+      ]
+    },
+    {
+      "quintile": 3,
+      "n": 26,
+      "mean_crypto_auc": 0.5311471361383132,
+      "vol_range": [
+        382824891.15170026,
+        812516220.1666892
+      ]
+    },
+    {
+      "quintile": 4,
+      "n": 27,
+      "mean_crypto_auc": 0.5370737593890971,
+      "vol_range": [
+        125132799.4039183,
+        371900076.998
+      ]
+    },
+    {
+      "quintile": 5,
+      "n": 27,
+      "mean_crypto_auc": 0.5375071682601457,
+      "vol_range": [
+        16296220.62619999,
+        121879312.5893299
+      ]
+    }
+  ]
+}

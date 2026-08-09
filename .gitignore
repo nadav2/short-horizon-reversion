@@ -1,0 +1,14 @@
+data/
+figures/
+paper/bulk_data/
+paper/multiyear_data/
+paper/fx_raw/
+paper/out/wide_oos/
+paper/out/*.npz
+__pycache__/
+*.pyc
+.venv/
+paper/exchange_data/
+paper/mid_raw/
+paper/out/exante_volume.json
+paper/natural_raw/
