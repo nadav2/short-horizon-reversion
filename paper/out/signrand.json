@@ -1,0 +1,252 @@
+{
+  "summary": {
+    "n_assets": 14,
+    "n_two_model_sig": 0,
+    "mean_ising_auc": 0.4977822208437192,
+    "mean_free_auc": 0.49918316475089114,
+    "crypto_mean_ising_auc": 0.4954726835763162,
+    "crypto_n_sig": 0,
+    "noncrypto_mean_ising_auc": 0.49841209464392,
+    "noncrypto_n_sig": 0
+  },
+  "rows": [
+    {
+      "asset": "btc",
+      "control": "signrand",
+      "n_oos": 33312,
+      "n_folds": 35,
+      "base_rate_up": 0.49282540826128723,
+      "ising_auc": 0.4940689336260136,
+      "ising_auc_ci": [
+        0.4878276401124038,
+        0.499776255450954
+      ],
+      "ising_auc_p_gt05": 0.979,
+      "free_auc": 0.4989694796443743,
+      "free_auc_p_gt05": 0.595,
+      "conj_p": 0.979,
+      "A": 0.014193043030803354
+    },
+    {
+      "asset": "eth",
+      "control": "signrand",
+      "n_oos": 33312,
+      "n_folds": 35,
+      "base_rate_up": 0.5060939000960615,
+      "ising_auc": 0.4935964767350592,
+      "ising_auc_ci": [
+        0.4877113424723918,
+        0.4995630836443693
+      ],
+      "ising_auc_p_gt05": 0.981,
+      "free_auc": 0.5022107794666217,
+      "free_auc_p_gt05": 0.236,
+      "conj_p": 0.981,
+      "A": -0.007571500651621761
+    },
+    {
+      "asset": "xrp",
+      "control": "signrand",
+      "n_oos": 33312,
+      "n_folds": 35,
+      "base_rate_up": 0.49063400576368876,
+      "ising_auc": 0.4987526403678757,
+      "ising_auc_ci": [
+        0.492889691758134,
+        0.5052276813028159
+      ],
+      "ising_auc_p_gt05": 0.651,
+      "free_auc": 0.5045877545720798,
+      "free_auc_p_gt05": 0.056,
+      "conj_p": 0.651,
+      "A": -0.011761811654801451
+    },
+    {
+      "asset": "spx",
+      "control": "signrand",
+      "n_oos": 12006,
+      "n_folds": 13,
+      "base_rate_up": 0.5119107113110112,
+      "ising_auc": 0.5011413955523668,
+      "ising_auc_ci": [
+        0.4892716645321929,
+        0.5111231887727
+      ],
+      "ising_auc_p_gt05": 0.52,
+      "free_auc": 0.4934667127208351,
+      "free_auc_p_gt05": 0.827,
+      "conj_p": 0.827,
+      "A": 0.0765973981572872
+    },
+    {
+      "asset": "qqq",
+      "control": "signrand",
+      "n_oos": 11994,
+      "n_folds": 13,
+      "base_rate_up": 0.499666499916625,
+      "ising_auc": 0.4887224841802188,
+      "ising_auc_ci": [
+        0.4759252921663909,
+        0.5006138461155243
+      ],
+      "ising_auc_p_gt05": 0.967,
+      "free_auc": 0.49345733105887324,
+      "free_auc_p_gt05": 0.897,
+      "conj_p": 0.967,
+      "A": -0.09593348005942143
+    },
+    {
+      "asset": "iwm",
+      "control": "signrand",
+      "n_oos": 11975,
+      "n_folds": 13,
+      "base_rate_up": 0.5027974947807933,
+      "ising_auc": 0.4997142182408597,
+      "ising_auc_ci": [
+        0.4903540274263983,
+        0.5100916838865942
+      ],
+      "ising_auc_p_gt05": 0.475,
+      "free_auc": 0.5010106269530163,
+      "free_auc_p_gt05": 0.473,
+      "conj_p": 0.475,
+      "A": -0.08410817304363756
+    },
+    {
+      "asset": "aapl",
+      "control": "signrand",
+      "n_oos": 11940,
+      "n_folds": 13,
+      "base_rate_up": 0.4784757118927973,
+      "ising_auc": 0.5073514292442152,
+      "ising_auc_ci": [
+        0.4947182669863519,
+        0.5187779629466696
+      ],
+      "ising_auc_p_gt05": 0.129,
+      "free_auc": 0.507836870490336,
+      "free_auc_p_gt05": 0.138,
+      "conj_p": 0.138,
+      "A": 0.01686840789211144
+    },
+    {
+      "asset": "nvda",
+      "control": "signrand",
+      "n_oos": 11996,
+      "n_folds": 13,
+      "base_rate_up": 0.48941313771257083,
+      "ising_auc": 0.4914704375362818,
+      "ising_auc_ci": [
+        0.4815199863913266,
+        0.5014693203215828
+      ],
+      "ising_auc_p_gt05": 0.95,
+      "free_auc": 0.49378872979953353,
+      "free_auc_p_gt05": 0.919,
+      "conj_p": 0.95,
+      "A": -0.03888063034154912
+    },
+    {
+      "asset": "tsla",
+      "control": "signrand",
+      "n_oos": 11996,
+      "n_folds": 13,
+      "base_rate_up": 0.49699899966655553,
+      "ising_auc": 0.4928418598977926,
+      "ising_auc_ci": [
+        0.480032692468566,
+        0.5053304595935085
+      ],
+      "ising_auc_p_gt05": 0.888,
+      "free_auc": 0.4942011760039859,
+      "free_auc_p_gt05": 0.876,
+      "conj_p": 0.888,
+      "A": -0.005933733285130657
+    },
+    {
+      "asset": "gld",
+      "control": "signrand",
+      "n_oos": 11642,
+      "n_folds": 13,
+      "base_rate_up": 0.4865143446143274,
+      "ising_auc": 0.5004839868359124,
+      "ising_auc_ci": [
+        0.48689850863085793,
+        0.5095268564978621
+      ],
+      "ising_auc_p_gt05": 0.647,
+      "free_auc": 0.5079517080519343,
+      "free_auc_p_gt05": 0.154,
+      "conj_p": 0.647,
+      "A": -0.06249642195811717
+    },
+    {
+      "asset": "tlt",
+      "control": "signrand",
+      "n_oos": 11917,
+      "n_folds": 13,
+      "base_rate_up": 0.4731895611311572,
+      "ising_auc": 0.5024945453095084,
+      "ising_auc_ci": [
+        0.4938457361394549,
+        0.5095717547208175
+      ],
+      "ising_auc_p_gt05": 0.33,
+      "free_auc": 0.49973165086523386,
+      "free_auc_p_gt05": 0.491,
+      "conj_p": 0.491,
+      "A": 0.07091170578540264
+    },
+    {
+      "asset": "eurusd",
+      "control": "signrand",
+      "n_oos": 21930,
+      "n_folds": 23,
+      "base_rate_up": 0.4994984040127679,
+      "ising_auc": 0.5036052941841073,
+      "ising_auc_ci": [
+        0.49550165009542474,
+        0.5128871899145583
+      ],
+      "ising_auc_p_gt05": 0.188,
+      "free_auc": 0.504351536188173,
+      "free_auc_p_gt05": 0.16,
+      "conj_p": 0.188,
+      "A": -0.17564968084741986
+    },
+    {
+      "asset": "usdjpy",
+      "control": "signrand",
+      "n_oos": 21934,
+      "n_folds": 23,
+      "base_rate_up": 0.5025987052065287,
+      "ising_auc": 0.4928778008218715,
+      "ising_auc_ci": [
+        0.48555932784027656,
+        0.5021669079339928
+      ],
+      "ising_auc_p_gt05": 0.936,
+      "free_auc": 0.4881376139252547,
+      "free_auc_p_gt05": 0.997,
+      "conj_p": 0.997,
+      "A": -0.05002527228892764
+    },
+    {
+      "asset": "gbpusd",
+      "control": "signrand",
+      "n_oos": 21928,
+      "n_folds": 23,
+      "base_rate_up": 0.49758299890550894,
+      "ising_auc": 0.5018295892799862,
+      "ising_auc_ci": [
+        0.492644342459009,
+        0.5091554898659937
+      ],
+      "ising_auc_p_gt05": 0.372,
+      "free_auc": 0.4988623367722243,
+      "free_auc_p_gt05": 0.636,
+      "conj_p": 0.636,
+      "A": -0.14915596870424555
+    }
+  ]
+}

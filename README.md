@@ -158,6 +158,10 @@ uv run python -m paper.wide_horizon        # wide universe at 1h
 uv run python -m paper.tables              # within-crypto tables -> paper/out/tables.md
 
 # effect size, power, holdout
+uv run python -m paper.blocklen_sensitivity  # per-asset test at n^(1/3)-scaled block lengths (frozen scores)
+uv run python -m paper.linear_channel      # per-asset linear-implied vs observed AUC excess
+uv run python -m paper.signrand_control    # sign-randomization surrogate: |r| path fixed, signs randomized
+uv run python -m paper.dfa_rth             # DFA-1 on session-restricted stock bars (diurnal-bias sizing)
 uv run python -m paper.nonflat_gap         # all-bars + flat-bar-excluded class gap at B=5,000
 uv run python -m paper.joint_artifact      # BOTH artifact channels at once: one-bar-gap refit scored on
                                            #   non-flat bars -> paper/out/joint_artifact.json

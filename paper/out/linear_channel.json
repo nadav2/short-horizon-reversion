@@ -1,0 +1,2617 @@
+{
+  "n_assets": 370,
+  "crypto": {
+    "n": 183,
+    "mean_rho1": -0.04548071004334986,
+    "median_rho1": -0.02801592620764492,
+    "mean_implied_excess": 0.034614464771913205,
+    "mean_observed_excess": 0.030537126124521627,
+    "corr_implied_observed": 0.061179634988049764,
+    "corr_absrho_observed": 0.06082868960832931,
+    "mean_rho1_top_obs_quartile": -0.06433460659409976,
+    "mean_rho1_bottom_obs_quartile": -0.03716714238171352
+  },
+  "stock": {
+    "n": 187,
+    "mean_rho1": -0.008511560296044222,
+    "median_rho1": -0.0075531543019592105,
+    "mean_implied_excess": 0.014556161135697222,
+    "mean_observed_excess": -0.000727848230061502,
+    "corr_implied_observed": 0.046593005782705664,
+    "corr_absrho_observed": 0.04666734197105778,
+    "mean_rho1_top_obs_quartile": -0.00777134367338081,
+    "mean_rho1_bottom_obs_quartile": -0.010692347410945541
+  },
+  "rows": [
+    {
+      "asset": "0g",
+      "class": "crypto",
+      "rho1": -0.010330896004519932,
+      "implied_excess": 0.006576554766352882,
+      "observed_excess": 0.022859424570325526
+    },
+    {
+      "asset": "a2z",
+      "class": "crypto",
+      "rho1": -0.21147026576023545,
+      "implied_excess": 0.13211406042536133,
+      "observed_excess": 0.028560872382429325
+    },
+    {
+      "asset": "aapl",
+      "class": "stock",
+      "rho1": -0.008009830916986666,
+      "implied_excess": 0.005099077890667991,
+      "observed_excess": 0.004561006045521232
+    },
+    {
+      "asset": "aave",
+      "class": "crypto",
+      "rho1": -0.020897739208632558,
+      "implied_excess": 0.013301448537871519,
+      "observed_excess": 0.02228854347306486
+    },
+    {
+      "asset": "abbv",
+      "class": "stock",
+      "rho1": 0.012003832623550191,
+      "implied_excess": 0.007641409882555017,
+      "observed_excess": -0.009500997628279939
+    },
+    {
+      "asset": "abnb",
+      "class": "stock",
+      "rho1": -0.04448983780910991,
+      "implied_excess": 0.028299335273556103,
+      "observed_excess": -0.017976335373004082
+    },
+    {
+      "asset": "abt",
+      "class": "stock",
+      "rho1": -0.07732588067308924,
+      "implied_excess": 0.04910254600385644,
+      "observed_excess": 0.006656291895653643
+    },
+    {
+      "asset": "ach",
+      "class": "crypto",
+      "rho1": 0.00565684021785525,
+      "implied_excess": 0.0036012074231901448,
+      "observed_excess": 0.03393885015290665
+    },
+    {
+      "asset": "acm",
+      "class": "crypto",
+      "rho1": -0.13778767039489853,
+      "implied_excess": 0.08701664596064718,
+      "observed_excess": 0.0471008897123435
+    },
+    {
+      "asset": "ada",
+      "class": "crypto",
+      "rho1": -0.005507398215546652,
+      "implied_excess": 0.0035060734643637126,
+      "observed_excess": 0.03425422003176215
+    },
+    {
+      "asset": "adbe",
+      "class": "stock",
+      "rho1": -0.011604069677467422,
+      "implied_excess": 0.007386958036070146,
+      "observed_excess": -0.0012147165901910117
+    },
+    {
+      "asset": "adi",
+      "class": "stock",
+      "rho1": -0.02504902490170714,
+      "implied_excess": 0.015942458947516225,
+      "observed_excess": -0.002860760163749254
+    },
+    {
+      "asset": "aep",
+      "class": "stock",
+      "rho1": -0.01615809077737432,
+      "implied_excess": 0.010285420358782549,
+      "observed_excess": 0.009193497474747514
+    },
+    {
+      "asset": "aixbt",
+      "class": "crypto",
+      "rho1": -0.04476929168696462,
+      "implied_excess": 0.028476790532132368,
+      "observed_excess": 0.05435203748437356
+    },
+    {
+      "asset": "algo",
+      "class": "crypto",
+      "rho1": -0.0072117349805354575,
+      "implied_excess": 0.004591031741978835,
+      "observed_excess": 0.026922072292878685
+    },
+    {
+      "asset": "allo",
+      "class": "crypto",
+      "rho1": -0.02534798244859559,
+      "implied_excess": 0.01613262742500532,
+      "observed_excess": 0.023991355564698447
+    },
+    {
+      "asset": "amat",
+      "class": "stock",
+      "rho1": -0.0029500848852657665,
+      "implied_excess": 0.0018780754311327197,
+      "observed_excess": 0.00034851469636787424
+    },
+    {
+      "asset": "amd",
+      "class": "stock",
+      "rho1": 0.0412863676016866,
+      "implied_excess": 0.026264715638838365,
+      "observed_excess": -0.0028030556839662157
+    },
+    {
+      "asset": "amgn",
+      "class": "stock",
+      "rho1": -0.028811755151147374,
+      "implied_excess": 0.01833567288800797,
+      "observed_excess": 0.010640407587825695
+    },
+    {
+      "asset": "amzn",
+      "class": "stock",
+      "rho1": 0.009564520741975537,
+      "implied_excess": 0.006088726619750018,
+      "observed_excess": 0.011372365924206318
+    },
+    {
+      "asset": "anet",
+      "class": "stock",
+      "rho1": 0.002261062438079838,
+      "implied_excess": 0.0014394339313961169,
+      "observed_excess": -0.012894611209994467
+    },
+    {
+      "asset": "ape",
+      "class": "crypto",
+      "rho1": -0.09124493984208634,
+      "implied_excess": 0.05788372817348597,
+      "observed_excess": 0.02211388774012113
+    },
+    {
+      "asset": "apt",
+      "class": "crypto",
+      "rho1": -0.011405968733908204,
+      "implied_excess": 0.007260864311738446,
+      "observed_excess": 0.016414765739221515
+    },
+    {
+      "asset": "ar",
+      "class": "crypto",
+      "rho1": -0.05381288321183464,
+      "implied_excess": 0.03421628756466455,
+      "observed_excess": 0.03990687959297057
+    },
+    {
+      "asset": "arb",
+      "class": "crypto",
+      "rho1": -0.01585752474055994,
+      "implied_excess": 0.010094136498569717,
+      "observed_excess": 0.02863901081102893
+    },
+    {
+      "asset": "arkk",
+      "class": "stock",
+      "rho1": 0.012511342780736647,
+      "implied_excess": 0.007964439072340568,
+      "observed_excess": 0.006242384680508417
+    },
+    {
+      "asset": "arkm",
+      "class": "crypto",
+      "rho1": -0.07036941605688121,
+      "implied_excess": 0.04470458933753518,
+      "observed_excess": 0.05163453832999143
+    },
+    {
+      "asset": "asr",
+      "class": "crypto",
+      "rho1": -0.013109293772151871,
+      "implied_excess": 0.008345026952074841,
+      "observed_excess": 0.038311203535779104
+    },
+    {
+      "asset": "aster",
+      "class": "crypto",
+      "rho1": 0.018295784761926406,
+      "implied_excess": 0.01164580383112468,
+      "observed_excess": 0.018306374410889337
+    },
+    {
+      "asset": "ata",
+      "class": "crypto",
+      "rho1": -0.01883262776879521,
+      "implied_excess": 0.011987418761276514,
+      "observed_excess": 0.07925683313696796
+    },
+    {
+      "asset": "atm",
+      "class": "crypto",
+      "rho1": -0.035982563649644,
+      "implied_excess": 0.02289463003430159,
+      "observed_excess": 0.04031107556322733
+    },
+    {
+      "asset": "atom",
+      "class": "crypto",
+      "rho1": 0.005567967393869684,
+      "implied_excess": 0.0035446314953345714,
+      "observed_excess": 0.022432466578356736
+    },
+    {
+      "asset": "avax",
+      "class": "crypto",
+      "rho1": -0.0072871233530081144,
+      "implied_excess": 0.004639022259122161,
+      "observed_excess": 0.027139181252060274
+    },
+    {
+      "asset": "avgo",
+      "class": "stock",
+      "rho1": -0.038363006792891494,
+      "implied_excess": 0.02440740241006445,
+      "observed_excess": 0.0074901343616082805
+    },
+    {
+      "asset": "avnt",
+      "class": "crypto",
+      "rho1": -0.02776494391682597,
+      "implied_excess": 0.01766993089610247,
+      "observed_excess": 0.0215939994517772
+    },
+    {
+      "asset": "axp",
+      "class": "stock",
+      "rho1": -0.0008166847082580899,
+      "implied_excess": 0.0005199174858929734,
+      "observed_excess": -0.010629578548765839
+    },
+    {
+      "asset": "axs",
+      "class": "crypto",
+      "rho1": -0.020887335966469665,
+      "implied_excess": 0.013294829307983869,
+      "observed_excess": 0.024746923932516873
+    },
+    {
+      "asset": "ba",
+      "class": "stock",
+      "rho1": -0.02968791058699654,
+      "implied_excess": 0.018892843447091745,
+      "observed_excess": 0.01390708383676742
+    },
+    {
+      "asset": "baby",
+      "class": "crypto",
+      "rho1": 0.012329110095724162,
+      "implied_excess": 0.007848448926451757,
+      "observed_excess": 0.023046682265757346
+    },
+    {
+      "asset": "bac",
+      "class": "stock",
+      "rho1": -0.024547867751011417,
+      "implied_excess": 0.015623662118924075,
+      "observed_excess": 0.0005230320018781986
+    },
+    {
+      "asset": "bananas31",
+      "class": "crypto",
+      "rho1": -0.13075081920638085,
+      "implied_excess": 0.08263852852734199,
+      "observed_excess": 0.028611296961157273
+    },
+    {
+      "asset": "bch",
+      "class": "crypto",
+      "rho1": -0.002604912703310023,
+      "implied_excess": 0.001658334156404928,
+      "observed_excess": 0.02642960156814067
+    },
+    {
+      "asset": "bio",
+      "class": "crypto",
+      "rho1": -0.0036781263896003757,
+      "implied_excess": 0.002341554540323698,
+      "observed_excess": 0.03687224663279509
+    },
+    {
+      "asset": "blk",
+      "class": "stock",
+      "rho1": -0.013650025956875514,
+      "implied_excess": 0.008689189288110244,
+      "observed_excess": 0.0011446841785259787
+    },
+    {
+      "asset": "bmy",
+      "class": "stock",
+      "rho1": -0.0011532789366735946,
+      "implied_excess": 0.0007341997596918004,
+      "observed_excess": 0.005982333709715348
+    },
+    {
+      "asset": "bnb",
+      "class": "crypto",
+      "rho1": -0.007756422645070274,
+      "implied_excess": 0.004937765939503236,
+      "observed_excess": 0.025062761042406123
+    },
+    {
+      "asset": "bnd",
+      "class": "stock",
+      "rho1": 0.001279582005939942,
+      "implied_excess": 0.000814606639273241,
+      "observed_excess": -0.0008505877891543667
+    },
+    {
+      "asset": "bonk",
+      "class": "crypto",
+      "rho1": -0.05488530809803606,
+      "implied_excess": 0.03489645150646503,
+      "observed_excess": 0.03745229646295245
+    },
+    {
+      "asset": "brk-b",
+      "class": "stock",
+      "rho1": -0.05980181763163748,
+      "implied_excess": 0.03801331377403838,
+      "observed_excess": 0.0027640866182355728
+    },
+    {
+      "asset": "broccoli714",
+      "class": "crypto",
+      "rho1": 0.042710812974988153,
+      "implied_excess": 0.02716951122073019,
+      "observed_excess": 0.022842970801133733
+    },
+    {
+      "asset": "bsx",
+      "class": "stock",
+      "rho1": -0.003620102016763182,
+      "implied_excess": 0.002304615703594304,
+      "observed_excess": -0.0167604429550563
+    },
+    {
+      "asset": "btc",
+      "class": "crypto",
+      "rho1": -0.0032437931893624775,
+      "implied_excess": 0.0020650536597855984,
+      "observed_excess": 0.03266467398094719
+    },
+    {
+      "asset": "c",
+      "class": "stock",
+      "rho1": -0.013168339030437553,
+      "implied_excess": 0.008382608069809283,
+      "observed_excess": -0.002705301850867703
+    },
+    {
+      "asset": "cake",
+      "class": "crypto",
+      "rho1": -0.055628730473232156,
+      "implied_excess": 0.03536789250636807,
+      "observed_excess": 0.021764066930550108
+    },
+    {
+      "asset": "carr",
+      "class": "stock",
+      "rho1": -0.05210428231660241,
+      "implied_excess": 0.03313243607593919,
+      "observed_excess": -0.0001838573267145538
+    },
+    {
+      "asset": "cat",
+      "class": "stock",
+      "rho1": -0.015850501619493796,
+      "implied_excess": 0.010089666871471947,
+      "observed_excess": -0.008465511094785438
+    },
+    {
+      "asset": "cdns",
+      "class": "stock",
+      "rho1": 0.006957240912593114,
+      "implied_excess": 0.00442902614060281,
+      "observed_excess": 0.0001954613898380586
+    },
+    {
+      "asset": "cfx",
+      "class": "crypto",
+      "rho1": 0.014834308587568982,
+      "implied_excess": 0.009442932225651068,
+      "observed_excess": 0.029831787826953393
+    },
+    {
+      "asset": "chz",
+      "class": "crypto",
+      "rho1": -0.05519136747072829,
+      "implied_excess": 0.03509054490431751,
+      "observed_excess": 0.023889250237433712
+    },
+    {
+      "asset": "city",
+      "class": "crypto",
+      "rho1": -0.10209741528957886,
+      "implied_excess": 0.06471082468380418,
+      "observed_excess": 0.043417148412367546
+    },
+    {
+      "asset": "cl",
+      "class": "stock",
+      "rho1": -0.020584610712060088,
+      "implied_excess": 0.013102213906998728,
+      "observed_excess": -0.01292252882304551
+    },
+    {
+      "asset": "cmcsa",
+      "class": "stock",
+      "rho1": 0.020839920051826,
+      "implied_excess": 0.013264660124495342,
+      "observed_excess": -0.01068985801183675
+    },
+    {
+      "asset": "cmg",
+      "class": "stock",
+      "rho1": -0.0004243802350174258,
+      "implied_excess": 0.0002701688279633796,
+      "observed_excess": -0.00911561457828658
+    },
+    {
+      "asset": "cof",
+      "class": "stock",
+      "rho1": 0.022145560591537168,
+      "implied_excess": 0.014095367826768457,
+      "observed_excess": -0.0026467355410039195
+    },
+    {
+      "asset": "coin",
+      "class": "stock",
+      "rho1": -0.01865708546241591,
+      "implied_excess": 0.011875715043449753,
+      "observed_excess": 0.005240231808714135
+    },
+    {
+      "asset": "cop",
+      "class": "stock",
+      "rho1": -0.010899337871295382,
+      "implied_excess": 0.006938384170560696,
+      "observed_excess": -0.01565615713933144
+    },
+    {
+      "asset": "cos",
+      "class": "crypto",
+      "rho1": -0.014308419757615591,
+      "implied_excess": 0.009108231503527797,
+      "observed_excess": 0.0328896842962908
+    },
+    {
+      "asset": "cost",
+      "class": "stock",
+      "rho1": -0.029142416429859003,
+      "implied_excess": 0.01854595346175536,
+      "observed_excess": 0.004507252930974315
+    },
+    {
+      "asset": "crm",
+      "class": "stock",
+      "rho1": 0.006397528800826306,
+      "implied_excess": 0.004072722583376542,
+      "observed_excess": -0.0011929179744979979
+    },
+    {
+      "asset": "crv",
+      "class": "crypto",
+      "rho1": -0.08565357870841359,
+      "implied_excess": 0.054359449100732316,
+      "observed_excess": 0.02069218105363224
+    },
+    {
+      "asset": "crwd",
+      "class": "stock",
+      "rho1": 0.001761212258216497,
+      "implied_excess": 0.0011212210708583248,
+      "observed_excess": -0.009965164290064832
+    },
+    {
+      "asset": "csco",
+      "class": "stock",
+      "rho1": 0.014868033157289741,
+      "implied_excess": 0.009464395925216529,
+      "observed_excess": -0.015459964444840102
+    },
+    {
+      "asset": "csx",
+      "class": "stock",
+      "rho1": -0.059137878308396924,
+      "implied_excess": 0.037592535935888294,
+      "observed_excess": -0.009171186680190346
+    },
+    {
+      "asset": "ctsi",
+      "class": "crypto",
+      "rho1": -0.08820351885029219,
+      "implied_excess": 0.05596724651417673,
+      "observed_excess": 0.0586530506787557
+    },
+    {
+      "asset": "cvs",
+      "class": "stock",
+      "rho1": -0.02278085392119087,
+      "implied_excess": 0.014499548346614488,
+      "observed_excess": -0.0021914212288849377
+    },
+    {
+      "asset": "cvx",
+      "class": "stock",
+      "rho1": 0.012636710311947085,
+      "implied_excess": 0.008044234456403121,
+      "observed_excess": -0.015559403662142979
+    },
+    {
+      "asset": "d",
+      "class": "stock",
+      "rho1": -0.0312827862420513,
+      "implied_excess": 0.01990697182850165,
+      "observed_excess": -0.010868564974400807
+    },
+    {
+      "asset": "dash",
+      "class": "crypto",
+      "rho1": -0.03195084853068369,
+      "implied_excess": 0.02033173250806397,
+      "observed_excess": 0.03183761222235715
+    },
+    {
+      "asset": "dd",
+      "class": "stock",
+      "rho1": -0.03978605645003444,
+      "implied_excess": 0.025311584319951175,
+      "observed_excess": -0.007165568193405414
+    },
+    {
+      "asset": "ddog",
+      "class": "stock",
+      "rho1": 0.016396801155086294,
+      "implied_excess": 0.010437336846284895,
+      "observed_excess": 0.001625956277950591
+    },
+    {
+      "asset": "dent",
+      "class": "crypto",
+      "rho1": -0.1315999695874992,
+      "implied_excess": 0.0831673997183422,
+      "observed_excess": 0.05816542468694874
+    },
+    {
+      "asset": "dexe",
+      "class": "crypto",
+      "rho1": -0.21637867425963825,
+      "implied_excess": 0.13506197107598616,
+      "observed_excess": 0.021666181245428073
+    },
+    {
+      "asset": "dg",
+      "class": "stock",
+      "rho1": 0.0022760159785838695,
+      "implied_excess": 0.0014489535885704452,
+      "observed_excess": 0.0015930829980942418
+    },
+    {
+      "asset": "dia",
+      "class": "stock",
+      "rho1": -0.03771517910924858,
+      "implied_excess": 0.02399574163516549,
+      "observed_excess": 0.005111903930278494
+    },
+    {
+      "asset": "dis",
+      "class": "stock",
+      "rho1": 0.004986044596617627,
+      "implied_excess": 0.003174181084710459,
+      "observed_excess": 0.0026102108496606213
+    },
+    {
+      "asset": "dltr",
+      "class": "stock",
+      "rho1": 0.018557458350097998,
+      "implied_excess": 0.011812318407533162,
+      "observed_excess": -0.011029197383105871
+    },
+    {
+      "asset": "doge",
+      "class": "crypto",
+      "rho1": -0.0034386043991418013,
+      "implied_excess": 0.002189072564499628,
+      "observed_excess": 0.041498869800034366
+    },
+    {
+      "asset": "dogs",
+      "class": "crypto",
+      "rho1": -0.07397084647387121,
+      "implied_excess": 0.04698217357833645,
+      "observed_excess": 0.05100524704381715
+    },
+    {
+      "asset": "dot",
+      "class": "crypto",
+      "rho1": -0.09324686020790336,
+      "implied_excess": 0.059144456254933586,
+      "observed_excess": 0.027777638567313745
+    },
+    {
+      "asset": "dow",
+      "class": "stock",
+      "rho1": 0.0007494234315383793,
+      "implied_excess": 0.00047709766066927894,
+      "observed_excess": -0.007566588348018377
+    },
+    {
+      "asset": "duk",
+      "class": "stock",
+      "rho1": -0.03339501496821825,
+      "implied_excess": 0.021249868426543195,
+      "observed_excess": -0.0035712004727742608
+    },
+    {
+      "asset": "dvn",
+      "class": "stock",
+      "rho1": 0.01631558944312739,
+      "implied_excess": 0.010385653472314127,
+      "observed_excess": -0.009432319322740634
+    },
+    {
+      "asset": "dydx",
+      "class": "crypto",
+      "rho1": -0.10000711303776302,
+      "implied_excess": 0.06339728734768024,
+      "observed_excess": 0.029898479249413246
+    },
+    {
+      "asset": "eden",
+      "class": "crypto",
+      "rho1": -0.038565670260942195,
+      "implied_excess": 0.024536179166663064,
+      "observed_excess": 0.030694991705288555
+    },
+    {
+      "asset": "edu",
+      "class": "crypto",
+      "rho1": -0.03290747782528452,
+      "implied_excess": 0.020939926653504748,
+      "observed_excess": 0.015746890672433178
+    },
+    {
+      "asset": "eem",
+      "class": "stock",
+      "rho1": -0.003925560348728243,
+      "implied_excess": 0.0024990729911313903,
+      "observed_excess": 0.0051695596468590566
+    },
+    {
+      "asset": "efa",
+      "class": "stock",
+      "rho1": -0.0075531543019592105,
+      "implied_excess": 0.004808370947813612,
+      "observed_excess": -0.011057705501102688
+    },
+    {
+      "asset": "eigen",
+      "class": "crypto",
+      "rho1": -0.028552922848822885,
+      "implied_excess": 0.018171067636253868,
+      "observed_excess": 0.04911473523517973
+    },
+    {
+      "asset": "elv",
+      "class": "stock",
+      "rho1": -0.022610216316745018,
+      "implied_excess": 0.01439098829429053,
+      "observed_excess": -0.0007106466457478255
+    },
+    {
+      "asset": "ena",
+      "class": "crypto",
+      "rho1": 0.0032954153014967914,
+      "implied_excess": 0.0020979168697373707,
+      "observed_excess": 0.026434468877086892
+    },
+    {
+      "asset": "eog",
+      "class": "stock",
+      "rho1": -0.009298771776364335,
+      "implied_excess": 0.0059195647357612735,
+      "observed_excess": 0.01360687197295074
+    },
+    {
+      "asset": "eos",
+      "class": "crypto",
+      "rho1": 0.013011840889443516,
+      "implied_excess": 0.008282999993054818,
+      "observed_excess": 0.03423739910032042
+    },
+    {
+      "asset": "epic",
+      "class": "crypto",
+      "rho1": -0.018589977252727468,
+      "implied_excess": 0.011833011492569323,
+      "observed_excess": 0.03346209140148315
+    },
+    {
+      "asset": "etc",
+      "class": "crypto",
+      "rho1": -0.024854834199570297,
+      "implied_excess": 0.015818931268782643,
+      "observed_excess": 0.032577630512386824
+    },
+    {
+      "asset": "eth",
+      "class": "crypto",
+      "rho1": 0.005224694499143758,
+      "implied_excess": 0.0033261052884627773,
+      "observed_excess": 0.03813595415790405
+    },
+    {
+      "asset": "ethfi",
+      "class": "crypto",
+      "rho1": -0.04331573817055802,
+      "implied_excess": 0.02755371242659488,
+      "observed_excess": 0.03282108058289823
+    },
+    {
+      "asset": "etn",
+      "class": "stock",
+      "rho1": -0.02868491438173264,
+      "implied_excess": 0.01825500847343897,
+      "observed_excess": 0.00013636987226051112
+    },
+    {
+      "asset": "euri",
+      "class": "crypto",
+      "rho1": 0.026405706759963492,
+      "implied_excess": 0.016805421703154133,
+      "observed_excess": 0.015556939998757402
+    },
+    {
+      "asset": "ewj",
+      "class": "stock",
+      "rho1": 0.01391554966271391,
+      "implied_excess": 0.008858186047613237,
+      "observed_excess": 0.0017613962065065047
+    },
+    {
+      "asset": "ewz",
+      "class": "stock",
+      "rho1": 0.008860737455882478,
+      "implied_excess": 0.005640732702115625,
+      "observed_excess": -0.013493602650215542
+    },
+    {
+      "asset": "exc",
+      "class": "stock",
+      "rho1": 0.02530015215855232,
+      "implied_excess": 0.01610220256988526,
+      "observed_excess": -0.005751799604150065
+    },
+    {
+      "asset": "fcx",
+      "class": "stock",
+      "rho1": -0.021086889469704585,
+      "implied_excess": 0.013421797788128353,
+      "observed_excess": 0.018989410425428455
+    },
+    {
+      "asset": "fdx",
+      "class": "stock",
+      "rho1": 0.024358000296420934,
+      "implied_excess": 0.01550288073298467,
+      "observed_excess": 2.6407655292937093e-05
+    },
+    {
+      "asset": "fet",
+      "class": "crypto",
+      "rho1": -0.04185038598088042,
+      "implied_excess": 0.026622991779089777,
+      "observed_excess": 0.03262614339125347
+    },
+    {
+      "asset": "ff",
+      "class": "crypto",
+      "rho1": 0.01118161294381041,
+      "implied_excess": 0.00711805817427047,
+      "observed_excess": 0.006118591959564212
+    },
+    {
+      "asset": "fida",
+      "class": "crypto",
+      "rho1": -0.062083430944763915,
+      "implied_excess": 0.03945898064533837,
+      "observed_excess": 0.052567460728237925
+    },
+    {
+      "asset": "fil",
+      "class": "crypto",
+      "rho1": -0.10513673392645928,
+      "implied_excess": 0.0666194429607534,
+      "observed_excess": 0.03417931577971889
+    },
+    {
+      "asset": "fio",
+      "class": "crypto",
+      "rho1": -0.06582490220139257,
+      "implied_excess": 0.04182849974001068,
+      "observed_excess": 0.02910149092063885
+    },
+    {
+      "asset": "fisv",
+      "class": "stock",
+      "rho1": 0.11202039414013946,
+      "implied_excess": 0.07093640674517798,
+      "observed_excess": 0.013072844233483427
+    },
+    {
+      "asset": "floki",
+      "class": "crypto",
+      "rho1": -0.044868959202101016,
+      "implied_excess": 0.02854007876811271,
+      "observed_excess": 0.027981579656692457
+    },
+    {
+      "asset": "form",
+      "class": "crypto",
+      "rho1": -0.1274876641531119,
+      "implied_excess": 0.0806047740517346,
+      "observed_excess": 0.024790919660752975
+    },
+    {
+      "asset": "ftnt",
+      "class": "stock",
+      "rho1": 0.006580234429971392,
+      "implied_excess": 0.004189030363516366,
+      "observed_excess": 0.0032422319399336708
+    },
+    {
+      "asset": "fxi",
+      "class": "stock",
+      "rho1": -0.014792519193833915,
+      "implied_excess": 0.009416335703333334,
+      "observed_excess": -0.0014637646682967853
+    },
+    {
+      "asset": "gala",
+      "class": "crypto",
+      "rho1": -0.021184708002099706,
+      "implied_excess": 0.013484035589950372,
+      "observed_excess": 0.04567698123327535
+    },
+    {
+      "asset": "gdx",
+      "class": "stock",
+      "rho1": 0.01729277680678905,
+      "implied_excess": 0.011007526579065119,
+      "observed_excess": 0.01904892521481827
+    },
+    {
+      "asset": "ge",
+      "class": "stock",
+      "rho1": -0.035246917223257165,
+      "implied_excess": 0.022427058733394012,
+      "observed_excess": -0.006532751265291292
+    },
+    {
+      "asset": "giggle",
+      "class": "crypto",
+      "rho1": -0.021579520757180424,
+      "implied_excess": 0.013735234921713468,
+      "observed_excess": 0.027407166028368346
+    },
+    {
+      "asset": "gild",
+      "class": "stock",
+      "rho1": 0.006662578313746864,
+      "implied_excess": 0.004241449181783596,
+      "observed_excess": -0.00580163186517757
+    },
+    {
+      "asset": "gis",
+      "class": "stock",
+      "rho1": -0.0008631289791247689,
+      "implied_excess": 0.0005494848004757857,
+      "observed_excess": 0.007755767527294788
+    },
+    {
+      "asset": "gld",
+      "class": "stock",
+      "rho1": 0.02425064833109378,
+      "implied_excess": 0.015434589730514037,
+      "observed_excess": 0.019692771047886914
+    },
+    {
+      "asset": "goog",
+      "class": "stock",
+      "rho1": 0.003458203848805953,
+      "implied_excess": 0.0022015497727675415,
+      "observed_excess": -0.005548890520132577
+    },
+    {
+      "asset": "googl",
+      "class": "stock",
+      "rho1": 0.0036765955478404093,
+      "implied_excess": 0.0023405799929707705,
+      "observed_excess": -0.005533195019583215
+    },
+    {
+      "asset": "gps",
+      "class": "crypto",
+      "rho1": -0.02594821414137211,
+      "implied_excess": 0.01651442685682114,
+      "observed_excess": 0.03141955954435627
+    },
+    {
+      "asset": "grt",
+      "class": "crypto",
+      "rho1": -0.02247407589610205,
+      "implied_excess": 0.014304374667539865,
+      "observed_excess": 0.01704190799359573
+    },
+    {
+      "asset": "gs",
+      "class": "stock",
+      "rho1": -0.007608006693933508,
+      "implied_excess": 0.004843288510189336,
+      "observed_excess": -0.022379519517287005
+    },
+    {
+      "asset": "gun",
+      "class": "crypto",
+      "rho1": -0.05245239453602756,
+      "implied_excess": 0.03335328136000715,
+      "observed_excess": 0.008677150676402401
+    },
+    {
+      "asset": "haedal",
+      "class": "crypto",
+      "rho1": -0.03705659056751256,
+      "implied_excess": 0.023577216642306942,
+      "observed_excess": 0.07595849339650163
+    },
+    {
+      "asset": "hal",
+      "class": "stock",
+      "rho1": 0.009889944387754883,
+      "implied_excess": 0.006295872787756118,
+      "observed_excess": -0.00016016441919275426
+    },
+    {
+      "asset": "hbar",
+      "class": "crypto",
+      "rho1": -0.037475407476534106,
+      "implied_excess": 0.023843372724510536,
+      "observed_excess": 0.020149305622244817
+    },
+    {
+      "asset": "hd",
+      "class": "stock",
+      "rho1": -0.014543494135680781,
+      "implied_excess": 0.009257844851158548,
+      "observed_excess": 0.0023409901785271803
+    },
+    {
+      "asset": "hei",
+      "class": "crypto",
+      "rho1": -0.11215945491547127,
+      "implied_excess": 0.071023530640413,
+      "observed_excess": 0.03590831270364969
+    },
+    {
+      "asset": "hifi",
+      "class": "crypto",
+      "rho1": 0.03668614939783346,
+      "implied_excess": 0.02334179433364114,
+      "observed_excess": 0.016875076292470093
+    },
+    {
+      "asset": "high",
+      "class": "crypto",
+      "rho1": -0.039826151194287264,
+      "implied_excess": 0.025337057982398603,
+      "observed_excess": 0.07263087160593262
+    },
+    {
+      "asset": "hmstr",
+      "class": "crypto",
+      "rho1": -0.060001153680508124,
+      "implied_excess": 0.03813963660187425,
+      "observed_excess": 0.04405267391216949
+    },
+    {
+      "asset": "holo",
+      "class": "crypto",
+      "rho1": -0.02938993908362178,
+      "implied_excess": 0.018703359524775642,
+      "observed_excess": 0.010010802996616386
+    },
+    {
+      "asset": "home",
+      "class": "crypto",
+      "rho1": -0.08996932694116458,
+      "implied_excess": 0.057080092262163484,
+      "observed_excess": 0.006803184514013183
+    },
+    {
+      "asset": "hon",
+      "class": "stock",
+      "rho1": -0.0038731012519349593,
+      "implied_excess": 0.0024656771394094834,
+      "observed_excess": 0.003362389145759148
+    },
+    {
+      "asset": "hum",
+      "class": "stock",
+      "rho1": -0.0033764070391089428,
+      "implied_excess": 0.0021494770807022334,
+      "observed_excess": 0.0011988300078275005
+    },
+    {
+      "asset": "huma",
+      "class": "crypto",
+      "rho1": -0.006398363922782998,
+      "implied_excess": 0.004073254210818167,
+      "observed_excess": 0.014751620819154265
+    },
+    {
+      "asset": "hyg",
+      "class": "stock",
+      "rho1": -0.054260649419648296,
+      "implied_excess": 0.03450028655649773,
+      "observed_excess": -0.010805967782284709
+    },
+    {
+      "asset": "hyper",
+      "class": "crypto",
+      "rho1": -0.03700968997736704,
+      "implied_excess": 0.02354741089122825,
+      "observed_excess": 0.017196778444918515
+    },
+    {
+      "asset": "ibm",
+      "class": "stock",
+      "rho1": -0.009205044149117894,
+      "implied_excess": 0.005859902377840842,
+      "observed_excess": -0.0035310681343689865
+    },
+    {
+      "asset": "icp",
+      "class": "crypto",
+      "rho1": -0.04472155610826288,
+      "implied_excess": 0.028446478489543292,
+      "observed_excess": 0.02615193526719639
+    },
+    {
+      "asset": "id",
+      "class": "crypto",
+      "rho1": -0.008807786916254222,
+      "implied_excess": 0.005607026691137995,
+      "observed_excess": 0.04144870408820178
+    },
+    {
+      "asset": "ief",
+      "class": "stock",
+      "rho1": 0.013216328453914211,
+      "implied_excess": 0.00841315231655182,
+      "observed_excess": -0.0025712012266813633
+    },
+    {
+      "asset": "inda",
+      "class": "stock",
+      "rho1": 0.016039606388590387,
+      "implied_excess": 0.010210015741094813,
+      "observed_excess": 0.012398554668601847
+    },
+    {
+      "asset": "inj",
+      "class": "crypto",
+      "rho1": -0.01113962456366812,
+      "implied_excess": 0.007091331780248233,
+      "observed_excess": 0.02274775718987687
+    },
+    {
+      "asset": "intc",
+      "class": "stock",
+      "rho1": -0.020931173090499893,
+      "implied_excess": 0.01332272135728918,
+      "observed_excess": 0.010879141091195033
+    },
+    {
+      "asset": "intu",
+      "class": "stock",
+      "rho1": 0.019964764931519073,
+      "implied_excess": 0.012707814318882349,
+      "observed_excess": -0.01758014089634702
+    },
+    {
+      "asset": "io",
+      "class": "crypto",
+      "rho1": -0.11887947226845656,
+      "implied_excess": 0.07522953176209601,
+      "observed_excess": 0.06607586795835585
+    },
+    {
+      "asset": "iota",
+      "class": "crypto",
+      "rho1": -0.02664331627390583,
+      "implied_excess": 0.016956553174618305,
+      "observed_excess": 0.027624160310388834
+    },
+    {
+      "asset": "isrg",
+      "class": "stock",
+      "rho1": 0.032608399912723296,
+      "implied_excess": 0.020749787705405698,
+      "observed_excess": 0.012754511159578485
+    },
+    {
+      "asset": "itb",
+      "class": "stock",
+      "rho1": 0.0020955846303723578,
+      "implied_excess": 0.0013340881238909086,
+      "observed_excess": 0.0006979622935641139
+    },
+    {
+      "asset": "ivv",
+      "class": "stock",
+      "rho1": -0.04155293900713832,
+      "implied_excess": 0.02643404997460075,
+      "observed_excess": -0.005123965522596141
+    },
+    {
+      "asset": "iwm",
+      "class": "stock",
+      "rho1": -0.03252733269878978,
+      "implied_excess": 0.020698248364122485,
+      "observed_excess": -0.003233657790243427
+    },
+    {
+      "asset": "jasmy",
+      "class": "crypto",
+      "rho1": -0.05941523830447305,
+      "implied_excess": 0.037768320605674255,
+      "observed_excess": 0.032952830787751686
+    },
+    {
+      "asset": "jnj",
+      "class": "stock",
+      "rho1": -0.06530119199518808,
+      "implied_excess": 0.041496915226864606,
+      "observed_excess": -0.007627841254793655
+    },
+    {
+      "asset": "jpm",
+      "class": "stock",
+      "rho1": -0.04818131802413546,
+      "implied_excess": 0.03064298575701785,
+      "observed_excess": -0.0031348909477074693
+    },
+    {
+      "asset": "jst",
+      "class": "crypto",
+      "rho1": 0.05665092891844134,
+      "implied_excess": 0.03601603804372788,
+      "observed_excess": 0.007919609920704063
+    },
+    {
+      "asset": "jto",
+      "class": "crypto",
+      "rho1": -0.02289463777749208,
+      "implied_excess": 0.014571937311605554,
+      "observed_excess": 0.050883899880050154
+    },
+    {
+      "asset": "juv",
+      "class": "crypto",
+      "rho1": 0.01261907354722341,
+      "implied_excess": 0.008033008822692533,
+      "observed_excess": 0.04495580019763645
+    },
+    {
+      "asset": "kaia",
+      "class": "crypto",
+      "rho1": 0.04153788568251942,
+      "implied_excess": 0.026424487767890636,
+      "observed_excess": 0.03072326928507496
+    },
+    {
+      "asset": "khc",
+      "class": "stock",
+      "rho1": -0.006758071413447907,
+      "implied_excess": 0.0043022384918455225,
+      "observed_excess": -0.0033646045075989006
+    },
+    {
+      "asset": "kite",
+      "class": "crypto",
+      "rho1": 0.0760962809375558,
+      "implied_excess": 0.048325601735383916,
+      "observed_excess": -0.01701673667878223
+    },
+    {
+      "asset": "klac",
+      "class": "stock",
+      "rho1": -0.025716510899458297,
+      "implied_excess": 0.016367045268028013,
+      "observed_excess": 0.0027396978842936237
+    },
+    {
+      "asset": "kmb",
+      "class": "stock",
+      "rho1": 0.05364244140904148,
+      "implied_excess": 0.0341081790178277,
+      "observed_excess": 0.00831911532991847
+    },
+    {
+      "asset": "kmi",
+      "class": "stock",
+      "rho1": -0.03159860921280253,
+      "implied_excess": 0.020107778076342786,
+      "observed_excess": -0.003683278625939146
+    },
+    {
+      "asset": "ko",
+      "class": "stock",
+      "rho1": -0.010362027118287414,
+      "implied_excess": 0.0065963707478214895,
+      "observed_excess": -1.898403571776175e-05
+    },
+    {
+      "asset": "kr",
+      "class": "stock",
+      "rho1": 0.0005106144652778994,
+      "implied_excess": 0.0003250672286821965,
+      "observed_excess": 0.008457969810275578
+    },
+    {
+      "asset": "kre",
+      "class": "stock",
+      "rho1": -0.024840179874413428,
+      "implied_excess": 0.015809609366431387,
+      "observed_excess": -0.0005988250717945398
+    },
+    {
+      "asset": "la",
+      "class": "crypto",
+      "rho1": -0.023696824813439977,
+      "implied_excess": 0.015082272653795803,
+      "observed_excess": 0.015153656632499124
+    },
+    {
+      "asset": "ldo",
+      "class": "crypto",
+      "rho1": -0.0543109128003264,
+      "implied_excess": 0.034532165379061786,
+      "observed_excess": 0.03109163757287159
+    },
+    {
+      "asset": "lin",
+      "class": "stock",
+      "rho1": -0.054670708837613116,
+      "implied_excess": 0.0347603543314573,
+      "observed_excess": 0.00872840129325314
+    },
+    {
+      "asset": "linea",
+      "class": "crypto",
+      "rho1": 0.0010289036048597058,
+      "implied_excess": 0.0006550200844122056,
+      "observed_excess": 0.023581711462561827
+    },
+    {
+      "asset": "link",
+      "class": "crypto",
+      "rho1": -0.05868261888589706,
+      "implied_excess": 0.037303986618333784,
+      "observed_excess": 0.0312585008982853
+    },
+    {
+      "asset": "lly",
+      "class": "stock",
+      "rho1": 0.04507654188103768,
+      "implied_excess": 0.0286718901287929,
+      "observed_excess": -0.008661103300684314
+    },
+    {
+      "asset": "lmt",
+      "class": "stock",
+      "rho1": -0.04666501273372068,
+      "implied_excess": 0.029680436234802432,
+      "observed_excess": -0.007753059341068402
+    },
+    {
+      "asset": "loka",
+      "class": "crypto",
+      "rho1": -0.018789003168089048,
+      "implied_excess": 0.011959658987387156,
+      "observed_excess": 0.005594695350307322
+    },
+    {
+      "asset": "low",
+      "class": "stock",
+      "rho1": -0.05093310965715312,
+      "implied_excess": 0.032389359912724736,
+      "observed_excess": 0.015580495384135085
+    },
+    {
+      "asset": "lrc",
+      "class": "crypto",
+      "rho1": -0.09762287863392152,
+      "implied_excess": 0.06189819121219586,
+      "observed_excess": 0.04490581454559783
+    },
+    {
+      "asset": "lrcx",
+      "class": "stock",
+      "rho1": -0.011548235804584354,
+      "implied_excess": 0.0073514191529194806,
+      "observed_excess": 0.008456764752972079
+    },
+    {
+      "asset": "ltc",
+      "class": "crypto",
+      "rho1": -0.02801592620764492,
+      "implied_excess": 0.017829553012163157,
+      "observed_excess": 0.02577214908024339
+    },
+    {
+      "asset": "lunc",
+      "class": "crypto",
+      "rho1": -0.02792247844014463,
+      "implied_excess": 0.01777012154047064,
+      "observed_excess": 0.03798176873619774
+    },
+    {
+      "asset": "ma",
+      "class": "stock",
+      "rho1": -0.049066203494961734,
+      "implied_excess": 0.03120462804841373,
+      "observed_excess": 0.013581610677103617
+    },
+    {
+      "asset": "manta",
+      "class": "crypto",
+      "rho1": -0.033941374649679557,
+      "implied_excess": 0.021597190148126,
+      "observed_excess": 0.043203857710062854
+    },
+    {
+      "asset": "mbox",
+      "class": "crypto",
+      "rho1": -0.07664430336045128,
+      "implied_excess": 0.04867190240928032,
+      "observed_excess": 0.05735330677808537
+    },
+    {
+      "asset": "mcd",
+      "class": "stock",
+      "rho1": -0.06267390318181591,
+      "implied_excess": 0.039833029185917024,
+      "observed_excess": -0.008634932070870294
+    },
+    {
+      "asset": "mdb",
+      "class": "stock",
+      "rho1": 0.019435909996397518,
+      "implied_excess": 0.012371301149009306,
+      "observed_excess": -0.017966513993947775
+    },
+    {
+      "asset": "mdlz",
+      "class": "stock",
+      "rho1": -0.010912789699555496,
+      "implied_excess": 0.006946946573600177,
+      "observed_excess": -0.008793797592214325
+    },
+    {
+      "asset": "mdt",
+      "class": "stock",
+      "rho1": -0.05935378847904174,
+      "implied_excess": 0.03772937569174817,
+      "observed_excess": -0.02737914612697867
+    },
+    {
+      "asset": "me",
+      "class": "crypto",
+      "rho1": -0.05058755296059161,
+      "implied_excess": 0.0321700922103495,
+      "observed_excess": 0.032133782881621165
+    },
+    {
+      "asset": "meme",
+      "class": "crypto",
+      "rho1": -0.02256552137753009,
+      "implied_excess": 0.01436255309039891,
+      "observed_excess": 0.03092450508812561
+    },
+    {
+      "asset": "meta",
+      "class": "stock",
+      "rho1": 0.0075197047137239206,
+      "implied_excess": 0.004787077818482421,
+      "observed_excess": 0.0035165770492094905
+    },
+    {
+      "asset": "mira",
+      "class": "crypto",
+      "rho1": -0.021662838265270563,
+      "implied_excess": 0.013788244933325089,
+      "observed_excess": 0.03178576185299775
+    },
+    {
+      "asset": "mito",
+      "class": "crypto",
+      "rho1": -0.14757316805073742,
+      "implied_excess": 0.09308682978547322,
+      "observed_excess": 0.011090465860945309
+    },
+    {
+      "asset": "mmm",
+      "class": "stock",
+      "rho1": -0.008469401962866715,
+      "implied_excess": 0.0053916246093517195,
+      "observed_excess": 0.0005148774397514266
+    },
+    {
+      "asset": "mo",
+      "class": "stock",
+      "rho1": -0.012981850399831166,
+      "implied_excess": 0.00826391156023587,
+      "observed_excess": -0.006904341148161852
+    },
+    {
+      "asset": "morpho",
+      "class": "crypto",
+      "rho1": -0.06701785367894987,
+      "implied_excess": 0.04258370200689909,
+      "observed_excess": -0.0018253571633278787
+    },
+    {
+      "asset": "movr",
+      "class": "crypto",
+      "rho1": -0.1215842721684159,
+      "implied_excess": 0.07692005638689081,
+      "observed_excess": 0.030392236351334367
+    },
+    {
+      "asset": "mrk",
+      "class": "stock",
+      "rho1": -0.013533252813303342,
+      "implied_excess": 0.008614866679535371,
+      "observed_excess": 0.002688354225281464
+    },
+    {
+      "asset": "mrvl",
+      "class": "stock",
+      "rho1": -0.0026185013644914224,
+      "implied_excess": 0.0016669848916627261,
+      "observed_excess": -0.003562225617926129
+    },
+    {
+      "asset": "ms",
+      "class": "stock",
+      "rho1": -0.03182019269124612,
+      "implied_excess": 0.02024866202061315,
+      "observed_excess": -0.010157091341642666
+    },
+    {
+      "asset": "msft",
+      "class": "stock",
+      "rho1": -0.028705029364149797,
+      "implied_excess": 0.018267800650778043,
+      "observed_excess": 0.004948308606818497
+    },
+    {
+      "asset": "mu",
+      "class": "stock",
+      "rho1": -0.003232559152582788,
+      "implied_excess": 0.0020579019453307312,
+      "observed_excess": 0.009908936028534043
+    },
+    {
+      "asset": "near",
+      "class": "crypto",
+      "rho1": 0.007935420467910159,
+      "implied_excess": 0.00505171056116549,
+      "observed_excess": 0.023013687868510102
+    },
+    {
+      "asset": "nee",
+      "class": "stock",
+      "rho1": 0.00910629708685842,
+      "implied_excess": 0.0057970447548211235,
+      "observed_excess": 0.001543616890211652
+    },
+    {
+      "asset": "neiro",
+      "class": "crypto",
+      "rho1": -0.024782936126353756,
+      "implied_excess": 0.015773195417876473,
+      "observed_excess": 0.026981016376228295
+    },
+    {
+      "asset": "nem",
+      "class": "stock",
+      "rho1": -0.012495040213285033,
+      "implied_excess": 0.007954062601153944,
+      "observed_excess": 0.013660371790104264
+    },
+    {
+      "asset": "net",
+      "class": "stock",
+      "rho1": -0.014016649957402857,
+      "implied_excess": 0.008922532511844272,
+      "observed_excess": -0.0018985580545794467
+    },
+    {
+      "asset": "nflx",
+      "class": "stock",
+      "rho1": 0.027202155088175937,
+      "implied_excess": 0.017311992819566746,
+      "observed_excess": 0.010805222521434676
+    },
+    {
+      "asset": "nil",
+      "class": "crypto",
+      "rho1": 0.028391316570471316,
+      "implied_excess": 0.01806829202070459,
+      "observed_excess": 0.02639658382658161
+    },
+    {
+      "asset": "nke",
+      "class": "stock",
+      "rho1": 0.03365058151880405,
+      "implied_excess": 0.021412334515540032,
+      "observed_excess": -0.0075415503465599
+    },
+    {
+      "asset": "nom",
+      "class": "crypto",
+      "rho1": -0.10741397980054712,
+      "implied_excess": 0.068048483090412,
+      "observed_excess": 0.020712489454542515
+    },
+    {
+      "asset": "now",
+      "class": "stock",
+      "rho1": -0.0014076329364402739,
+      "implied_excess": 0.000896126205980563,
+      "observed_excess": 0.001161674651636968
+    },
+    {
+      "asset": "nue",
+      "class": "stock",
+      "rho1": -0.027758848435137786,
+      "implied_excess": 0.017666054198066217,
+      "observed_excess": 0.00895497808772594
+    },
+    {
+      "asset": "nvda",
+      "class": "stock",
+      "rho1": 0.013116031530935116,
+      "implied_excess": 0.008349315403593072,
+      "observed_excess": 0.011676722686770002
+    },
+    {
+      "asset": "nxpc",
+      "class": "crypto",
+      "rho1": -0.0033230069931934753,
+      "implied_excess": 0.002115482041308625,
+      "observed_excess": 0.012488018886675167
+    },
+    {
+      "asset": "o",
+      "class": "stock",
+      "rho1": -0.030102900813548307,
+      "implied_excess": 0.0191567339635782,
+      "observed_excess": -0.002748858681429933
+    },
+    {
+      "asset": "og",
+      "class": "crypto",
+      "rho1": -0.054439344887657636,
+      "implied_excess": 0.03461362056675232,
+      "observed_excess": 0.0394835596151204
+    },
+    {
+      "asset": "oke",
+      "class": "stock",
+      "rho1": 0.003964647974478917,
+      "implied_excess": 0.0025239564534269565,
+      "observed_excess": -0.014936746970841686
+    },
+    {
+      "asset": "omni",
+      "class": "crypto",
+      "rho1": -0.023387952021024644,
+      "implied_excess": 0.01488577684215786,
+      "observed_excess": 0.0058852782630102185
+    },
+    {
+      "asset": "ondo",
+      "class": "crypto",
+      "rho1": -0.1762924704443827,
+      "implied_excess": 0.1107683120268943,
+      "observed_excess": 0.0247645638179691
+    },
+    {
+      "asset": "op",
+      "class": "crypto",
+      "rho1": -0.04273667830056329,
+      "implied_excess": 0.02718593937386915,
+      "observed_excess": 0.030200411899901636
+    },
+    {
+      "asset": "open",
+      "class": "crypto",
+      "rho1": 0.021150368025495303,
+      "implied_excess": 0.01346218655015885,
+      "observed_excess": 0.036678914833097265
+    },
+    {
+      "asset": "orcl",
+      "class": "stock",
+      "rho1": 0.038922393761082315,
+      "implied_excess": 0.024762842769755045,
+      "observed_excess": 0.014256535001738957
+    },
+    {
+      "asset": "ordi",
+      "class": "crypto",
+      "rho1": -0.09056876300398398,
+      "implied_excess": 0.05745776633491251,
+      "observed_excess": 0.034021506759804865
+    },
+    {
+      "asset": "osmo",
+      "class": "crypto",
+      "rho1": -0.15064211261762345,
+      "implied_excess": 0.09498604739670735,
+      "observed_excess": 0.03946984217954963
+    },
+    {
+      "asset": "oxy",
+      "class": "stock",
+      "rho1": 0.017072492809007377,
+      "implied_excess": 0.010867342138600633,
+      "observed_excess": 0.0030139659229655447
+    },
+    {
+      "asset": "panw",
+      "class": "stock",
+      "rho1": -0.02655681647085045,
+      "implied_excess": 0.016901535277570656,
+      "observed_excess": -0.010780547244436223
+    },
+    {
+      "asset": "parti",
+      "class": "crypto",
+      "rho1": 0.00011629039853499658,
+      "implied_excess": 7.403276661899216e-05,
+      "observed_excess": 0.025765293013034096
+    },
+    {
+      "asset": "pendle",
+      "class": "crypto",
+      "rho1": -0.021444164063399922,
+      "implied_excess": 0.013649114931451045,
+      "observed_excess": 0.01670476384080033
+    },
+    {
+      "asset": "pengu",
+      "class": "crypto",
+      "rho1": -0.026727761088900622,
+      "implied_excess": 0.017010263692240346,
+      "observed_excess": 0.02322030669501096
+    },
+    {
+      "asset": "pep",
+      "class": "stock",
+      "rho1": -0.00293402693561766,
+      "implied_excess": 0.0018678527355459051,
+      "observed_excess": -0.008208148708526986
+    },
+    {
+      "asset": "pepe",
+      "class": "crypto",
+      "rho1": -0.023461502949982956,
+      "implied_excess": 0.01493256811567023,
+      "observed_excess": 0.04924420563119836
+    },
+    {
+      "asset": "pfe",
+      "class": "stock",
+      "rho1": -0.025830499291873695,
+      "implied_excess": 0.016439551182412915,
+      "observed_excess": 0.01758646668907371
+    },
+    {
+      "asset": "pg",
+      "class": "stock",
+      "rho1": -0.016115443127142588,
+      "implied_excess": 0.010258279021486016,
+      "observed_excess": 0.004336263648041183
+    },
+    {
+      "asset": "pha",
+      "class": "crypto",
+      "rho1": -0.16839853301968824,
+      "implied_excess": 0.10592941293338565,
+      "observed_excess": 0.05590125518499556
+    },
+    {
+      "asset": "phb",
+      "class": "crypto",
+      "rho1": -0.021590036737692206,
+      "implied_excess": 0.013741925632687613,
+      "observed_excess": 0.05277436915617806
+    },
+    {
+      "asset": "pltr",
+      "class": "stock",
+      "rho1": 0.019670852139413275,
+      "implied_excess": 0.01252079716881227,
+      "observed_excess": -0.0003015001279783047
+    },
+    {
+      "asset": "plume",
+      "class": "crypto",
+      "rho1": -0.012403228001176417,
+      "implied_excess": 0.007895624664204015,
+      "observed_excess": 0.02163317540706855
+    },
+    {
+      "asset": "pm",
+      "class": "stock",
+      "rho1": 0.03525302132127552,
+      "implied_excess": 0.022430938579811266,
+      "observed_excess": 0.032368248943408506
+    },
+    {
+      "asset": "pol",
+      "class": "crypto",
+      "rho1": -0.02319713556503026,
+      "implied_excess": 0.014764383199929898,
+      "observed_excess": 0.023593915025766243
+    },
+    {
+      "asset": "pond",
+      "class": "crypto",
+      "rho1": -0.025692512910609908,
+      "implied_excess": 0.016351780520813985,
+      "observed_excess": 0.04912171361770379
+    },
+    {
+      "asset": "portal",
+      "class": "crypto",
+      "rho1": -0.15693873228060065,
+      "implied_excess": 0.0988756704513778,
+      "observed_excess": 0.050735640244863656
+    },
+    {
+      "asset": "psg",
+      "class": "crypto",
+      "rho1": -0.14613887508190074,
+      "implied_excess": 0.09219846289142519,
+      "observed_excess": 0.03484221060395443
+    },
+    {
+      "asset": "pump",
+      "class": "crypto",
+      "rho1": -0.018277543331948237,
+      "implied_excess": 0.011634195919523416,
+      "observed_excess": 0.02277741221066165
+    },
+    {
+      "asset": "pypl",
+      "class": "stock",
+      "rho1": -0.006525276710896772,
+      "implied_excess": 0.004154045105656312,
+      "observed_excess": -0.0007692972375117346
+    },
+    {
+      "asset": "pyth",
+      "class": "crypto",
+      "rho1": -0.004340732631208131,
+      "implied_excess": 0.002763374121486417,
+      "observed_excess": 0.03212018313674836
+    },
+    {
+      "asset": "qcom",
+      "class": "stock",
+      "rho1": 0.00906274194369989,
+      "implied_excess": 0.005769319602975331,
+      "observed_excess": -0.012753544918884308
+    },
+    {
+      "asset": "qnt",
+      "class": "crypto",
+      "rho1": -0.05403025902686432,
+      "implied_excess": 0.0343541619503841,
+      "observed_excess": 0.029148601540968766
+    },
+    {
+      "asset": "qqq",
+      "class": "stock",
+      "rho1": -0.005783233295341396,
+      "implied_excess": 0.003681668403286431,
+      "observed_excess": 0.0014443731867290754
+    },
+    {
+      "asset": "rdnt",
+      "class": "crypto",
+      "rho1": -0.029857930692909852,
+      "implied_excess": 0.01900095951556513,
+      "observed_excess": 0.024850432299368452
+    },
+    {
+      "asset": "render",
+      "class": "crypto",
+      "rho1": -0.13650833346348148,
+      "implied_excess": 0.08622146855959034,
+      "observed_excess": 0.023670312359934775
+    },
+    {
+      "asset": "resolv",
+      "class": "crypto",
+      "rho1": -0.04405759002531182,
+      "implied_excess": 0.02802484371265168,
+      "observed_excess": 0.016095525216182516
+    },
+    {
+      "asset": "rsp",
+      "class": "stock",
+      "rho1": -0.05092604431096515,
+      "implied_excess": 0.032384876803838614,
+      "observed_excess": -0.002368551612345171
+    },
+    {
+      "asset": "rtx",
+      "class": "stock",
+      "rho1": 0.010234182858396591,
+      "implied_excess": 0.00651499355329721,
+      "observed_excess": 0.002482594732247323
+    },
+    {
+      "asset": "rune",
+      "class": "crypto",
+      "rho1": 0.015452090466701061,
+      "implied_excess": 0.009836109554357209,
+      "observed_excess": 0.04815530066017959
+    },
+    {
+      "asset": "s",
+      "class": "crypto",
+      "rho1": -0.03461835055567852,
+      "implied_excess": 0.022027522031987434,
+      "observed_excess": 0.03222667649613975
+    },
+    {
+      "asset": "saga",
+      "class": "crypto",
+      "rho1": -0.07841413111184523,
+      "implied_excess": 0.04979001942168981,
+      "observed_excess": 0.04244259205515477
+    },
+    {
+      "asset": "sahara",
+      "class": "crypto",
+      "rho1": 0.007697762432027983,
+      "implied_excess": 0.004900424526939617,
+      "observed_excess": 0.03122571252945172
+    },
+    {
+      "asset": "sand",
+      "class": "crypto",
+      "rho1": -0.04147893197536524,
+      "implied_excess": 0.026387038914956418,
+      "observed_excess": 0.03036588766845072
+    },
+    {
+      "asset": "santos",
+      "class": "crypto",
+      "rho1": -0.13097397745133113,
+      "implied_excess": 0.08277753135037358,
+      "observed_excess": 0.03217028469620964
+    },
+    {
+      "asset": "sbux",
+      "class": "stock",
+      "rho1": 0.0705785046420579,
+      "implied_excess": 0.044836860180346605,
+      "observed_excess": -0.002299586038211343
+    },
+    {
+      "asset": "schw",
+      "class": "stock",
+      "rho1": -0.0021276601409550107,
+      "implied_excess": 0.0013545079122045944,
+      "observed_excess": 0.009322183118440242
+    },
+    {
+      "asset": "sei",
+      "class": "crypto",
+      "rho1": -0.03111238344887519,
+      "implied_excess": 0.019798624392100783,
+      "observed_excess": 0.02591351886262161
+    },
+    {
+      "asset": "shib",
+      "class": "crypto",
+      "rho1": -0.019683577438559814,
+      "implied_excess": 0.012528894353049935,
+      "observed_excess": 0.039520496560998986
+    },
+    {
+      "asset": "shop",
+      "class": "stock",
+      "rho1": 0.012393730348794773,
+      "implied_excess": 0.007889579454223195,
+      "observed_excess": 0.0030200007959159114
+    },
+    {
+      "asset": "shy",
+      "class": "stock",
+      "rho1": 0.004936277856556367,
+      "implied_excess": 0.003142499586852532,
+      "observed_excess": -0.002035945248522686
+    },
+    {
+      "asset": "sky",
+      "class": "crypto",
+      "rho1": -0.23358227753615632,
+      "implied_excess": 0.1453302787672408,
+      "observed_excess": -0.004170299054568116
+    },
+    {
+      "asset": "slb",
+      "class": "stock",
+      "rho1": -0.017974726581005105,
+      "implied_excess": 0.011441497419053648,
+      "observed_excess": -0.011445904306329302
+    },
+    {
+      "asset": "slv",
+      "class": "stock",
+      "rho1": 0.04661272798747671,
+      "implied_excess": 0.0296472427892418,
+      "observed_excess": 0.017535352828931927
+    },
+    {
+      "asset": "smh",
+      "class": "stock",
+      "rho1": 0.0076585956981623194,
+      "implied_excess": 0.004875492081322985,
+      "observed_excess": 0.007759765524328444
+    },
+    {
+      "asset": "snow",
+      "class": "stock",
+      "rho1": -0.006002520993385025,
+      "implied_excess": 0.003821265114648087,
+      "observed_excess": -0.008953547737892587
+    },
+    {
+      "asset": "snps",
+      "class": "stock",
+      "rho1": 0.05416593025892108,
+      "implied_excess": 0.03444021169654565,
+      "observed_excess": -0.011518136898452158
+    },
+    {
+      "asset": "so",
+      "class": "stock",
+      "rho1": -0.02553355688471829,
+      "implied_excess": 0.016250670462579442,
+      "observed_excess": -0.013565280427729032
+    },
+    {
+      "asset": "sol",
+      "class": "crypto",
+      "rho1": -0.01669005948431811,
+      "implied_excess": 0.0106239658500622,
+      "observed_excess": 0.029431802490939685
+    },
+    {
+      "asset": "soxx",
+      "class": "stock",
+      "rho1": -0.0028322954822913703,
+      "implied_excess": 0.0018030891664161386,
+      "observed_excess": -0.0029389200186927256
+    },
+    {
+      "asset": "spk",
+      "class": "crypto",
+      "rho1": -0.02516647323635627,
+      "implied_excess": 0.016017168889542632,
+      "observed_excess": 0.014180472077236161
+    },
+    {
+      "asset": "spy",
+      "class": "stock",
+      "rho1": -0.03017397602036317,
+      "implied_excess": 0.019201929545890617,
+      "observed_excess": -0.008115737640039145
+    },
+    {
+      "asset": "stg",
+      "class": "crypto",
+      "rho1": -0.031806942465742116,
+      "implied_excess": 0.020240237528286298,
+      "observed_excess": 0.01205881540100684
+    },
+    {
+      "asset": "sto",
+      "class": "crypto",
+      "rho1": 0.0394012071790113,
+      "implied_excess": 0.025067070206335695,
+      "observed_excess": 0.018801061308601485
+    },
+    {
+      "asset": "strax",
+      "class": "crypto",
+      "rho1": -0.11132503868389103,
+      "implied_excess": 0.07050070318790291,
+      "observed_excess": 0.05006712056018303
+    },
+    {
+      "asset": "strk",
+      "class": "crypto",
+      "rho1": -0.17274041714470645,
+      "implied_excess": 0.1085930173899825,
+      "observed_excess": 0.028286704732883416
+    },
+    {
+      "asset": "sui",
+      "class": "crypto",
+      "rho1": -0.01777272778684456,
+      "implied_excess": 0.011312953290754546,
+      "observed_excess": 0.032064303187237075
+    },
+    {
+      "asset": "sun",
+      "class": "crypto",
+      "rho1": -0.10087329649986952,
+      "implied_excess": 0.0639416791507682,
+      "observed_excess": 0.03360411780251771
+    },
+    {
+      "asset": "sxp",
+      "class": "crypto",
+      "rho1": -0.0789541695705407,
+      "implied_excess": 0.05013111909993018,
+      "observed_excess": 0.042360928032046496
+    },
+    {
+      "asset": "sys",
+      "class": "crypto",
+      "rho1": -0.024353045756748435,
+      "implied_excess": 0.015499728956423042,
+      "observed_excess": 0.027533320891107826
+    },
+    {
+      "asset": "t",
+      "class": "stock",
+      "rho1": 0.014517356557510132,
+      "implied_excess": 0.009241209624630708,
+      "observed_excess": 0.004444203614824671
+    },
+    {
+      "asset": "tao",
+      "class": "crypto",
+      "rho1": -0.029527625392151438,
+      "implied_excess": 0.018790916552040127,
+      "observed_excess": 0.028455249299857654
+    },
+    {
+      "asset": "tfc",
+      "class": "stock",
+      "rho1": -0.054387579703036176,
+      "implied_excess": 0.03458078982690893,
+      "observed_excess": -0.0013867249634965106
+    },
+    {
+      "asset": "tgt",
+      "class": "stock",
+      "rho1": 0.0499923317023621,
+      "implied_excess": 0.03179238083984748,
+      "observed_excess": 0.004108505980510935
+    },
+    {
+      "asset": "tia",
+      "class": "crypto",
+      "rho1": -0.02823535062930948,
+      "implied_excess": 0.017969102312226815,
+      "observed_excess": 0.029609329917941185
+    },
+    {
+      "asset": "tjx",
+      "class": "stock",
+      "rho1": -0.040096074901964,
+      "implied_excess": 0.0255085477186211,
+      "observed_excess": -0.004365477545937413
+    },
+    {
+      "asset": "tlt",
+      "class": "stock",
+      "rho1": 0.007862189589218478,
+      "implied_excess": 0.0050050940391787035,
+      "observed_excess": -0.007769981652917923
+    },
+    {
+      "asset": "tmus",
+      "class": "stock",
+      "rho1": -0.017657886812114235,
+      "implied_excess": 0.011239872463390088,
+      "observed_excess": -0.004820102439871077
+    },
+    {
+      "asset": "ton",
+      "class": "crypto",
+      "rho1": -0.0039631306041180555,
+      "implied_excess": 0.0025229904847783313,
+      "observed_excess": 0.024136313557705735
+    },
+    {
+      "asset": "tree",
+      "class": "crypto",
+      "rho1": -0.009091829526086795,
+      "implied_excess": 0.0057878353904349256,
+      "observed_excess": 0.023206407188664624
+    },
+    {
+      "asset": "tru",
+      "class": "crypto",
+      "rho1": -0.14251004498013561,
+      "implied_excess": 0.08994874399054498,
+      "observed_excess": 0.07397169987114016
+    },
+    {
+      "asset": "trump",
+      "class": "crypto",
+      "rho1": 0.0206581959145321,
+      "implied_excess": 0.01314903434471848,
+      "observed_excess": 0.03800857848898409
+    },
+    {
+      "asset": "trx",
+      "class": "crypto",
+      "rho1": 0.07820144940066054,
+      "implied_excess": 0.04965567505830859,
+      "observed_excess": 0.005599556356967739
+    },
+    {
+      "asset": "tsla",
+      "class": "stock",
+      "rho1": 0.006958904028699437,
+      "implied_excess": 0.004430084847935278,
+      "observed_excess": 0.0005969994830721248
+    },
+    {
+      "asset": "tut",
+      "class": "crypto",
+      "rho1": -0.16220610917330092,
+      "implied_excess": 0.10212200355450274,
+      "observed_excess": 0.028443769519195472
+    },
+    {
+      "asset": "twt",
+      "class": "crypto",
+      "rho1": -0.04514310267875522,
+      "implied_excess": 0.02871415440374725,
+      "observed_excess": 0.015146477589536356
+    },
+    {
+      "asset": "txn",
+      "class": "stock",
+      "rho1": -0.015886990874181967,
+      "implied_excess": 0.010112889205662334,
+      "observed_excess": 0.013397761229970495
+    },
+    {
+      "asset": "uber",
+      "class": "stock",
+      "rho1": 0.0021113951459164723,
+      "implied_excess": 0.0013441533539930717,
+      "observed_excess": 0.008812253756880883
+    },
+    {
+      "asset": "ung",
+      "class": "stock",
+      "rho1": 0.015373555034188593,
+      "implied_excess": 0.009786127465317818,
+      "observed_excess": 0.00029885260355877463
+    },
+    {
+      "asset": "unh",
+      "class": "stock",
+      "rho1": 0.046268063325557836,
+      "implied_excess": 0.029428424157054045,
+      "observed_excess": -0.0028842023586502785
+    },
+    {
+      "asset": "uni",
+      "class": "crypto",
+      "rho1": -0.027706429153202403,
+      "implied_excess": 0.017632715709366864,
+      "observed_excess": 0.03464545423038112
+    },
+    {
+      "asset": "ups",
+      "class": "stock",
+      "rho1": 0.018566293687571817,
+      "implied_excess": 0.011817940691105866,
+      "observed_excess": -0.0013548078154064225
+    },
+    {
+      "asset": "usb",
+      "class": "stock",
+      "rho1": -0.04304515801745609,
+      "implied_excess": 0.02738186420824118,
+      "observed_excess": -0.008272273447736789
+    },
+    {
+      "asset": "usd1",
+      "class": "crypto",
+      "rho1": -0.04117542732481563,
+      "implied_excess": 0.026194241570782095,
+      "observed_excess": 0.011344329341454906
+    },
+    {
+      "asset": "usde",
+      "class": "crypto",
+      "rho1": -0.3873732790763616,
+      "implied_excess": 0.2317645082090909,
+      "observed_excess": -0.015676398311431194
+    },
+    {
+      "asset": "uso",
+      "class": "stock",
+      "rho1": 0.00030821827633257734,
+      "implied_excess": 0.00019621784100709583,
+      "observed_excess": -0.012389359116537324
+    },
+    {
+      "asset": "utk",
+      "class": "crypto",
+      "rho1": -0.15617352413628904,
+      "implied_excess": 0.09840349140761773,
+      "observed_excess": 0.03514863316631622
+    },
+    {
+      "asset": "v",
+      "class": "stock",
+      "rho1": -0.016099415205059472,
+      "implied_excess": 0.010248078699520158,
+      "observed_excess": -0.0117706116070464
+    },
+    {
+      "asset": "vea",
+      "class": "stock",
+      "rho1": 0.0522077853012602,
+      "implied_excess": 0.03319810029793602,
+      "observed_excess": 0.0029383495458352726
+    },
+    {
+      "asset": "vet",
+      "class": "crypto",
+      "rho1": -0.045625246070390216,
+      "implied_excess": 0.029020292505134826,
+      "observed_excess": 0.03345580168869877
+    },
+    {
+      "asset": "vic",
+      "class": "crypto",
+      "rho1": -0.011796495245031725,
+      "implied_excess": 0.007509438606118857,
+      "observed_excess": 0.03769500674010662
+    },
+    {
+      "asset": "vici",
+      "class": "stock",
+      "rho1": -0.03955330573323378,
+      "implied_excess": 0.025163707207341512,
+      "observed_excess": 0.008520004446131546
+    },
+    {
+      "asset": "virtual",
+      "class": "crypto",
+      "rho1": -0.05359419648060383,
+      "implied_excess": 0.034077577563357386,
+      "observed_excess": 0.02698308944704353
+    },
+    {
+      "asset": "vlo",
+      "class": "stock",
+      "rho1": -0.02083186809394512,
+      "implied_excess": 0.013259536921572224,
+      "observed_excess": 0.0076828804761579494
+    },
+    {
+      "asset": "vnq",
+      "class": "stock",
+      "rho1": -0.05736495055403166,
+      "implied_excess": 0.036468721268172466,
+      "observed_excess": -0.033583818855932146
+    },
+    {
+      "asset": "voo",
+      "class": "stock",
+      "rho1": -0.036881689803885696,
+      "implied_excess": 0.02346606494830006,
+      "observed_excess": -0.001288562865598919
+    },
+    {
+      "asset": "vti",
+      "class": "stock",
+      "rho1": -0.04328088978724132,
+      "implied_excess": 0.027531580149550927,
+      "observed_excess": 0.007548829032434812
+    },
+    {
+      "asset": "vwo",
+      "class": "stock",
+      "rho1": -0.006499237527978363,
+      "implied_excess": 0.004137468942050027,
+      "observed_excess": 0.006537208287231144
+    },
+    {
+      "asset": "vz",
+      "class": "stock",
+      "rho1": 0.008937557156502485,
+      "implied_excess": 0.005689632711375903,
+      "observed_excess": -0.004206356712053938
+    },
+    {
+      "asset": "w",
+      "class": "crypto",
+      "rho1": -0.01763471351448888,
+      "implied_excess": 0.011225125731823327,
+      "observed_excess": 0.05146800215434033
+    },
+    {
+      "asset": "wbeth",
+      "class": "crypto",
+      "rho1": -0.12991449104310124,
+      "implied_excess": 0.08211749713838168,
+      "observed_excess": 0.03537873997765506
+    },
+    {
+      "asset": "wbtc",
+      "class": "crypto",
+      "rho1": -0.003933645720594133,
+      "implied_excess": 0.002504220197527496,
+      "observed_excess": 0.029932970234742173
+    },
+    {
+      "asset": "wfc",
+      "class": "stock",
+      "rho1": -0.06285363795509666,
+      "implied_excess": 0.03994687942731745,
+      "observed_excess": 0.0014321788083844211
+    },
+    {
+      "asset": "wif",
+      "class": "crypto",
+      "rho1": -0.020808074562988454,
+      "implied_excess": 0.013244397847064993,
+      "observed_excess": 0.046052605436397
+    },
+    {
+      "asset": "wld",
+      "class": "crypto",
+      "rho1": -0.04427771076712898,
+      "implied_excess": 0.028164629295833965,
+      "observed_excess": 0.025196378232413053
+    },
+    {
+      "asset": "wlfi",
+      "class": "crypto",
+      "rho1": 0.03011534379784841,
+      "implied_excess": 0.019164646275216968,
+      "observed_excess": 0.022100584742720697
+    },
+    {
+      "asset": "wm",
+      "class": "stock",
+      "rho1": -0.05496007202820866,
+      "implied_excess": 0.0349438652491324,
+      "observed_excess": -0.02762822087487532
+    },
+    {
+      "asset": "wmb",
+      "class": "stock",
+      "rho1": -0.026554537425436033,
+      "implied_excess": 0.01690008569435364,
+      "observed_excess": -0.005513799389902707
+    },
+    {
+      "asset": "wmt",
+      "class": "stock",
+      "rho1": 0.012155848932438072,
+      "implied_excess": 0.007738168491403741,
+      "observed_excess": -0.0015647994333326531
+    },
+    {
+      "asset": "xbi",
+      "class": "stock",
+      "rho1": -0.01503144230920147,
+      "implied_excess": 0.009568395823359999,
+      "observed_excess": 0.01573815095251674
+    },
+    {
+      "asset": "xlb",
+      "class": "stock",
+      "rho1": -0.032130877681341215,
+      "implied_excess": 0.020446192912214833,
+      "observed_excess": 0.002362723922357035
+    },
+    {
+      "asset": "xlc",
+      "class": "stock",
+      "rho1": -0.0234252480745452,
+      "implied_excess": 0.014909503690383685,
+      "observed_excess": -0.010583548313359226
+    },
+    {
+      "asset": "xle",
+      "class": "stock",
+      "rho1": 0.004778040133735499,
+      "implied_excess": 0.003041765349964476,
+      "observed_excess": -0.021431025803845816
+    },
+    {
+      "asset": "xlf",
+      "class": "stock",
+      "rho1": -0.04682711696243516,
+      "implied_excess": 0.02978334826332396,
+      "observed_excess": 0.008572951620550384
+    },
+    {
+      "asset": "xli",
+      "class": "stock",
+      "rho1": -0.04168928187083934,
+      "implied_excess": 0.02652065730063924,
+      "observed_excess": -0.012415709243823625
+    },
+    {
+      "asset": "xlk",
+      "class": "stock",
+      "rho1": -0.0026320039080952075,
+      "implied_excess": 0.0016755808024676577,
+      "observed_excess": 0.0055311153199807395
+    },
+    {
+      "asset": "xlm",
+      "class": "crypto",
+      "rho1": -0.03074026216508611,
+      "implied_excess": 0.019562012943373563,
+      "observed_excess": 0.029046864248657656
+    },
+    {
+      "asset": "xlp",
+      "class": "stock",
+      "rho1": -0.013597929869873878,
+      "implied_excess": 0.008656031726108404,
+      "observed_excess": -0.002634711884403562
+    },
+    {
+      "asset": "xlre",
+      "class": "stock",
+      "rho1": -0.06046997444173414,
+      "implied_excess": 0.03843672153564959,
+      "observed_excess": 0.018020743368770353
+    },
+    {
+      "asset": "xlu",
+      "class": "stock",
+      "rho1": -0.005335307783238026,
+      "implied_excess": 0.0033965213925851723,
+      "observed_excess": 0.002895652471027077
+    },
+    {
+      "asset": "xlv",
+      "class": "stock",
+      "rho1": -0.04956623936231882,
+      "implied_excess": 0.03152197652525768,
+      "observed_excess": 0.020868852994262888
+    },
+    {
+      "asset": "xly",
+      "class": "stock",
+      "rho1": -0.021670465886201983,
+      "implied_excess": 0.01379309792605532,
+      "observed_excess": 0.006708531298695197
+    },
+    {
+      "asset": "xom",
+      "class": "stock",
+      "rho1": -0.008215515764071727,
+      "implied_excess": 0.005230009958193671,
+      "observed_excess": -0.014734952920980093
+    },
+    {
+      "asset": "xpl",
+      "class": "crypto",
+      "rho1": 0.013699161118379575,
+      "implied_excess": 0.008720462256804007,
+      "observed_excess": 0.027714599670756845
+    },
+    {
+      "asset": "xrp",
+      "class": "crypto",
+      "rho1": -0.022443610214998442,
+      "implied_excess": 0.014284992064496072,
+      "observed_excess": 0.03589689083513625
+    },
+    {
+      "asset": "xusd",
+      "class": "crypto",
+      "rho1": -0.4667796387208696,
+      "implied_excess": 0.27182560973285486,
+      "observed_excess": 0.06760345305397708
+    },
+    {
+      "asset": "yb",
+      "class": "crypto",
+      "rho1": 0.05684536280096624,
+      "implied_excess": 0.036139312001897794,
+      "observed_excess": 0.025642201624479943
+    },
+    {
+      "asset": "zbt",
+      "class": "crypto",
+      "rho1": 0.16222665982143078,
+      "implied_excess": 0.10213465543109068,
+      "observed_excess": 0.029699701868223682
+    },
+    {
+      "asset": "zec",
+      "class": "crypto",
+      "rho1": -0.01845862843637175,
+      "implied_excess": 0.01174942876541929,
+      "observed_excess": 0.029902216462157072
+    },
+    {
+      "asset": "zen",
+      "class": "crypto",
+      "rho1": 0.005141241549057211,
+      "implied_excess": 0.003272979307525903,
+      "observed_excess": 0.024210742369064064
+    },
+    {
+      "asset": "zk",
+      "class": "crypto",
+      "rho1": -0.06242066044984948,
+      "implied_excess": 0.03967261091270835,
+      "observed_excess": 0.024016364987125338
+    },
+    {
+      "asset": "zro",
+      "class": "crypto",
+      "rho1": -0.04084820638891594,
+      "implied_excess": 0.02598637189564168,
+      "observed_excess": 0.019106741197814525
+    },
+    {
+      "asset": "zs",
+      "class": "stock",
+      "rho1": -0.01097793200970992,
+      "implied_excess": 0.006988411130953498,
+      "observed_excess": 0.015011193532769918
+    }
+  ]
+}

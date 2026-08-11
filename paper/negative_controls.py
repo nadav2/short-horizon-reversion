@@ -75,6 +75,18 @@ def make_control(ch: np.ndarray, ups: np.ndarray, kind: str,
     if kind == "phase":
         ch_sur = iaaft(ch, rng)
         return ch_sur, ch_sur > 0
+    if kind == "signrand":
+        # Hold the |r| path fixed (volatility clustering and the diurnal profile
+        # survive EXACTLY) and randomize only the signs, iid with the empirical
+        # up-probability. Destroys precisely the sign dependence under test;
+        # flat bars stay flat. The clean counterpart of the IAAFT surrogate,
+        # which destroys volatility clustering and is anti-conservative on
+        # session-heteroskedastic series.
+        nz = ch != 0.0
+        p_up = float(np.mean(ch[nz] > 0)) if nz.any() else 0.5
+        signs = np.where(rng.random(len(ch)) < p_up, 1.0, -1.0)
+        ch_sur = np.abs(ch) * signs
+        return ch_sur, ch_sur > 0
     raise ValueError(kind)
 
 
