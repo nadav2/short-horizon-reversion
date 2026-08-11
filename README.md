@@ -201,6 +201,7 @@ uv run python -m paper.micro_figures
 uv run python -m paper.sim_figures
 uv run python -m paper.selective_figures
 uv run python -m paper.signlag_figures
+uv run python -m paper.nbaseline_figure
 uv run python -m paper.stability_figures
 uv run python -m paper.panel_figures
 uv run python -m paper.merged_figures      # m_location / m_transmission / m_flow
