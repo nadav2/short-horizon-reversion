@@ -1,0 +1,35 @@
+{
+  "primary_full": {
+    "n_crypto": 183,
+    "n_stock": 187,
+    "crypto_mean": 0.5305370911356356,
+    "stock_mean": 0.4992729250058776,
+    "gap": 0.03126416612975802,
+    "gap_ci": [
+      0.0275363656514637,
+      0.03463074581617044
+    ],
+    "gap_sd": 0.0018013005113084002
+  },
+  "primary_matched_to_holdout_universe": {
+    "n_crypto": 173,
+    "n_stock": 52,
+    "crypto_mean": 0.5307558709873654,
+    "stock_mean": 0.5020231764750468,
+    "gap": 0.028732694512318635,
+    "gap_ci": [
+      0.025528020406236415,
+      0.03206493214532898
+    ],
+    "gap_sd": 0.0016515098533367153
+  },
+  "holdout_gap": 0.020352153383147775,
+  "total_attenuation": 0.010912012746610245,
+  "attributable_to_composition": 0.0025314716174393848,
+  "attributable_to_decay": 0.00838054112917086,
+  "composition_share": 0.23198943001837788,
+  "holdout_universe": {
+    "n_crypto": 173,
+    "n_stock": 52
+  }
+}

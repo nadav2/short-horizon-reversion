@@ -12,7 +12,7 @@ from pathlib import Path
 
 import numpy as np
 
-from .style import OI, ONEHALF, letter, plt, save
+from .style import DOUBLE, OI, letter, plt, save
 
 OUT = Path(__file__).resolve().parent / "out"
 C_CR, C_ST = OI["vermillion"], OI["blue"]
@@ -22,7 +22,7 @@ def main():
     gap = json.loads((OUT / "gap_test.json").read_text())
     liq = json.loads((OUT / "liquidity.json").read_text())
 
-    fig, (ax, bx) = plt.subplots(1, 2, figsize=(ONEHALF, 2.3))
+    fig, (ax, bx) = plt.subplots(1, 2, figsize=(DOUBLE, 2.6))
 
     # (a) per-asset AUC with vs without a one-bar gap
     for cls, col, z in (("stock", C_ST, 1), ("crypto", C_CR, 2)):

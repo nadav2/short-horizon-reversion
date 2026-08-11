@@ -108,7 +108,7 @@ def fig_overfit(R):
         Ns = sorted(int(n) for n in sweep)
         for short, color, lab in [("free", C_FREE, "free AR-logit"),
                                   ("l2", C_L2, "ridge (L2)"),
-                                  ("ising", C_ISING, "Ising (3 params)")]:
+                                  ("ising", C_ISING, "constrained (3 params)")]:
             tr = [sweep[str(N)][short]["train_ll"] for N in Ns]
             te = [sweep[str(N)][short]["test_ll"] for N in Ns]
             ax.plot(Ns, tr, "--", color=color, lw=0.8, alpha=0.7)
@@ -117,7 +117,7 @@ def fig_overfit(R):
         ax.set_xlabel("AR order $N$ (lags)")
         letter(ax, f"({chr(97 + j)}) {key.upper()}")
     axes[0].set_ylabel("log-loss (solid OOS, dashed train)")
-    axes[0].legend()
+    axes[0].legend(loc="upper left", bbox_to_anchor=(0.02, 0.90))
     save(fig, "overfit")
 
 
@@ -131,7 +131,7 @@ def fig_equity(coin="btc", interval="15m", fee=0.02):
     d = np.load(f)
     actual = d["actual"]
     fig, ax = plt.subplots(figsize=(ONEHALF, 2.8))
-    for short, color, lab in [("ising", C_ISING, "Ising"), ("free", C_FREE, "free AR-logit"),
+    for short, color, lab in [("ising", C_ISING, "constrained logit"), ("free", C_FREE, "free AR-logit"),
                               ("l2", C_L2, "ridge (L2)"), ("markov1", C_MK, "Markov-1"),
                               ("base", C_BASE, "base rate")]:
         key = f"p_{short}"
@@ -187,7 +187,7 @@ def fig_calibration(coin="btc", interval="15m"):
     actual = d["actual"]
     fig, ax = plt.subplots(figsize=(SINGLE, 3.0))
     ax.plot([0.4, 0.6], [0.4, 0.6], "k:", lw=0.8, label="perfect")
-    for short, color, lab in [("ising", C_ISING, "Ising"), ("free", C_FREE, "free AR-logit")]:
+    for short, color, lab in [("ising", C_ISING, "constrained logit"), ("free", C_FREE, "free AR-logit")]:
         p = d[f"p_{short}"]
         edges = np.unique(np.quantile(p, np.linspace(0, 1, 11)))
         mids, obs, err = [], [], []

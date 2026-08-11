@@ -1,0 +1,74 @@
+{
+ "n_families": 8,
+ "families": {
+  "bitcoin": {
+   "underlying_auc": 0.5245,
+   "n_wrappers": 8,
+   "wrapper_mean_auc": 0.5231,
+   "family_gap": -0.0014,
+   "wrapper_z_vs_rth_stocks": 2.98
+  },
+  "ether": {
+   "underlying_auc": 0.5237,
+   "n_wrappers": 3,
+   "wrapper_mean_auc": 0.5233,
+   "family_gap": -0.0004,
+   "wrapper_z_vs_rth_stocks": 2.99
+  },
+  "euro": {
+   "underlying_auc": 0.5039,
+   "n_wrappers": 1,
+   "wrapper_mean_auc": 0.4838,
+   "family_gap": -0.0201,
+   "wrapper_z_vs_rth_stocks": -1.66
+  },
+  "gold": {
+   "underlying_auc": 0.5033,
+   "n_wrappers": 1,
+   "wrapper_mean_auc": 0.5069,
+   "family_gap": 0.0036,
+   "wrapper_z_vs_rth_stocks": 1.06
+  },
+  "palladium": {
+   "underlying_auc": 0.5225,
+   "n_wrappers": 1,
+   "wrapper_mean_auc": 0.5096,
+   "family_gap": -0.0129,
+   "wrapper_z_vs_rth_stocks": 1.38
+  },
+  "platinum": {
+   "underlying_auc": 0.5324,
+   "n_wrappers": 1,
+   "wrapper_mean_auc": 0.5109,
+   "family_gap": -0.0215,
+   "wrapper_z_vs_rth_stocks": 1.53
+  },
+  "silver": {
+   "underlying_auc": 0.5002,
+   "n_wrappers": 1,
+   "wrapper_mean_auc": 0.5053,
+   "family_gap": 0.005,
+   "wrapper_z_vs_rth_stocks": 0.87
+  },
+  "yen": {
+   "underlying_auc": 0.508,
+   "n_wrappers": 1,
+   "wrapper_mean_auc": 0.4985,
+   "family_gap": -0.0095,
+   "wrapper_z_vs_rth_stocks": 0.07
+  }
+ },
+ "mean_abs_family_gap": 0.0093,
+ "perm_p_mean_abs_gap": 0.04523809523809524,
+ "corr_wrapper_underlying": 0.658,
+ "perm_p_corr": 0.037624007936507935,
+ "n_permutations": 40320,
+ "bitcoin_within_family": {
+  "n": 8,
+  "sd": 0.0053,
+  "range": [
+   0.5162,
+   0.5328
+  ]
+ }
+}

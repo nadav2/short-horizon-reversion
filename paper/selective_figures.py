@@ -30,7 +30,7 @@ def fig_selective(sel):
             cov = np.array([c["coverage"] for c in cur]) * 100
             acc = np.array([c["accuracy"] for c in cur]) * 100
             ax.plot(cov, acc, ls, color=col, lw=1.1,
-                    label=f"{cell.split('-')[0].upper()} {('Ising' if m=='ising' else 'free logit')}")
+                    label=f"{cell.split('-')[0].upper()} {('constrained' if m=='ising' else 'free logit')}")
             if m == "ising":
                 lo = np.array([c["acc_ci"][0] for c in cur]) * 100
                 hi = np.array([c["acc_ci"][1] for c in cur]) * 100
@@ -74,7 +74,7 @@ def fig_selective(sel):
 def fig_deciles(sel):
     fig, (ax, bx) = plt.subplots(1, 2, figsize=(ONEHALF, 2.3))
 
-    for m, col, lab in (("ising", C_IS, "Ising"), ("free", C_FR, "free logit")):
+    for m, col, lab in (("ising", C_IS, "constrained logit"), ("free", C_FR, "free logit")):
         for cell, ls, mk in (("btc-15m", "-", "o"), ("eth-15m", "--", "s")):
             d = sel["focal"][cell]["models"][m]["deciles"]
             ax.plot([x["decile"] for x in d], [x["accuracy"] * 100 for x in d],

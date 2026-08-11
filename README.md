@@ -81,6 +81,17 @@ uv run python -m paper.fetch_exchanges          # Coinbase/OKX/Bybit/Binance 15m
 cd paper && npx dukascopy-node -i xauusd -from 2025-01-01 -to 2026-02-12 -t m15 -f json -dir natural_raw
 cd .. && uv run python -m paper.fetch_natural --fx
 uv run python -m paper.fetch_natural --alpaca     # IBIT, FBTC, COIN, MSTR
+
+# 9. Full wrapper panel + one-minute lead-lag data (Alpaca): the remaining
+#    spot-BTC ETFs (BITB, ARKB, HODL, BTCO, EZBC), spot-ETH ETFs, the
+#    futures-NAV BITO, 2x BITU/ETHU, FX ETFs, long-span era histories, and
+#    the IBIT 1-minute bars -> paper/wrapper_data/
+uv run python -m paper.fetch_paper2
+
+# 10. Taker-flow fields and perpetual-futures series (Binance)
+uv run python -m paper.fetch_bulk_flow            # flow fields, full 183-pair universe
+uv run python -m paper.fetch_flow                 # focal-coin flow series
+uv run python -m paper.fetch_perp                 # USDT-M perp klines + funding history
 ```
 
 Notes on data quirks documented in the paper: US-listed bars are 24-hour
@@ -101,6 +112,9 @@ uv run python -m paper.fdr               # conjunction p-values + joint BH FDR -
 uv run python -m paper.dependence        # joint time-block bootstrap of the class-mean AUC gap
 uv run python -m paper.dependence_sensitivity  # the gap bootstrap at B=5,000 across block lengths {192,384,768}
 uv run python -m paper.exante            # ex-ante (Jan-2025 volume) universe-selection robustness -> paper/out/exante.json
+uv run python -m paper.exante_primary    # headline statistics recomputed on the ex-ante universe
+uv run python -m paper.permutation_null  # exact permutation null: day-aligned circular label shifts applied to
+                                         #   every asset at once (dependence preserved) -> paper/out/permutation_null.json
 ```
 
 ## Everything else
@@ -143,6 +157,36 @@ uv run python -m paper.mechanism           # volatility-regime / time-of-day che
 uv run python -m paper.wide_horizon        # wide universe at 1h
 uv run python -m paper.tables              # within-crypto tables -> paper/out/tables.md
 
+# effect size, power, holdout
+uv run python -m paper.nonflat_gap         # all-bars + flat-bar-excluded class gap at B=5,000
+uv run python -m paper.joint_artifact      # BOTH artifact channels at once: one-bar-gap refit scored on
+                                           #   non-flat bars -> paper/out/joint_artifact.json
+uv run python -m paper.refit_joint         # refit-inclusive JOINT bootstrap of the class gap (shared block
+                                           #   draw, models refit inside every replicate; quantile subset)
+uv run python -m paper.power               # per-stock power + one-sided class-mean upper bound
+uv run python -m paper.nbaseline           # constrained logit truncated to N in {1,2,3,6,12}
+uv run python -m paper.reliability         # pooled reliability diagram + calibration slopes
+uv run python -m paper.holdout             # frozen pipeline on post-sample 2026-02..2026-08 data
+uv run python -m paper.holdout_did         # attenuation decomposition: composition vs decay
+uv run python -m paper.stability           # per-year AUC + per-quarter R, 2021-2026
+uv run python -m paper.bargrid             # off-grid bar openings (+1/+2/+5/+7 min) from 1s klines
+uv run python -m paper.factor_variance     # crypto-market-factor residualization + hour-of-day-stratified AUC
+
+# wrapper panel
+uv run python -m paper.panel               # every panel leg on session-matched RTH slots -> paper/out/panel.json
+uv run python -m paper.family_inference    # family-level gaps, permutation reassignment test
+uv run python -m paper.panel_fdr           # within-panel BH + the inheritance slope (b=1 vs b=0)
+uv run python -m paper.wrapper_events      # launch / era event studies (unpaired legs)
+uv run python -m paper.wrapper_gap_boot    # paired wrapper-minus-underlying gaps, shared block draw
+uv run python -m paper.leadlag             # one-minute IBIT vs BTC displaced correlations + diagnostics
+
+# mechanism
+uv run python -m paper.flow_test           # flow-driven vs flow-opposed conditioning, focal coins
+uv run python -m paper.flow_boot           # block-bootstrap CIs for the flip-rate differences
+uv run python -m paper.flow_cross          # 183-pair cross-section: delta-flip vs coupling/AUC
+uv run python -m paper.perp_test           # perpetual-futures replication; basis/funding conditioning
+uv run python -m paper.fee_test            # fee-band accounting behind the cost-of-capture figures
+
 # figures (written to figures/)
 uv run python -m paper.market_figures
 uv run python -m paper.figures
@@ -153,6 +197,9 @@ uv run python -m paper.micro_figures
 uv run python -m paper.sim_figures
 uv run python -m paper.selective_figures
 uv run python -m paper.signlag_figures
+uv run python -m paper.stability_figures
+uv run python -m paper.panel_figures
+uv run python -m paper.merged_figures      # m_location / m_transmission / m_flow
 ```
 
 Dependencies between steps: `paper.run` and `paper.wide --dump-oos` write

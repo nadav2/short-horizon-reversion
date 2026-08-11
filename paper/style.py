@@ -35,6 +35,11 @@ MODEL_COLOR = {"ising": OI["vermillion"], "free": OI["blue"], "l2": OI["sky"],
                "base": "0.55", "gbm": OI["green"], "mlp": OI["purple"]}
 
 SINGLE, ONEHALF, DOUBLE = 3.54, 5.51, 7.48      # inches = 90 / 140 / 190 mm
+TEXT = 6.5      # \linewidth of the manuscript (article, 10pt, 1in margins).
+                # savefig crops to a tight bbox, so a figure is *delivered*
+                # narrower than its canvas by the label margin: size the canvas
+                # so the crop lands on TEXT and \includegraphics[width=\linewidth]
+                # places it 1:1, leaving label point sizes untouched.
 
 plt.rcParams.update({
     "font.family": "sans-serif",

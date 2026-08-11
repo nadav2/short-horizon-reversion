@@ -1,0 +1,269 @@
+{
+  "config": {
+    "train": 1560,
+    "test": 260,
+    "block": 104,
+    "n_boot": 1000,
+    "seed": 7,
+    "note": "legs intersected on timestamps; blocks resampled once per replicate and applied to both legs"
+  },
+  "summary": {
+    "n_cells": 14,
+    "mean_abs_gap": 0.005303022651829767,
+    "n_ci_covering_zero": 13
+  },
+  "rows": [
+    {
+      "cell": "ibit_birth",
+      "wrapper": "ibit",
+      "underlying": "btc",
+      "group": "launch",
+      "start": "2024-01-11",
+      "end": "2024-07-11",
+      "n_shared_bars": 3250,
+      "n_oos": 1690,
+      "auc_wrapper": 0.5188674092343374,
+      "auc_underlying": 0.5101900422565206,
+      "gap": 0.008677366977816736,
+      "gap_ci": [
+        -0.00755424393294373,
+        0.029392754627888724
+      ],
+      "p_two_sided": 0.332
+    },
+    {
+      "cell": "fbtc_birth",
+      "wrapper": "fbtc",
+      "underlying": "btc",
+      "group": "launch",
+      "start": "2024-01-11",
+      "end": "2024-07-11",
+      "n_shared_bars": 3250,
+      "n_oos": 1690,
+      "auc_wrapper": 0.5246988533950683,
+      "auc_underlying": 0.5101900422565206,
+      "gap": 0.014508811138547628,
+      "gap_ci": [
+        0.0017523204116106027,
+        0.03139210466240659
+      ],
+      "p_two_sided": 0.02
+    },
+    {
+      "cell": "gbtc_birth",
+      "wrapper": "gbtc",
+      "underlying": "btc",
+      "group": "launch",
+      "start": "2024-01-11",
+      "end": "2024-07-11",
+      "n_shared_bars": 3250,
+      "n_oos": 1690,
+      "auc_wrapper": 0.5213474113506467,
+      "auc_underlying": 0.5101900422565206,
+      "gap": 0.011157369094126013,
+      "gap_ci": [
+        -0.007631087773189377,
+        0.027576572938452934
+      ],
+      "p_two_sided": 0.28
+    },
+    {
+      "cell": "etha_birth",
+      "wrapper": "etha",
+      "underlying": "eth",
+      "group": "launch",
+      "start": "2024-07-23",
+      "end": "2025-01-23",
+      "n_shared_bars": 3302,
+      "n_oos": 1742,
+      "auc_wrapper": 0.48452659664220027,
+      "auc_underlying": 0.4770080384834483,
+      "gap": 0.0075185581587519645,
+      "gap_ci": [
+        -0.0054406044041279715,
+        0.01948360831105182
+      ],
+      "p_two_sided": 0.312
+    },
+    {
+      "cell": "feth_birth",
+      "wrapper": "feth",
+      "underlying": "eth",
+      "group": "launch",
+      "start": "2024-07-23",
+      "end": "2025-01-23",
+      "n_shared_bars": 3297,
+      "n_oos": 1737,
+      "auc_wrapper": 0.4825995306844848,
+      "auc_underlying": 0.4828452826184982,
+      "gap": -0.0002457519340133829,
+      "gap_ci": [
+        -0.01944057965145598,
+        0.01734444855646699
+      ],
+      "p_two_sided": 0.828
+    },
+    {
+      "cell": "ethe_birth",
+      "wrapper": "ethe",
+      "underlying": "eth",
+      "group": "launch",
+      "start": "2024-07-23",
+      "end": "2025-01-23",
+      "n_shared_bars": 3300,
+      "n_oos": 1740,
+      "auc_wrapper": 0.47166457880743595,
+      "auc_underlying": 0.4775733369986414,
+      "gap": -0.005908758191205454,
+      "gap_ci": [
+        -0.024105323191214303,
+        0.005555341574913908
+      ],
+      "p_two_sided": 0.23
+    },
+    {
+      "cell": "bito_early",
+      "wrapper": "bito",
+      "underlying": "btc",
+      "group": "futures",
+      "start": "2021-10-19",
+      "end": "2023-12-31",
+      "n_shared_bars": 14371,
+      "n_oos": 12811,
+      "auc_wrapper": 0.5151476952731056,
+      "auc_underlying": 0.5073761395639766,
+      "gap": 0.007771555709128908,
+      "gap_ci": [
+        -0.000980688272291419,
+        0.016440327557462355
+      ],
+      "p_two_sided": 0.08
+    },
+    {
+      "cell": "bito_late",
+      "wrapper": "bito",
+      "underlying": "btc",
+      "group": "futures",
+      "start": "2024-01-11",
+      "end": "2026-02-11",
+      "n_shared_bars": 13572,
+      "n_oos": 12012,
+      "auc_wrapper": 0.5068945081790026,
+      "auc_underlying": 0.5057151712605237,
+      "gap": 0.0011793369184789348,
+      "gap_ci": [
+        -0.005617906785921106,
+        0.008142249221425231
+      ],
+      "p_two_sided": 0.792
+    },
+    {
+      "cell": "bitu_panel",
+      "wrapper": "bitu",
+      "underlying": "btc",
+      "group": "leveraged",
+      "start": "2025-01-01",
+      "end": "2026-02-11",
+      "n_shared_bars": 7202,
+      "n_oos": 5642,
+      "auc_wrapper": 0.5271631954245107,
+      "auc_underlying": 0.5176058568068038,
+      "gap": 0.009557338617706912,
+      "gap_ci": [
+        -0.00163131662372086,
+        0.02123534248333073
+      ],
+      "p_two_sided": 0.08
+    },
+    {
+      "cell": "ethu_panel",
+      "wrapper": "ethu",
+      "underlying": "eth",
+      "group": "leveraged",
+      "start": "2025-01-01",
+      "end": "2026-02-11",
+      "n_shared_bars": 7202,
+      "n_oos": 5642,
+      "auc_wrapper": 0.5216187581188548,
+      "auc_underlying": 0.5214998311136846,
+      "gap": 0.00011892700517024402,
+      "gap_ci": [
+        -0.008713085464127893,
+        0.008318501428973715
+      ],
+      "p_two_sided": 0.932
+    },
+    {
+      "cell": "ibit_full",
+      "wrapper": "ibit",
+      "underlying": "btc",
+      "group": "full",
+      "start": "2024-01-11",
+      "end": "2026-02-11",
+      "n_shared_bars": 13572,
+      "n_oos": 12012,
+      "auc_wrapper": 0.507634563684664,
+      "auc_underlying": 0.5057151712605237,
+      "gap": 0.0019193924241402982,
+      "gap_ci": [
+        -0.0032947552122683244,
+        0.007062982468249054
+      ],
+      "p_two_sided": 0.506
+    },
+    {
+      "cell": "fbtc_full",
+      "wrapper": "fbtc",
+      "underlying": "btc",
+      "group": "full",
+      "start": "2024-01-11",
+      "end": "2026-02-11",
+      "n_shared_bars": 13568,
+      "n_oos": 12008,
+      "auc_wrapper": 0.5070539674169712,
+      "auc_underlying": 0.5058853773911127,
+      "gap": 0.0011685900258584514,
+      "gap_ci": [
+        -0.004919891056505377,
+        0.006550419338462937
+      ],
+      "p_two_sided": 0.694
+    },
+    {
+      "cell": "gbtc_etf",
+      "wrapper": "gbtc",
+      "underlying": "btc",
+      "group": "full",
+      "start": "2024-01-11",
+      "end": "2026-02-11",
+      "n_shared_bars": 13558,
+      "n_oos": 11998,
+      "auc_wrapper": 0.5092921801814119,
+      "auc_underlying": 0.5052346479360499,
+      "gap": 0.004057532245361983,
+      "gap_ci": [
+        -0.0018638293254250344,
+        0.01018266496348617
+      ],
+      "p_two_sided": 0.156
+    },
+    {
+      "cell": "ethe_etf",
+      "wrapper": "ethe",
+      "underlying": "eth",
+      "group": "full",
+      "start": "2024-07-23",
+      "end": "2026-02-11",
+      "n_shared_bars": 10129,
+      "n_oos": 8569,
+      "auc_wrapper": 0.5104129432324331,
+      "auc_underlying": 0.5099599145471233,
+      "gap": 0.00045302868530983087,
+      "gap_ci": [
+        -0.006368000054639863,
+        0.00653022308372908
+      ],
+      "p_two_sided": 0.922
+    }
+  ]
+}

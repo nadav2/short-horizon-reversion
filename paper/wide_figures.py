@@ -25,7 +25,7 @@ def fig_dist(cr, st):
     axes[0].hist(auc_s, bins=bins, color=C_STOCK, alpha=0.65, label=f"stocks/ETFs (n={len(st)})")
     axes[0].hist(auc_c, bins=bins, color=C_CRYPTO, alpha=0.65, label=f"crypto (n={len(cr)})")
     axes[0].axvline(0.5, color="k", lw=0.8, ls="--")
-    axes[0].set_xlabel("out-of-sample Ising AUC (15 m)")
+    axes[0].set_xlabel("out-of-sample AUC, constrained logit (15 m)")
     axes[0].set_ylabel("number of assets")
     axes[0].legend()
     letter(axes[0], "(a)")
@@ -51,7 +51,7 @@ def fig_sharpe(cr, st):
     ax.hist(sh_c, bins=bins, color=C_CRYPTO, alpha=0.65,
             label=f"crypto (median {np.median(sh_c):.2f})")
     ax.axvline(0, color="k", lw=0.8, ls="--")
-    ax.set_xlabel(r"annualized Sharpe, Ising strategy ($\rho$=1)")
+    ax.set_xlabel(r"annualized Sharpe, constrained-logit strategy ($\rho$=1)")
     ax.set_ylabel("number of assets")
     ax.legend()
     save(fig, "wide_sharpe")

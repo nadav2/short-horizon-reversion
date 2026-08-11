@@ -1,0 +1,58 @@
+{
+  "multiplicity": {
+    "n_legs": 33,
+    "q": 0.05,
+    "n_sig_raw": 13,
+    "n_sig_bh": 9,
+    "lost_under_bh": [
+      "BTC",
+      "BTCO",
+      "EZBC",
+      "BITO"
+    ],
+    "bh_threshold_at_last_pass": 0.009,
+    "spot_btc_funds_raw": "8/8",
+    "spot_btc_funds_bh": "6/8",
+    "surviving": [
+      "XPTUSD",
+      "XPDUSD",
+      "IBIT",
+      "FBTC",
+      "BITB",
+      "ARKB",
+      "HODL",
+      "GBTC",
+      "BITU"
+    ]
+  },
+  "inheritance": {
+    "n_families": 8,
+    "dof": 6,
+    "t_crit_975": 2.447,
+    "slope": 0.6900422322667804,
+    "slope_se": 0.3220872189554089,
+    "slope_ci95": [
+      -0.09810519251710526,
+      1.478189657050666
+    ],
+    "intercept": 0.15243263330115825,
+    "intercept_se": 0.16585568874409243,
+    "t_vs_full_inheritance_b1": -0.962341097353917,
+    "p_vs_full_inheritance_b1": 0.37308399767404854,
+    "t_vs_no_inheritance_b0": 2.142407992793755,
+    "p_vs_no_inheritance_b0": 0.0759141650288564,
+    "corr_all": 0.6583487330786824,
+    "corr_leave_one_family_out": {
+      "bitcoin": 0.6075821660889229,
+      "ether": 0.6177625202870687,
+      "euro": 0.6300076432036321,
+      "gold": 0.7017414926928145,
+      "palladium": 0.6659169580005104,
+      "platinum": 0.739523288796377,
+      "silver": 0.7121098343222574,
+      "yen": 0.6361904550355383
+    },
+    "corr_excluding_crypto_families": 0.5261629844709852,
+    "n_excluding_crypto": 6
+  }
+}

@@ -1,0 +1,3737 @@
+{
+  "config": {
+    "interval": "15m",
+    "train": 5760,
+    "test": 960,
+    "block": 384,
+    "n_boot": 300,
+    "seed": 20260809,
+    "models": [
+      "ising",
+      "free"
+    ],
+    "n_lags": 12
+  },
+  "summary": {
+    "crypto": {
+      "n": 183,
+      "mean_auc_ising": 0.49866971271626387,
+      "mean_auc_free": 0.4998123785893931,
+      "n_two_model_sig_raw": 1,
+      "n_two_model_sig_bh": 0
+    },
+    "stock": {
+      "n": 187,
+      "mean_auc_ising": 0.49632288966902016,
+      "mean_auc_free": 0.4982296707293824,
+      "n_two_model_sig_raw": 2,
+      "n_two_model_sig_bh": 0
+    }
+  },
+  "class_mean_gap_ising": 0.002346823047243707,
+  "n_total": 370,
+  "n_sig_bh_total": 0,
+  "n_sig_raw_total": 3,
+  "rows": [
+    {
+      "asset": "0g",
+      "class": "crypto",
+      "auc_ising": 0.49679269970740025,
+      "auc_free": 0.5002188681101165,
+      "p_ising": 0.7933333333333333,
+      "p_free": 0.5033333333333333,
+      "n_oos": 7833,
+      "n_folds": 9
+    },
+    {
+      "asset": "a2z",
+      "class": "crypto",
+      "auc_ising": 0.5042603229946405,
+      "auc_free": 0.5017291656685015,
+      "p_ising": 0.18,
+      "p_free": 0.4066666666666667,
+      "n_oos": 13025,
+      "n_folds": 14
+    },
+    {
+      "asset": "aapl",
+      "class": "stock",
+      "auc_ising": 0.49274405126682386,
+      "auc_free": 0.4920179678171377,
+      "p_ising": 0.8766666666666667,
+      "p_free": 0.8833333333333333,
+      "n_oos": 11940,
+      "n_folds": 13
+    },
+    {
+      "asset": "aave",
+      "class": "crypto",
+      "auc_ising": 0.49622283843921505,
+      "auc_free": 0.4942440977440922,
+      "p_ising": 0.91,
+      "p_free": 0.97,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "abbv",
+      "class": "stock",
+      "auc_ising": 0.4883250909765325,
+      "auc_free": 0.5064210255274478,
+      "p_ising": 0.98,
+      "p_free": 0.13666666666666666,
+      "n_oos": 4265,
+      "n_folds": 5
+    },
+    {
+      "asset": "abnb",
+      "class": "stock",
+      "auc_ising": 0.4952931502994751,
+      "auc_free": 0.5036023084091586,
+      "p_ising": 0.6933333333333334,
+      "p_free": 0.39666666666666667,
+      "n_oos": 5462,
+      "n_folds": 6
+    },
+    {
+      "asset": "abt",
+      "class": "stock",
+      "auc_ising": 0.5061583541301945,
+      "auc_free": 0.5084749000270288,
+      "p_ising": 0.34,
+      "p_free": 0.2633333333333333,
+      "n_oos": 3580,
+      "n_folds": 4
+    },
+    {
+      "asset": "ach",
+      "class": "crypto",
+      "auc_ising": 0.49859907683946164,
+      "auc_free": 0.49490642738681856,
+      "p_ising": 0.6866666666666666,
+      "p_free": 0.9366666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "acm",
+      "class": "crypto",
+      "auc_ising": 0.5065660840744892,
+      "auc_free": 0.5048581863642887,
+      "p_ising": 0.043333333333333335,
+      "p_free": 0.06333333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "ada",
+      "class": "crypto",
+      "auc_ising": 0.5017842397254162,
+      "auc_free": 0.5055183705183706,
+      "p_ising": 0.28,
+      "p_free": 0.04666666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "adbe",
+      "class": "stock",
+      "auc_ising": 0.4928452092410721,
+      "auc_free": 0.5046187514051812,
+      "p_ising": 0.84,
+      "p_free": 0.18333333333333332,
+      "n_oos": 7045,
+      "n_folds": 8
+    },
+    {
+      "asset": "adi",
+      "class": "stock",
+      "auc_ising": 0.4832267234054033,
+      "auc_free": 0.5094313537718671,
+      "p_ising": 0.9366666666666666,
+      "p_free": 0.25,
+      "n_oos": 3474,
+      "n_folds": 4
+    },
+    {
+      "asset": "aep",
+      "class": "stock",
+      "auc_ising": 0.48602435258731147,
+      "auc_free": 0.485835701532903,
+      "p_ising": 0.9233333333333333,
+      "p_free": 0.7866666666666666,
+      "n_oos": 3280,
+      "n_folds": 4
+    },
+    {
+      "asset": "aixbt",
+      "class": "crypto",
+      "auc_ising": 0.5027270572835393,
+      "auc_free": 0.5010104078045415,
+      "p_ising": 0.18,
+      "p_free": 0.37,
+      "n_oos": 32301,
+      "n_folds": 34
+    },
+    {
+      "asset": "algo",
+      "class": "crypto",
+      "auc_ising": 0.5030212994804135,
+      "auc_free": 0.5046300414616662,
+      "p_ising": 0.13666666666666666,
+      "p_free": 0.04,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "allo",
+      "class": "crypto",
+      "auc_ising": 0.517569996914367,
+      "auc_free": 0.5091298962064601,
+      "p_ising": 0.0033333333333333335,
+      "p_free": 0.07,
+      "n_oos": 3017,
+      "n_folds": 4
+    },
+    {
+      "asset": "amat",
+      "class": "stock",
+      "auc_ising": 0.5032080004756201,
+      "auc_free": 0.5004011953878229,
+      "p_ising": 0.31,
+      "p_free": 0.49666666666666665,
+      "n_oos": 7523,
+      "n_folds": 8
+    },
+    {
+      "asset": "amd",
+      "class": "stock",
+      "auc_ising": 0.5029916944902346,
+      "auc_free": 0.502702081610535,
+      "p_ising": 0.31333333333333335,
+      "p_free": 0.39666666666666667,
+      "n_oos": 11978,
+      "n_folds": 13
+    },
+    {
+      "asset": "amgn",
+      "class": "stock",
+      "auc_ising": 0.503413755227393,
+      "auc_free": 0.49051889019054634,
+      "p_ising": 0.49,
+      "p_free": 0.8866666666666667,
+      "n_oos": 3676,
+      "n_folds": 4
+    },
+    {
+      "asset": "amzn",
+      "class": "stock",
+      "auc_ising": 0.4870462862248618,
+      "auc_free": 0.4982907336823463,
+      "p_ising": 1.0,
+      "p_free": 0.6166666666666667,
+      "n_oos": 11963,
+      "n_folds": 13
+    },
+    {
+      "asset": "anet",
+      "class": "stock",
+      "auc_ising": 0.49485361132662514,
+      "auc_free": 0.49925416481127693,
+      "p_ising": 0.82,
+      "p_free": 0.56,
+      "n_oos": 9209,
+      "n_folds": 10
+    },
+    {
+      "asset": "ape",
+      "class": "crypto",
+      "auc_ising": 0.49628764114443197,
+      "auc_free": 0.49628268495215544,
+      "p_ising": 0.8833333333333333,
+      "p_free": 0.8266666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "apt",
+      "class": "crypto",
+      "auc_ising": 0.5016828197079338,
+      "auc_free": 0.501740416334888,
+      "p_ising": 0.27,
+      "p_free": 0.31333333333333335,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "ar",
+      "class": "crypto",
+      "auc_ising": 0.49853275978035694,
+      "auc_free": 0.5001715227903578,
+      "p_ising": 0.6666666666666666,
+      "p_free": 0.48333333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "arb",
+      "class": "crypto",
+      "auc_ising": 0.5017502382328737,
+      "auc_free": 0.4945635719888597,
+      "p_ising": 0.32,
+      "p_free": 0.9566666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "arkk",
+      "class": "stock",
+      "auc_ising": 0.4940328759756941,
+      "auc_free": 0.49405130744424003,
+      "p_ising": 0.8766666666666667,
+      "p_free": 0.8333333333333334,
+      "n_oos": 9377,
+      "n_folds": 10
+    },
+    {
+      "asset": "arkm",
+      "class": "crypto",
+      "auc_ising": 0.4932804717347819,
+      "auc_free": 0.495651940123053,
+      "p_ising": 0.9733333333333334,
+      "p_free": 0.9333333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "asr",
+      "class": "crypto",
+      "auc_ising": 0.49532584925047607,
+      "auc_free": 0.4962684805272497,
+      "p_ising": 0.95,
+      "p_free": 0.9033333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "aster",
+      "class": "crypto",
+      "auc_ising": 0.4998958974075431,
+      "auc_free": 0.49728315751562163,
+      "p_ising": 0.5366666666666666,
+      "p_free": 0.7233333333333334,
+      "n_oos": 6481,
+      "n_folds": 7
+    },
+    {
+      "asset": "ata",
+      "class": "crypto",
+      "auc_ising": 0.4938880269230008,
+      "auc_free": 0.5021257189690067,
+      "p_ising": 0.96,
+      "p_free": 0.21,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "atm",
+      "class": "crypto",
+      "auc_ising": 0.49994218875249774,
+      "auc_free": 0.4975332105739029,
+      "p_ising": 0.5033333333333333,
+      "p_free": 0.8233333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "atom",
+      "class": "crypto",
+      "auc_ising": 0.4946521722087474,
+      "auc_free": 0.5047584025833528,
+      "p_ising": 0.9566666666666667,
+      "p_free": 0.07666666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "avax",
+      "class": "crypto",
+      "auc_ising": 0.49483597196582485,
+      "auc_free": 0.496625961369343,
+      "p_ising": 0.9666666666666667,
+      "p_free": 0.8266666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "avgo",
+      "class": "stock",
+      "auc_ising": 0.5000371795176755,
+      "auc_free": 0.5043857270440986,
+      "p_ising": 0.43333333333333335,
+      "p_free": 0.2633333333333333,
+      "n_oos": 11780,
+      "n_folds": 13
+    },
+    {
+      "asset": "avnt",
+      "class": "crypto",
+      "auc_ising": 0.49696878466766586,
+      "auc_free": 0.5085995461355264,
+      "p_ising": 0.7433333333333333,
+      "p_free": 0.15666666666666668,
+      "n_oos": 8525,
+      "n_folds": 9
+    },
+    {
+      "asset": "axp",
+      "class": "stock",
+      "auc_ising": 0.5028400131053975,
+      "auc_free": 0.5156647992787657,
+      "p_ising": 0.36,
+      "p_free": 0.08333333333333333,
+      "n_oos": 4327,
+      "n_folds": 5
+    },
+    {
+      "asset": "axs",
+      "class": "crypto",
+      "auc_ising": 0.5028733360008795,
+      "auc_free": 0.49582348778391516,
+      "p_ising": 0.16333333333333333,
+      "p_free": 0.88,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "ba",
+      "class": "stock",
+      "auc_ising": 0.49951387798916114,
+      "auc_free": 0.4986862818283153,
+      "p_ising": 0.6033333333333334,
+      "p_free": 0.48333333333333334,
+      "n_oos": 9831,
+      "n_folds": 11
+    },
+    {
+      "asset": "baby",
+      "class": "crypto",
+      "auc_ising": 0.5030438691074548,
+      "auc_free": 0.49897470350276585,
+      "p_ising": 0.21666666666666667,
+      "p_free": 0.6266666666666667,
+      "n_oos": 23669,
+      "n_folds": 25
+    },
+    {
+      "asset": "bac",
+      "class": "stock",
+      "auc_ising": 0.49208719709299475,
+      "auc_free": 0.49978420991029077,
+      "p_ising": 0.9733333333333334,
+      "p_free": 0.51,
+      "n_oos": 9590,
+      "n_folds": 10
+    },
+    {
+      "asset": "bananas31",
+      "class": "crypto",
+      "auc_ising": 0.4999485474964013,
+      "auc_free": 0.5025774346052677,
+      "p_ising": 0.47,
+      "p_free": 0.13,
+      "n_oos": 24973,
+      "n_folds": 27
+    },
+    {
+      "asset": "bch",
+      "class": "crypto",
+      "auc_ising": 0.4960673473706583,
+      "auc_free": 0.49822520643557894,
+      "p_ising": 0.9333333333333333,
+      "p_free": 0.7666666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "bio",
+      "class": "crypto",
+      "auc_ising": 0.49664648297959396,
+      "auc_free": 0.4981110603723406,
+      "p_ising": 0.8466666666666667,
+      "p_free": 0.7566666666666667,
+      "n_oos": 32985,
+      "n_folds": 35
+    },
+    {
+      "asset": "blk",
+      "class": "stock",
+      "auc_ising": 0.507288265891914,
+      "auc_free": 0.49494833318357445,
+      "p_ising": 0.11333333333333333,
+      "p_free": 0.7666666666666667,
+      "n_oos": 3190,
+      "n_folds": 4
+    },
+    {
+      "asset": "bmy",
+      "class": "stock",
+      "auc_ising": 0.5075382628101753,
+      "auc_free": 0.50768679817966,
+      "p_ising": 0.15,
+      "p_free": 0.31,
+      "n_oos": 7088,
+      "n_folds": 8
+    },
+    {
+      "asset": "bnb",
+      "class": "crypto",
+      "auc_ising": 0.4986784191214356,
+      "auc_free": 0.4984909689659054,
+      "p_ising": 0.6633333333333333,
+      "p_free": 0.7033333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "bnd",
+      "class": "stock",
+      "auc_ising": 0.4849590685999026,
+      "auc_free": 0.48244239631336405,
+      "p_ising": 0.95,
+      "p_free": 0.9,
+      "n_oos": 4730,
+      "n_folds": 5
+    },
+    {
+      "asset": "bonk",
+      "class": "crypto",
+      "auc_ising": 0.5039678925212213,
+      "auc_free": 0.5015004445949901,
+      "p_ising": 0.08333333333333333,
+      "p_free": 0.23666666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "brk-b",
+      "class": "stock",
+      "auc_ising": 0.5047657102672796,
+      "auc_free": 0.5035896860474847,
+      "p_ising": 0.2,
+      "p_free": 0.20333333333333334,
+      "n_oos": 8571,
+      "n_folds": 9
+    },
+    {
+      "asset": "broccoli714",
+      "class": "crypto",
+      "auc_ising": 0.5012631772003451,
+      "auc_free": 0.4990558401805286,
+      "p_ising": 0.3933333333333333,
+      "p_free": 0.5733333333333334,
+      "n_oos": 24973,
+      "n_folds": 27
+    },
+    {
+      "asset": "bsx",
+      "class": "stock",
+      "auc_ising": 0.4984203262690857,
+      "auc_free": 0.4951522750512499,
+      "p_ising": 0.5066666666666667,
+      "p_free": 0.5533333333333333,
+      "n_oos": 3877,
+      "n_folds": 5
+    },
+    {
+      "asset": "btc",
+      "class": "crypto",
+      "auc_ising": 0.506666590532954,
+      "auc_free": 0.5077838237613317,
+      "p_ising": 0.01,
+      "p_free": 0.0033333333333333335,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "c",
+      "class": "stock",
+      "auc_ising": 0.4875649539019635,
+      "auc_free": 0.4876156780617842,
+      "p_ising": 0.97,
+      "p_free": 0.9733333333333334,
+      "n_oos": 7861,
+      "n_folds": 9
+    },
+    {
+      "asset": "cake",
+      "class": "crypto",
+      "auc_ising": 0.5039653101502144,
+      "auc_free": 0.4957287343301975,
+      "p_ising": 0.12,
+      "p_free": 0.9033333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "carr",
+      "class": "stock",
+      "auc_ising": 0.5184636460118374,
+      "auc_free": 0.4969854503759719,
+      "p_ising": 0.0,
+      "p_free": 0.64,
+      "n_oos": 3127,
+      "n_folds": 4
+    },
+    {
+      "asset": "cat",
+      "class": "stock",
+      "auc_ising": 0.4734413746126762,
+      "auc_free": 0.49700387727060097,
+      "p_ising": 1.0,
+      "p_free": 0.6266666666666667,
+      "n_oos": 4706,
+      "n_folds": 5
+    },
+    {
+      "asset": "cdns",
+      "class": "stock",
+      "auc_ising": 0.5089843059002079,
+      "auc_free": 0.5074258072302303,
+      "p_ising": 0.14666666666666667,
+      "p_free": 0.45666666666666667,
+      "n_oos": 3502,
+      "n_folds": 4
+    },
+    {
+      "asset": "cfx",
+      "class": "crypto",
+      "auc_ising": 0.5006230047579596,
+      "auc_free": 0.4993985406429563,
+      "p_ising": 0.4766666666666667,
+      "p_free": 0.6466666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "chz",
+      "class": "crypto",
+      "auc_ising": 0.5015876357152917,
+      "auc_free": 0.49969184518346277,
+      "p_ising": 0.33,
+      "p_free": 0.5633333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "city",
+      "class": "crypto",
+      "auc_ising": 0.5012216498735844,
+      "auc_free": 0.5001831951507997,
+      "p_ising": 0.41333333333333333,
+      "p_free": 0.5,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "cl",
+      "class": "stock",
+      "auc_ising": 0.47187343521322883,
+      "auc_free": 0.4801082279021709,
+      "p_ising": 1.0,
+      "p_free": 0.9733333333333334,
+      "n_oos": 3643,
+      "n_folds": 4
+    },
+    {
+      "asset": "cmcsa",
+      "class": "stock",
+      "auc_ising": 0.4936528614241882,
+      "auc_free": 0.4944480832727701,
+      "p_ising": 0.8566666666666667,
+      "p_free": 0.73,
+      "n_oos": 7533,
+      "n_folds": 8
+    },
+    {
+      "asset": "cmg",
+      "class": "stock",
+      "auc_ising": 0.4987393897229927,
+      "auc_free": 0.5019368261953621,
+      "p_ising": 0.43,
+      "p_free": 0.45666666666666667,
+      "n_oos": 8508,
+      "n_folds": 9
+    },
+    {
+      "asset": "cof",
+      "class": "stock",
+      "auc_ising": 0.51232509628344,
+      "auc_free": 0.5012064228638131,
+      "p_ising": 0.006666666666666667,
+      "p_free": 0.53,
+      "n_oos": 4134,
+      "n_folds": 5
+    },
+    {
+      "asset": "coin",
+      "class": "stock",
+      "auc_ising": 0.5003117198736824,
+      "auc_free": 0.5021241172705029,
+      "p_ising": 0.5566666666666666,
+      "p_free": 0.3233333333333333,
+      "n_oos": 11810,
+      "n_folds": 13
+    },
+    {
+      "asset": "cop",
+      "class": "stock",
+      "auc_ising": 0.49732774498317267,
+      "auc_free": 0.49332263138126164,
+      "p_ising": 0.61,
+      "p_free": 0.7566666666666667,
+      "n_oos": 5389,
+      "n_folds": 6
+    },
+    {
+      "asset": "cos",
+      "class": "crypto",
+      "auc_ising": 0.4940919758544947,
+      "auc_free": 0.5004189275085709,
+      "p_ising": 0.98,
+      "p_free": 0.4266666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "cost",
+      "class": "stock",
+      "auc_ising": 0.5071148816894162,
+      "auc_free": 0.5054352295807216,
+      "p_ising": 0.15666666666666668,
+      "p_free": 0.22333333333333333,
+      "n_oos": 5538,
+      "n_folds": 6
+    },
+    {
+      "asset": "crm",
+      "class": "stock",
+      "auc_ising": 0.5021348408876245,
+      "auc_free": 0.5055567803466352,
+      "p_ising": 0.37333333333333335,
+      "p_free": 0.16333333333333333,
+      "n_oos": 7868,
+      "n_folds": 9
+    },
+    {
+      "asset": "crv",
+      "class": "crypto",
+      "auc_ising": 0.49389067015093935,
+      "auc_free": 0.5035550058578591,
+      "p_ising": 0.9633333333333334,
+      "p_free": 0.1,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "crwd",
+      "class": "stock",
+      "auc_ising": 0.4908342056948764,
+      "auc_free": 0.4953640921356162,
+      "p_ising": 0.9066666666666666,
+      "p_free": 0.8133333333333334,
+      "n_oos": 7903,
+      "n_folds": 9
+    },
+    {
+      "asset": "csco",
+      "class": "stock",
+      "auc_ising": 0.5001360334701139,
+      "auc_free": 0.49714175426993135,
+      "p_ising": 0.7533333333333333,
+      "p_free": 0.7666666666666667,
+      "n_oos": 8433,
+      "n_folds": 9
+    },
+    {
+      "asset": "csx",
+      "class": "stock",
+      "auc_ising": 0.48762759408867906,
+      "auc_free": 0.5050191439492955,
+      "p_ising": 0.9433333333333334,
+      "p_free": 0.36,
+      "n_oos": 5004,
+      "n_folds": 6
+    },
+    {
+      "asset": "ctsi",
+      "class": "crypto",
+      "auc_ising": 0.496267931131752,
+      "auc_free": 0.500396607249579,
+      "p_ising": 0.89,
+      "p_free": 0.43,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "cvs",
+      "class": "stock",
+      "auc_ising": 0.4906974502422165,
+      "auc_free": 0.4895431537916868,
+      "p_ising": 0.96,
+      "p_free": 0.92,
+      "n_oos": 5952,
+      "n_folds": 7
+    },
+    {
+      "asset": "cvx",
+      "class": "stock",
+      "auc_ising": 0.5002743385260406,
+      "auc_free": 0.4990130691150666,
+      "p_ising": 0.5433333333333333,
+      "p_free": 0.5966666666666667,
+      "n_oos": 7409,
+      "n_folds": 8
+    },
+    {
+      "asset": "d",
+      "class": "stock",
+      "auc_ising": 0.5021198199164301,
+      "auc_free": 0.4951570714282579,
+      "p_ising": 0.4866666666666667,
+      "p_free": 0.8166666666666667,
+      "n_oos": 3613,
+      "n_folds": 4
+    },
+    {
+      "asset": "dash",
+      "class": "crypto",
+      "auc_ising": 0.4971949115319511,
+      "auc_free": 0.4989002420756057,
+      "p_ising": 0.7833333333333333,
+      "p_free": 0.5933333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "dd",
+      "class": "stock",
+      "auc_ising": 0.4944567091173659,
+      "auc_free": 0.47671572109237925,
+      "p_ising": 0.6866666666666666,
+      "p_free": 1.0,
+      "n_oos": 3249,
+      "n_folds": 4
+    },
+    {
+      "asset": "ddog",
+      "class": "stock",
+      "auc_ising": 0.4841686577341191,
+      "auc_free": 0.4972255514471503,
+      "p_ising": 0.9966666666666667,
+      "p_free": 0.6433333333333333,
+      "n_oos": 6095,
+      "n_folds": 7
+    },
+    {
+      "asset": "dent",
+      "class": "crypto",
+      "auc_ising": 0.49936770255663543,
+      "auc_free": 0.5011502361581757,
+      "p_ising": 0.61,
+      "p_free": 0.38666666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "dexe",
+      "class": "crypto",
+      "auc_ising": 0.4983709240084296,
+      "auc_free": 0.49518588776439265,
+      "p_ising": 0.6933333333333334,
+      "p_free": 0.9666666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "dg",
+      "class": "stock",
+      "auc_ising": 0.5004565231769987,
+      "auc_free": 0.5063879694520093,
+      "p_ising": 0.5433333333333333,
+      "p_free": 0.15333333333333332,
+      "n_oos": 4120,
+      "n_folds": 5
+    },
+    {
+      "asset": "dia",
+      "class": "stock",
+      "auc_ising": 0.5008910812334098,
+      "auc_free": 0.5085915512163194,
+      "p_ising": 0.5066666666666667,
+      "p_free": 0.07,
+      "n_oos": 9460,
+      "n_folds": 10
+    },
+    {
+      "asset": "dis",
+      "class": "stock",
+      "auc_ising": 0.49145539157182183,
+      "auc_free": 0.49586074276104164,
+      "p_ising": 0.9433333333333334,
+      "p_free": 0.6933333333333334,
+      "n_oos": 8002,
+      "n_folds": 9
+    },
+    {
+      "asset": "dltr",
+      "class": "stock",
+      "auc_ising": 0.48782220663110964,
+      "auc_free": 0.5006739665652081,
+      "p_ising": 0.9266666666666666,
+      "p_free": 0.4066666666666667,
+      "n_oos": 3732,
+      "n_folds": 4
+    },
+    {
+      "asset": "doge",
+      "class": "crypto",
+      "auc_ising": 0.5008454955390019,
+      "auc_free": 0.5024121707909255,
+      "p_ising": 0.37666666666666665,
+      "p_free": 0.16333333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "dogs",
+      "class": "crypto",
+      "auc_ising": 0.4998090832218588,
+      "auc_free": 0.5010180686918024,
+      "p_ising": 0.5633333333333334,
+      "p_free": 0.37,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "dot",
+      "class": "crypto",
+      "auc_ising": 0.5010722736952532,
+      "auc_free": 0.500241495418064,
+      "p_ising": 0.36333333333333334,
+      "p_free": 0.4166666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "dow",
+      "class": "stock",
+      "auc_ising": 0.4996520210010813,
+      "auc_free": 0.49735344378149804,
+      "p_ising": 0.52,
+      "p_free": 0.6433333333333333,
+      "n_oos": 7456,
+      "n_folds": 8
+    },
+    {
+      "asset": "duk",
+      "class": "stock",
+      "auc_ising": 0.5107331867015684,
+      "auc_free": 0.5256904630304726,
+      "p_ising": 0.2,
+      "p_free": 0.01,
+      "n_oos": 3277,
+      "n_folds": 4
+    },
+    {
+      "asset": "dvn",
+      "class": "stock",
+      "auc_ising": 0.48435495585844784,
+      "auc_free": 0.5108303627740425,
+      "p_ising": 0.9966666666666667,
+      "p_free": 0.03,
+      "n_oos": 7345,
+      "n_folds": 8
+    },
+    {
+      "asset": "dydx",
+      "class": "crypto",
+      "auc_ising": 0.5004604759739517,
+      "auc_free": 0.49989124334530977,
+      "p_ising": 0.37,
+      "p_free": 0.46,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "eden",
+      "class": "crypto",
+      "auc_ising": 0.5022435966485962,
+      "auc_free": 0.5019150156419738,
+      "p_ising": 0.49,
+      "p_free": 0.44666666666666666,
+      "n_oos": 7061,
+      "n_folds": 8
+    },
+    {
+      "asset": "edu",
+      "class": "crypto",
+      "auc_ising": 0.5023137601550864,
+      "auc_free": 0.49802901419843765,
+      "p_ising": 0.20666666666666667,
+      "p_free": 0.7133333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "eem",
+      "class": "stock",
+      "auc_ising": 0.48728737274007317,
+      "auc_free": 0.4919601861288879,
+      "p_ising": 0.8566666666666667,
+      "p_free": 0.8033333333333333,
+      "n_oos": 6031,
+      "n_folds": 7
+    },
+    {
+      "asset": "efa",
+      "class": "stock",
+      "auc_ising": 0.4978044391643541,
+      "auc_free": 0.5031176580138674,
+      "p_ising": 0.6466666666666666,
+      "p_free": 0.24666666666666667,
+      "n_oos": 3980,
+      "n_folds": 5
+    },
+    {
+      "asset": "eigen",
+      "class": "crypto",
+      "auc_ising": 0.4952160612542029,
+      "auc_free": 0.494193788946906,
+      "p_ising": 0.9566666666666667,
+      "p_free": 0.9766666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "elv",
+      "class": "stock",
+      "auc_ising": 0.5133987463323335,
+      "auc_free": 0.48808746829368055,
+      "p_ising": 0.1,
+      "p_free": 0.87,
+      "n_oos": 3149,
+      "n_folds": 4
+    },
+    {
+      "asset": "ena",
+      "class": "crypto",
+      "auc_ising": 0.4954552628321963,
+      "auc_free": 0.49479130735388366,
+      "p_ising": 0.96,
+      "p_free": 0.9366666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "eog",
+      "class": "stock",
+      "auc_ising": 0.4999921900593386,
+      "auc_free": 0.49176832254295044,
+      "p_ising": 0.59,
+      "p_free": 0.8433333333333334,
+      "n_oos": 3098,
+      "n_folds": 4
+    },
+    {
+      "asset": "eos",
+      "class": "crypto",
+      "auc_ising": 0.4997444369688251,
+      "auc_free": 0.5021914012680221,
+      "p_ising": 0.5733333333333334,
+      "p_free": 0.33,
+      "n_oos": 8172,
+      "n_folds": 9
+    },
+    {
+      "asset": "epic",
+      "class": "crypto",
+      "auc_ising": 0.5015470985283087,
+      "auc_free": 0.503934800049164,
+      "p_ising": 0.29333333333333333,
+      "p_free": 0.13666666666666666,
+      "n_oos": 26369,
+      "n_folds": 28
+    },
+    {
+      "asset": "etc",
+      "class": "crypto",
+      "auc_ising": 0.4967112636763571,
+      "auc_free": 0.49568638952454686,
+      "p_ising": 0.8466666666666667,
+      "p_free": 0.9266666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "eth",
+      "class": "crypto",
+      "auc_ising": 0.5007297242540358,
+      "auc_free": 0.4969114473064621,
+      "p_ising": 0.47333333333333333,
+      "p_free": 0.8066666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "ethfi",
+      "class": "crypto",
+      "auc_ising": 0.4997080678234529,
+      "auc_free": 0.49717194288960054,
+      "p_ising": 0.54,
+      "p_free": 0.8366666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "etn",
+      "class": "stock",
+      "auc_ising": 0.5004444930209455,
+      "auc_free": 0.5033530410843573,
+      "p_ising": 0.6366666666666667,
+      "p_free": 0.18666666666666668,
+      "n_oos": 3895,
+      "n_folds": 5
+    },
+    {
+      "asset": "euri",
+      "class": "crypto",
+      "auc_ising": 0.5041166823471458,
+      "auc_free": 0.49839869435067924,
+      "p_ising": 0.06666666666666667,
+      "p_free": 0.6633333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "ewj",
+      "class": "stock",
+      "auc_ising": 0.5092742774163124,
+      "auc_free": 0.49799492422373903,
+      "p_ising": 0.14333333333333334,
+      "p_free": 0.8366666666666667,
+      "n_oos": 5110,
+      "n_folds": 6
+    },
+    {
+      "asset": "ewz",
+      "class": "stock",
+      "auc_ising": 0.49980794350823193,
+      "auc_free": 0.48807730112129954,
+      "p_ising": 0.49333333333333335,
+      "p_free": 0.9166666666666666,
+      "n_oos": 6209,
+      "n_folds": 7
+    },
+    {
+      "asset": "exc",
+      "class": "stock",
+      "auc_ising": 0.511675313404661,
+      "auc_free": 0.5082264368471396,
+      "p_ising": 0.12333333333333334,
+      "p_free": 0.11666666666666667,
+      "n_oos": 3599,
+      "n_folds": 4
+    },
+    {
+      "asset": "fcx",
+      "class": "stock",
+      "auc_ising": 0.49481774719504784,
+      "auc_free": 0.4994450793913984,
+      "p_ising": 0.83,
+      "p_free": 0.5966666666666667,
+      "n_oos": 9101,
+      "n_folds": 10
+    },
+    {
+      "asset": "fdx",
+      "class": "stock",
+      "auc_ising": 0.5055408267214259,
+      "auc_free": 0.5142251615619206,
+      "p_ising": 0.4866666666666667,
+      "p_free": 0.016666666666666666,
+      "n_oos": 3569,
+      "n_folds": 4
+    },
+    {
+      "asset": "fet",
+      "class": "crypto",
+      "auc_ising": 0.4987409610185843,
+      "auc_free": 0.4981131499463861,
+      "p_ising": 0.6166666666666667,
+      "p_free": 0.7466666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "ff",
+      "class": "crypto",
+      "auc_ising": 0.49067192584000546,
+      "auc_free": 0.5057066373257951,
+      "p_ising": 0.92,
+      "p_free": 0.11,
+      "n_oos": 7147,
+      "n_folds": 8
+    },
+    {
+      "asset": "fida",
+      "class": "crypto",
+      "auc_ising": 0.4986825525524578,
+      "auc_free": 0.49757784069809763,
+      "p_ising": 0.7266666666666667,
+      "p_free": 0.7733333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "fil",
+      "class": "crypto",
+      "auc_ising": 0.4919189427963648,
+      "auc_free": 0.49995379413318564,
+      "p_ising": 1.0,
+      "p_free": 0.4666666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "fio",
+      "class": "crypto",
+      "auc_ising": 0.5020577717225279,
+      "auc_free": 0.5029711806264385,
+      "p_ising": 0.2733333333333333,
+      "p_free": 0.17666666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "fisv",
+      "class": "stock",
+      "auc_ising": 0.48895108342141635,
+      "auc_free": 0.4995416294007643,
+      "p_ising": 0.8566666666666667,
+      "p_free": 0.3466666666666667,
+      "n_oos": 4948,
+      "n_folds": 6
+    },
+    {
+      "asset": "floki",
+      "class": "crypto",
+      "auc_ising": 0.49800057857537,
+      "auc_free": 0.5016265131073584,
+      "p_ising": 0.7266666666666667,
+      "p_free": 0.31,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "form",
+      "class": "crypto",
+      "auc_ising": 0.49705602812648453,
+      "auc_free": 0.4992125451657044,
+      "p_ising": 0.7766666666666666,
+      "p_free": 0.6133333333333333,
+      "n_oos": 25793,
+      "n_folds": 27
+    },
+    {
+      "asset": "ftnt",
+      "class": "stock",
+      "auc_ising": 0.4951227596490227,
+      "auc_free": 0.5003672542970161,
+      "p_ising": 0.6433333333333333,
+      "p_free": 0.43,
+      "n_oos": 5923,
+      "n_folds": 7
+    },
+    {
+      "asset": "fxi",
+      "class": "stock",
+      "auc_ising": 0.4943548548009985,
+      "auc_free": 0.4941062053858065,
+      "p_ising": 0.9033333333333333,
+      "p_free": 0.8966666666666666,
+      "n_oos": 10713,
+      "n_folds": 12
+    },
+    {
+      "asset": "gala",
+      "class": "crypto",
+      "auc_ising": 0.49984427073251003,
+      "auc_free": 0.5031997525134229,
+      "p_ising": 0.52,
+      "p_free": 0.16666666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "gdx",
+      "class": "stock",
+      "auc_ising": 0.49873849861675357,
+      "auc_free": 0.49181378075026955,
+      "p_ising": 0.6033333333333334,
+      "p_free": 0.9266666666666666,
+      "n_oos": 11552,
+      "n_folds": 13
+    },
+    {
+      "asset": "ge",
+      "class": "stock",
+      "auc_ising": 0.513042738451138,
+      "auc_free": 0.5191570849761787,
+      "p_ising": 0.02666666666666667,
+      "p_free": 0.0,
+      "n_oos": 6136,
+      "n_folds": 7
+    },
+    {
+      "asset": "giggle",
+      "class": "crypto",
+      "auc_ising": 0.4914264133551823,
+      "auc_free": 0.49786844530929947,
+      "p_ising": 0.95,
+      "p_free": 0.7433333333333333,
+      "n_oos": 4681,
+      "n_folds": 5
+    },
+    {
+      "asset": "gild",
+      "class": "stock",
+      "auc_ising": 0.4949045077632698,
+      "auc_free": 0.5060148477778789,
+      "p_ising": 0.7566666666666667,
+      "p_free": 0.31,
+      "n_oos": 4803,
+      "n_folds": 6
+    },
+    {
+      "asset": "gis",
+      "class": "stock",
+      "auc_ising": 0.5092885805657846,
+      "auc_free": 0.5069797167748663,
+      "p_ising": 0.31,
+      "p_free": 0.01,
+      "n_oos": 4830,
+      "n_folds": 6
+    },
+    {
+      "asset": "gld",
+      "class": "stock",
+      "auc_ising": 0.4933310982094597,
+      "auc_free": 0.49780972914708677,
+      "p_ising": 0.9433333333333334,
+      "p_free": 0.65,
+      "n_oos": 11642,
+      "n_folds": 13
+    },
+    {
+      "asset": "goog",
+      "class": "stock",
+      "auc_ising": 0.5040235535059701,
+      "auc_free": 0.4930712300400938,
+      "p_ising": 0.23333333333333334,
+      "p_free": 0.9533333333333334,
+      "n_oos": 11869,
+      "n_folds": 13
+    },
+    {
+      "asset": "googl",
+      "class": "stock",
+      "auc_ising": 0.49636371505987,
+      "auc_free": 0.49827638290148724,
+      "p_ising": 0.78,
+      "p_free": 0.6666666666666666,
+      "n_oos": 11944,
+      "n_folds": 13
+    },
+    {
+      "asset": "gps",
+      "class": "crypto",
+      "auc_ising": 0.5004100787894078,
+      "auc_free": 0.5015651211210487,
+      "p_ising": 0.48,
+      "p_free": 0.37333333333333335,
+      "n_oos": 27213,
+      "n_folds": 29
+    },
+    {
+      "asset": "grt",
+      "class": "crypto",
+      "auc_ising": 0.49610314033257025,
+      "auc_free": 0.499524223455093,
+      "p_ising": 0.89,
+      "p_free": 0.6266666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "gs",
+      "class": "stock",
+      "auc_ising": 0.49893397718287585,
+      "auc_free": 0.5067467448982571,
+      "p_ising": 0.41333333333333333,
+      "p_free": 0.06,
+      "n_oos": 5087,
+      "n_folds": 6
+    },
+    {
+      "asset": "gun",
+      "class": "crypto",
+      "auc_ising": 0.5030274956396841,
+      "auc_free": 0.496510999248735,
+      "p_ising": 0.24666666666666667,
+      "p_free": 0.78,
+      "n_oos": 24621,
+      "n_folds": 26
+    },
+    {
+      "asset": "haedal",
+      "class": "crypto",
+      "auc_ising": 0.497554734768974,
+      "auc_free": 0.4935385390797665,
+      "p_ising": 0.7766666666666666,
+      "p_free": 0.9133333333333333,
+      "n_oos": 19717,
+      "n_folds": 21
+    },
+    {
+      "asset": "hal",
+      "class": "stock",
+      "auc_ising": 0.49499579804056,
+      "auc_free": 0.5111411953152892,
+      "p_ising": 0.91,
+      "p_free": 0.07,
+      "n_oos": 7274,
+      "n_folds": 8
+    },
+    {
+      "asset": "hbar",
+      "class": "crypto",
+      "auc_ising": 0.4998406607649582,
+      "auc_free": 0.505698872827017,
+      "p_ising": 0.5666666666666667,
+      "p_free": 0.03,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "hd",
+      "class": "stock",
+      "auc_ising": 0.49657665190481315,
+      "auc_free": 0.4991759564537839,
+      "p_ising": 0.5766666666666667,
+      "p_free": 0.43,
+      "n_oos": 4948,
+      "n_folds": 6
+    },
+    {
+      "asset": "hei",
+      "class": "crypto",
+      "auc_ising": 0.49774049472840853,
+      "auc_free": 0.4952405460107515,
+      "p_ising": 0.7,
+      "p_free": 0.9333333333333333,
+      "n_oos": 29057,
+      "n_folds": 31
+    },
+    {
+      "asset": "hifi",
+      "class": "crypto",
+      "auc_ising": 0.48851347848564985,
+      "auc_free": 0.4908869928157188,
+      "p_ising": 1.0,
+      "p_free": 0.9966666666666667,
+      "n_oos": 19116,
+      "n_folds": 20
+    },
+    {
+      "asset": "high",
+      "class": "crypto",
+      "auc_ising": 0.5049935233080385,
+      "auc_free": 0.5015922779884633,
+      "p_ising": 0.03666666666666667,
+      "p_free": 0.3466666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "hmstr",
+      "class": "crypto",
+      "auc_ising": 0.4933548110108046,
+      "auc_free": 0.49442528932518354,
+      "p_ising": 0.9933333333333333,
+      "p_free": 0.9566666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "holo",
+      "class": "crypto",
+      "auc_ising": 0.49399019585066095,
+      "auc_free": 0.5064292296850437,
+      "p_ising": 0.7933333333333333,
+      "p_free": 0.15666666666666668,
+      "n_oos": 8881,
+      "n_folds": 10
+    },
+    {
+      "asset": "home",
+      "class": "crypto",
+      "auc_ising": 0.5013761557017804,
+      "auc_free": 0.4975924846776321,
+      "p_ising": 0.38666666666666666,
+      "p_free": 0.67,
+      "n_oos": 17605,
+      "n_folds": 19
+    },
+    {
+      "asset": "hon",
+      "class": "stock",
+      "auc_ising": 0.48680910072032724,
+      "auc_free": 0.48248876841603294,
+      "p_ising": 0.91,
+      "p_free": 0.9866666666666667,
+      "n_oos": 4040,
+      "n_folds": 5
+    },
+    {
+      "asset": "hum",
+      "class": "stock",
+      "auc_ising": 0.4870193025150804,
+      "auc_free": 0.49056392740486654,
+      "p_ising": 0.9,
+      "p_free": 0.6733333333333333,
+      "n_oos": 3666,
+      "n_folds": 4
+    },
+    {
+      "asset": "huma",
+      "class": "crypto",
+      "auc_ising": 0.49070468666924216,
+      "auc_free": 0.5038406560350915,
+      "p_ising": 0.9666666666666667,
+      "p_free": 0.12333333333333334,
+      "n_oos": 19245,
+      "n_folds": 21
+    },
+    {
+      "asset": "hyg",
+      "class": "stock",
+      "auc_ising": 0.50035742176777,
+      "auc_free": 0.4825216273782833,
+      "p_ising": 0.6533333333333333,
+      "p_free": 0.9966666666666667,
+      "n_oos": 3872,
+      "n_folds": 5
+    },
+    {
+      "asset": "hyper",
+      "class": "crypto",
+      "auc_ising": 0.5007029016474902,
+      "auc_free": 0.49822032577331926,
+      "p_ising": 0.38666666666666666,
+      "p_free": 0.6166666666666667,
+      "n_oos": 22509,
+      "n_folds": 24
+    },
+    {
+      "asset": "ibm",
+      "class": "stock",
+      "auc_ising": 0.4939354483945777,
+      "auc_free": 0.5114044038539699,
+      "p_ising": 0.5433333333333333,
+      "p_free": 0.01,
+      "n_oos": 6545,
+      "n_folds": 7
+    },
+    {
+      "asset": "icp",
+      "class": "crypto",
+      "auc_ising": 0.502727714716773,
+      "auc_free": 0.4999670476710117,
+      "p_ising": 0.22333333333333333,
+      "p_free": 0.5033333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "id",
+      "class": "crypto",
+      "auc_ising": 0.49565118555042975,
+      "auc_free": 0.5011661916088102,
+      "p_ising": 0.93,
+      "p_free": 0.3333333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "ief",
+      "class": "stock",
+      "auc_ising": 0.48789514517416765,
+      "auc_free": 0.4917230718056593,
+      "p_ising": 0.9166666666666666,
+      "p_free": 0.8833333333333333,
+      "n_oos": 6691,
+      "n_folds": 7
+    },
+    {
+      "asset": "inda",
+      "class": "stock",
+      "auc_ising": 0.4907144878914013,
+      "auc_free": 0.4876288728233521,
+      "p_ising": 0.7866666666666666,
+      "p_free": 0.9266666666666666,
+      "n_oos": 5267,
+      "n_folds": 6
+    },
+    {
+      "asset": "inj",
+      "class": "crypto",
+      "auc_ising": 0.5052450364161258,
+      "auc_free": 0.5044727311092033,
+      "p_ising": 0.06666666666666667,
+      "p_free": 0.06666666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "intc",
+      "class": "stock",
+      "auc_ising": 0.49871745512417487,
+      "auc_free": 0.5036971683122509,
+      "p_ising": 0.6066666666666667,
+      "p_free": 0.13333333333333333,
+      "n_oos": 11995,
+      "n_folds": 13
+    },
+    {
+      "asset": "intu",
+      "class": "stock",
+      "auc_ising": 0.5072072575121356,
+      "auc_free": 0.5117588373685935,
+      "p_ising": 0.2833333333333333,
+      "p_free": 0.07333333333333333,
+      "n_oos": 3301,
+      "n_folds": 4
+    },
+    {
+      "asset": "io",
+      "class": "crypto",
+      "auc_ising": 0.5010164966053572,
+      "auc_free": 0.5009822428003212,
+      "p_ising": 0.41333333333333333,
+      "p_free": 0.39,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "iota",
+      "class": "crypto",
+      "auc_ising": 0.502033168043272,
+      "auc_free": 0.5062090686082498,
+      "p_ising": 0.32,
+      "p_free": 0.04,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "isrg",
+      "class": "stock",
+      "auc_ising": 0.495839256134563,
+      "auc_free": 0.4986815607678766,
+      "p_ising": 0.63,
+      "p_free": 0.57,
+      "n_oos": 3986,
+      "n_folds": 5
+    },
+    {
+      "asset": "itb",
+      "class": "stock",
+      "auc_ising": 0.5081912046050129,
+      "auc_free": 0.5165287371164771,
+      "p_ising": 0.08666666666666667,
+      "p_free": 0.03,
+      "n_oos": 3415,
+      "n_folds": 4
+    },
+    {
+      "asset": "ivv",
+      "class": "stock",
+      "auc_ising": 0.49140929159261815,
+      "auc_free": 0.5110004443915025,
+      "p_ising": 0.95,
+      "p_free": 0.05,
+      "n_oos": 8977,
+      "n_folds": 10
+    },
+    {
+      "asset": "iwm",
+      "class": "stock",
+      "auc_ising": 0.49541208541967474,
+      "auc_free": 0.5025931897307756,
+      "p_ising": 0.84,
+      "p_free": 0.22,
+      "n_oos": 11975,
+      "n_folds": 13
+    },
+    {
+      "asset": "jasmy",
+      "class": "crypto",
+      "auc_ising": 0.5008935192030647,
+      "auc_free": 0.5085105055066221,
+      "p_ising": 0.36,
+      "p_free": 0.01,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "jnj",
+      "class": "stock",
+      "auc_ising": 0.4937499565052994,
+      "auc_free": 0.4908410309287916,
+      "p_ising": 0.72,
+      "p_free": 0.7866666666666666,
+      "n_oos": 5313,
+      "n_folds": 6
+    },
+    {
+      "asset": "jpm",
+      "class": "stock",
+      "auc_ising": 0.4951436038361669,
+      "auc_free": 0.5024244453830866,
+      "p_ising": 0.7766666666666666,
+      "p_free": 0.29,
+      "n_oos": 7800,
+      "n_folds": 9
+    },
+    {
+      "asset": "jst",
+      "class": "crypto",
+      "auc_ising": 0.498098604597831,
+      "auc_free": 0.4976733822085167,
+      "p_ising": 0.7933333333333333,
+      "p_free": 0.7933333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "jto",
+      "class": "crypto",
+      "auc_ising": 0.49754009925888903,
+      "auc_free": 0.49380556723929475,
+      "p_ising": 0.7766666666666666,
+      "p_free": 0.96,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "juv",
+      "class": "crypto",
+      "auc_ising": 0.49203077365818615,
+      "auc_free": 0.5047393899110934,
+      "p_ising": 0.9966666666666667,
+      "p_free": 0.04666666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "kaia",
+      "class": "crypto",
+      "auc_ising": 0.5018200096831077,
+      "auc_free": 0.5019562505644778,
+      "p_ising": 0.25666666666666665,
+      "p_free": 0.2733333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "khc",
+      "class": "stock",
+      "auc_ising": 0.5037373469054642,
+      "auc_free": 0.49400990714222653,
+      "p_ising": 0.08666666666666667,
+      "p_free": 0.7366666666666667,
+      "n_oos": 8132,
+      "n_folds": 9
+    },
+    {
+      "asset": "kite",
+      "class": "crypto",
+      "auc_ising": 0.5033889840992407,
+      "auc_free": 0.49587045591256285,
+      "p_ising": 0.36666666666666664,
+      "p_free": 0.5633333333333334,
+      "n_oos": 3789,
+      "n_folds": 4
+    },
+    {
+      "asset": "klac",
+      "class": "stock",
+      "auc_ising": 0.4879855318051663,
+      "auc_free": 0.49572260254615697,
+      "p_ising": 0.84,
+      "p_free": 0.8133333333333334,
+      "n_oos": 3304,
+      "n_folds": 4
+    },
+    {
+      "asset": "kmb",
+      "class": "stock",
+      "auc_ising": 0.492247962880493,
+      "auc_free": 0.49876366103775743,
+      "p_ising": 0.7866666666666666,
+      "p_free": 0.5766666666666667,
+      "n_oos": 3282,
+      "n_folds": 4
+    },
+    {
+      "asset": "kmi",
+      "class": "stock",
+      "auc_ising": 0.47963289515672347,
+      "auc_free": 0.49948462896622503,
+      "p_ising": 1.0,
+      "p_free": 0.5966666666666667,
+      "n_oos": 5819,
+      "n_folds": 7
+    },
+    {
+      "asset": "ko",
+      "class": "stock",
+      "auc_ising": 0.49285106880217655,
+      "auc_free": 0.4957822688303972,
+      "p_ising": 0.85,
+      "p_free": 0.77,
+      "n_oos": 9702,
+      "n_folds": 11
+    },
+    {
+      "asset": "kr",
+      "class": "stock",
+      "auc_ising": 0.4917551552252382,
+      "auc_free": 0.4887722505465396,
+      "p_ising": 0.84,
+      "p_free": 0.94,
+      "n_oos": 4064,
+      "n_folds": 5
+    },
+    {
+      "asset": "kre",
+      "class": "stock",
+      "auc_ising": 0.4915587661033416,
+      "auc_free": 0.4937255355324496,
+      "p_ising": 0.89,
+      "p_free": 0.85,
+      "n_oos": 5933,
+      "n_folds": 7
+    },
+    {
+      "asset": "la",
+      "class": "crypto",
+      "auc_ising": 0.4977188299670551,
+      "auc_free": 0.49417743848287055,
+      "p_ising": 0.7966666666666666,
+      "p_free": 0.8666666666666667,
+      "n_oos": 15009,
+      "n_folds": 16
+    },
+    {
+      "asset": "ldo",
+      "class": "crypto",
+      "auc_ising": 0.4936069284564867,
+      "auc_free": 0.5006086093424684,
+      "p_ising": 0.9866666666666667,
+      "p_free": 0.4,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "lin",
+      "class": "stock",
+      "auc_ising": 0.5004232066229621,
+      "auc_free": 0.5020028060617497,
+      "p_ising": 0.3933333333333333,
+      "p_free": 0.27,
+      "n_oos": 3520,
+      "n_folds": 4
+    },
+    {
+      "asset": "linea",
+      "class": "crypto",
+      "auc_ising": 0.5039059254686054,
+      "auc_free": 0.4950389277028613,
+      "p_ising": 0.25,
+      "p_free": 0.73,
+      "n_oos": 8961,
+      "n_folds": 10
+    },
+    {
+      "asset": "link",
+      "class": "crypto",
+      "auc_ising": 0.49720194692823927,
+      "auc_free": 0.49770768218746786,
+      "p_ising": 0.8966666666666666,
+      "p_free": 0.78,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "lly",
+      "class": "stock",
+      "auc_ising": 0.4972676818128284,
+      "auc_free": 0.5014142074980107,
+      "p_ising": 0.5533333333333333,
+      "p_free": 0.4066666666666667,
+      "n_oos": 6764,
+      "n_folds": 8
+    },
+    {
+      "asset": "lmt",
+      "class": "stock",
+      "auc_ising": 0.4941257368275812,
+      "auc_free": 0.4866517152305598,
+      "p_ising": 0.7466666666666667,
+      "p_free": 0.9033333333333333,
+      "n_oos": 4673,
+      "n_folds": 5
+    },
+    {
+      "asset": "loka",
+      "class": "crypto",
+      "auc_ising": 0.5051142753076289,
+      "auc_free": 0.5085782495604105,
+      "p_ising": 0.2,
+      "p_free": 0.06333333333333334,
+      "n_oos": 14220,
+      "n_folds": 15
+    },
+    {
+      "asset": "low",
+      "class": "stock",
+      "auc_ising": 0.494548961240578,
+      "auc_free": 0.49906932167411205,
+      "p_ising": 0.6933333333333334,
+      "p_free": 0.5566666666666666,
+      "n_oos": 3351,
+      "n_folds": 4
+    },
+    {
+      "asset": "lrc",
+      "class": "crypto",
+      "auc_ising": 0.49838474698717644,
+      "auc_free": 0.49643218319390614,
+      "p_ising": 0.6833333333333333,
+      "p_free": 0.86,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "lrcx",
+      "class": "stock",
+      "auc_ising": 0.5026961077392276,
+      "auc_free": 0.4944621795452486,
+      "p_ising": 0.4066666666666667,
+      "p_free": 0.8866666666666667,
+      "n_oos": 8236,
+      "n_folds": 9
+    },
+    {
+      "asset": "ltc",
+      "class": "crypto",
+      "auc_ising": 0.5009641836722781,
+      "auc_free": 0.5009919556309966,
+      "p_ising": 0.42,
+      "p_free": 0.37,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "lunc",
+      "class": "crypto",
+      "auc_ising": 0.5031473121992693,
+      "auc_free": 0.502749140698886,
+      "p_ising": 0.20666666666666667,
+      "p_free": 0.16,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "ma",
+      "class": "stock",
+      "auc_ising": 0.48303630972171396,
+      "auc_free": 0.5059245020685114,
+      "p_ising": 0.98,
+      "p_free": 0.2,
+      "n_oos": 3565,
+      "n_folds": 4
+    },
+    {
+      "asset": "manta",
+      "class": "crypto",
+      "auc_ising": 0.49937417500285053,
+      "auc_free": 0.4974222576336325,
+      "p_ising": 0.5733333333333334,
+      "p_free": 0.77,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "mbox",
+      "class": "crypto",
+      "auc_ising": 0.5077339975435325,
+      "auc_free": 0.502051463482994,
+      "p_ising": 0.0033333333333333335,
+      "p_free": 0.24666666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "mcd",
+      "class": "stock",
+      "auc_ising": 0.4753598546431544,
+      "auc_free": 0.4791429752373186,
+      "p_ising": 0.9966666666666667,
+      "p_free": 1.0,
+      "n_oos": 4630,
+      "n_folds": 5
+    },
+    {
+      "asset": "mdb",
+      "class": "stock",
+      "auc_ising": 0.49892014986060923,
+      "auc_free": 0.4852395118497531,
+      "p_ising": 0.6166666666666667,
+      "p_free": 0.99,
+      "n_oos": 5602,
+      "n_folds": 6
+    },
+    {
+      "asset": "mdlz",
+      "class": "stock",
+      "auc_ising": 0.5057669951410018,
+      "auc_free": 0.5096655465237727,
+      "p_ising": 0.30666666666666664,
+      "p_free": 0.11,
+      "n_oos": 4245,
+      "n_folds": 5
+    },
+    {
+      "asset": "mdt",
+      "class": "stock",
+      "auc_ising": 0.48529295424995167,
+      "auc_free": 0.4886159266271815,
+      "p_ising": 0.9266666666666666,
+      "p_free": 0.9533333333333334,
+      "n_oos": 3624,
+      "n_folds": 4
+    },
+    {
+      "asset": "me",
+      "class": "crypto",
+      "auc_ising": 0.49227751308154677,
+      "auc_free": 0.50304816763312,
+      "p_ising": 0.9966666666666667,
+      "p_free": 0.16,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "meme",
+      "class": "crypto",
+      "auc_ising": 0.49363149510674426,
+      "auc_free": 0.49870442452337616,
+      "p_ising": 0.98,
+      "p_free": 0.65,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "meta",
+      "class": "stock",
+      "auc_ising": 0.4886010979376337,
+      "auc_free": 0.49844655353148254,
+      "p_ising": 1.0,
+      "p_free": 0.6733333333333333,
+      "n_oos": 11418,
+      "n_folds": 12
+    },
+    {
+      "asset": "mira",
+      "class": "crypto",
+      "auc_ising": 0.49664845397529644,
+      "auc_free": 0.49341519866721906,
+      "p_ising": 0.6566666666666666,
+      "p_free": 0.7833333333333333,
+      "n_oos": 7441,
+      "n_folds": 8
+    },
+    {
+      "asset": "mito",
+      "class": "crypto",
+      "auc_ising": 0.49620299054670025,
+      "auc_free": 0.4949102688434173,
+      "p_ising": 0.7466666666666667,
+      "p_free": 0.8633333333333333,
+      "n_oos": 10115,
+      "n_folds": 11
+    },
+    {
+      "asset": "mmm",
+      "class": "stock",
+      "auc_ising": 0.4939159389062331,
+      "auc_free": 0.5183875325064983,
+      "p_ising": 0.7866666666666666,
+      "p_free": 0.0033333333333333335,
+      "n_oos": 3667,
+      "n_folds": 4
+    },
+    {
+      "asset": "mo",
+      "class": "stock",
+      "auc_ising": 0.5178508034620002,
+      "auc_free": 0.5186071547138911,
+      "p_ising": 0.0,
+      "p_free": 0.0,
+      "n_oos": 7827,
+      "n_folds": 9
+    },
+    {
+      "asset": "morpho",
+      "class": "crypto",
+      "auc_ising": 0.48323569939231537,
+      "auc_free": 0.4927543658658243,
+      "p_ising": 0.9666666666666667,
+      "p_free": 0.7466666666666667,
+      "n_oos": 6757,
+      "n_folds": 8
+    },
+    {
+      "asset": "movr",
+      "class": "crypto",
+      "auc_ising": 0.5021522589147901,
+      "auc_free": 0.5005730882071797,
+      "p_ising": 0.25666666666666665,
+      "p_free": 0.43333333333333335,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "mrk",
+      "class": "stock",
+      "auc_ising": 0.499862266638223,
+      "auc_free": 0.498682361778901,
+      "p_ising": 0.38666666666666666,
+      "p_free": 0.6866666666666666,
+      "n_oos": 7572,
+      "n_folds": 8
+    },
+    {
+      "asset": "mrvl",
+      "class": "stock",
+      "auc_ising": 0.49388023898750877,
+      "auc_free": 0.49618305775885174,
+      "p_ising": 0.8533333333333334,
+      "p_free": 0.75,
+      "n_oos": 11440,
+      "n_folds": 12
+    },
+    {
+      "asset": "ms",
+      "class": "stock",
+      "auc_ising": 0.5026883414532988,
+      "auc_free": 0.5078329612243597,
+      "p_ising": 0.25333333333333335,
+      "p_free": 0.17,
+      "n_oos": 4774,
+      "n_folds": 5
+    },
+    {
+      "asset": "msft",
+      "class": "stock",
+      "auc_ising": 0.4947873874645802,
+      "auc_free": 0.5017133338302887,
+      "p_ising": 0.7066666666666667,
+      "p_free": 0.5166666666666667,
+      "n_oos": 11524,
+      "n_folds": 13
+    },
+    {
+      "asset": "mu",
+      "class": "stock",
+      "auc_ising": 0.507625514769924,
+      "auc_free": 0.5015823380245802,
+      "p_ising": 0.05,
+      "p_free": 0.41333333333333333,
+      "n_oos": 11882,
+      "n_folds": 13
+    },
+    {
+      "asset": "near",
+      "class": "crypto",
+      "auc_ising": 0.5013312914404054,
+      "auc_free": 0.5031312416166076,
+      "p_ising": 0.35333333333333333,
+      "p_free": 0.20333333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "nee",
+      "class": "stock",
+      "auc_ising": 0.4999825779638917,
+      "auc_free": 0.5089266927776865,
+      "p_ising": 0.6,
+      "p_free": 0.06666666666666667,
+      "n_oos": 6101,
+      "n_folds": 7
+    },
+    {
+      "asset": "neiro",
+      "class": "crypto",
+      "auc_ising": 0.5010731008279483,
+      "auc_free": 0.5006272986566712,
+      "p_ising": 0.43,
+      "p_free": 0.42333333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "nem",
+      "class": "stock",
+      "auc_ising": 0.49513417790583014,
+      "auc_free": 0.5001024894812215,
+      "p_ising": 0.7933333333333333,
+      "p_free": 0.5066666666666667,
+      "n_oos": 9861,
+      "n_folds": 11
+    },
+    {
+      "asset": "net",
+      "class": "stock",
+      "auc_ising": 0.4978176202443243,
+      "auc_free": 0.5007952888324396,
+      "p_ising": 0.62,
+      "p_free": 0.44666666666666666,
+      "n_oos": 6039,
+      "n_folds": 7
+    },
+    {
+      "asset": "nflx",
+      "class": "stock",
+      "auc_ising": 0.5032579540617323,
+      "auc_free": 0.4952086548927114,
+      "p_ising": 0.26,
+      "p_free": 0.8133333333333334,
+      "n_oos": 8540,
+      "n_folds": 9
+    },
+    {
+      "asset": "nil",
+      "class": "crypto",
+      "auc_ising": 0.4962050182266776,
+      "auc_free": 0.5000411097729789,
+      "p_ising": 0.88,
+      "p_free": 0.5933333333333334,
+      "n_oos": 25293,
+      "n_folds": 27
+    },
+    {
+      "asset": "nke",
+      "class": "stock",
+      "auc_ising": 0.4948417591224644,
+      "auc_free": 0.514458222602883,
+      "p_ising": 0.84,
+      "p_free": 0.0,
+      "n_oos": 10553,
+      "n_folds": 11
+    },
+    {
+      "asset": "nom",
+      "class": "crypto",
+      "auc_ising": 0.5038891763300891,
+      "auc_free": 0.5053191939945736,
+      "p_ising": 0.2833333333333333,
+      "p_free": 0.16666666666666666,
+      "n_oos": 6977,
+      "n_folds": 8
+    },
+    {
+      "asset": "now",
+      "class": "stock",
+      "auc_ising": 0.4995068863829377,
+      "auc_free": 0.5016227383605545,
+      "p_ising": 0.43,
+      "p_free": 0.4866666666666667,
+      "n_oos": 4849,
+      "n_folds": 6
+    },
+    {
+      "asset": "nue",
+      "class": "stock",
+      "auc_ising": 0.4968157287476025,
+      "auc_free": 0.5068066807950683,
+      "p_ising": 0.5433333333333333,
+      "p_free": 0.09333333333333334,
+      "n_oos": 3896,
+      "n_folds": 5
+    },
+    {
+      "asset": "nvda",
+      "class": "stock",
+      "auc_ising": 0.49426639764019475,
+      "auc_free": 0.49654375481508883,
+      "p_ising": 0.8366666666666667,
+      "p_free": 0.7666666666666667,
+      "n_oos": 11996,
+      "n_folds": 13
+    },
+    {
+      "asset": "nxpc",
+      "class": "crypto",
+      "auc_ising": 0.4989143782172195,
+      "auc_free": 0.49475271567221046,
+      "p_ising": 0.7133333333333334,
+      "p_free": 0.9433333333333334,
+      "n_oos": 20323,
+      "n_folds": 22
+    },
+    {
+      "asset": "o",
+      "class": "stock",
+      "auc_ising": 0.49737745247705223,
+      "auc_free": 0.501602823139881,
+      "p_ising": 0.7066666666666667,
+      "p_free": 0.38,
+      "n_oos": 9107,
+      "n_folds": 10
+    },
+    {
+      "asset": "og",
+      "class": "crypto",
+      "auc_ising": 0.49729011621830854,
+      "auc_free": 0.5007822920921239,
+      "p_ising": 0.7933333333333333,
+      "p_free": 0.35333333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "oke",
+      "class": "stock",
+      "auc_ising": 0.48963007300236794,
+      "auc_free": 0.47099428905466845,
+      "p_ising": 0.9366666666666666,
+      "p_free": 1.0,
+      "n_oos": 3799,
+      "n_folds": 4
+    },
+    {
+      "asset": "omni",
+      "class": "crypto",
+      "auc_ising": 0.49406189848811305,
+      "auc_free": 0.500552289871986,
+      "p_ising": 0.9166666666666666,
+      "p_free": 0.48333333333333334,
+      "n_oos": 20268,
+      "n_folds": 22
+    },
+    {
+      "asset": "ondo",
+      "class": "crypto",
+      "auc_ising": 0.4948990957429243,
+      "auc_free": 0.5027058999288067,
+      "p_ising": 0.9066666666666666,
+      "p_free": 0.23,
+      "n_oos": 23561,
+      "n_folds": 25
+    },
+    {
+      "asset": "op",
+      "class": "crypto",
+      "auc_ising": 0.5002169543936875,
+      "auc_free": 0.5037059626422912,
+      "p_ising": 0.42333333333333334,
+      "p_free": 0.14666666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "open",
+      "class": "crypto",
+      "auc_ising": 0.49474077448347054,
+      "auc_free": 0.4950922040951215,
+      "p_ising": 0.88,
+      "p_free": 0.6733333333333333,
+      "n_oos": 9165,
+      "n_folds": 10
+    },
+    {
+      "asset": "orcl",
+      "class": "stock",
+      "auc_ising": 0.49720420346897287,
+      "auc_free": 0.4942663812888345,
+      "p_ising": 0.7066666666666667,
+      "p_free": 0.7866666666666666,
+      "n_oos": 10591,
+      "n_folds": 12
+    },
+    {
+      "asset": "ordi",
+      "class": "crypto",
+      "auc_ising": 0.5009548924810233,
+      "auc_free": 0.5019079242320332,
+      "p_ising": 0.4766666666666667,
+      "p_free": 0.27666666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "osmo",
+      "class": "crypto",
+      "auc_ising": 0.49715202637095607,
+      "auc_free": 0.49548460132059813,
+      "p_ising": 0.74,
+      "p_free": 0.9,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "oxy",
+      "class": "stock",
+      "auc_ising": 0.4957163837066346,
+      "auc_free": 0.4993508360699467,
+      "p_ising": 0.7833333333333333,
+      "p_free": 0.56,
+      "n_oos": 10801,
+      "n_folds": 12
+    },
+    {
+      "asset": "panw",
+      "class": "stock",
+      "auc_ising": 0.4974867021085888,
+      "auc_free": 0.5024740482509417,
+      "p_ising": 0.54,
+      "p_free": 0.3333333333333333,
+      "n_oos": 7390,
+      "n_folds": 8
+    },
+    {
+      "asset": "parti",
+      "class": "crypto",
+      "auc_ising": 0.4986749317409678,
+      "auc_free": 0.5040530090832891,
+      "p_ising": 0.6433333333333333,
+      "p_free": 0.17333333333333334,
+      "n_oos": 25197,
+      "n_folds": 27
+    },
+    {
+      "asset": "pendle",
+      "class": "crypto",
+      "auc_ising": 0.4928999229891181,
+      "auc_free": 0.4973504826497324,
+      "p_ising": 0.9733333333333334,
+      "p_free": 0.7866666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "pengu",
+      "class": "crypto",
+      "auc_ising": 0.5053852583014411,
+      "auc_free": 0.5011223623694383,
+      "p_ising": 0.02666666666666667,
+      "p_free": 0.38666666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "pep",
+      "class": "stock",
+      "auc_ising": 0.49222502863394707,
+      "auc_free": 0.48303709854943244,
+      "p_ising": 0.92,
+      "p_free": 0.9966666666666667,
+      "n_oos": 7102,
+      "n_folds": 8
+    },
+    {
+      "asset": "pepe",
+      "class": "crypto",
+      "auc_ising": 0.4986428806869405,
+      "auc_free": 0.4988333588354364,
+      "p_ising": 0.6433333333333333,
+      "p_free": 0.6033333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "pfe",
+      "class": "stock",
+      "auc_ising": 0.4858475288366053,
+      "auc_free": 0.5044233854145244,
+      "p_ising": 0.99,
+      "p_free": 0.20333333333333334,
+      "n_oos": 11795,
+      "n_folds": 13
+    },
+    {
+      "asset": "pg",
+      "class": "stock",
+      "auc_ising": 0.5015524124425798,
+      "auc_free": 0.5040476881560895,
+      "p_ising": 0.25333333333333335,
+      "p_free": 0.21333333333333335,
+      "n_oos": 5764,
+      "n_folds": 7
+    },
+    {
+      "asset": "pha",
+      "class": "crypto",
+      "auc_ising": 0.4976180143236596,
+      "auc_free": 0.49744847019895466,
+      "p_ising": 0.8233333333333334,
+      "p_free": 0.8033333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "phb",
+      "class": "crypto",
+      "auc_ising": 0.4989277870000892,
+      "auc_free": 0.5009820790955122,
+      "p_ising": 0.63,
+      "p_free": 0.39666666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "pltr",
+      "class": "stock",
+      "auc_ising": 0.49556890315694213,
+      "auc_free": 0.5010014222704036,
+      "p_ising": 0.7433333333333333,
+      "p_free": 0.4633333333333333,
+      "n_oos": 11995,
+      "n_folds": 13
+    },
+    {
+      "asset": "plume",
+      "class": "crypto",
+      "auc_ising": 0.503884635027729,
+      "auc_free": 0.4995339429782953,
+      "p_ising": 0.20333333333333334,
+      "p_free": 0.61,
+      "n_oos": 11173,
+      "n_folds": 12
+    },
+    {
+      "asset": "pm",
+      "class": "stock",
+      "auc_ising": 0.48449713560591257,
+      "auc_free": 0.49459283366594486,
+      "p_ising": 0.9,
+      "p_free": 0.74,
+      "n_oos": 4207,
+      "n_folds": 5
+    },
+    {
+      "asset": "pol",
+      "class": "crypto",
+      "auc_ising": 0.49769959523028756,
+      "auc_free": 0.5008873272746921,
+      "p_ising": 0.7966666666666666,
+      "p_free": 0.41,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "pond",
+      "class": "crypto",
+      "auc_ising": 0.502407611154272,
+      "auc_free": 0.503779736292684,
+      "p_ising": 0.26666666666666666,
+      "p_free": 0.13333333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "portal",
+      "class": "crypto",
+      "auc_ising": 0.49995905734571194,
+      "auc_free": 0.5023281423572306,
+      "p_ising": 0.52,
+      "p_free": 0.14333333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "psg",
+      "class": "crypto",
+      "auc_ising": 0.49769901317637,
+      "auc_free": 0.4995573138731134,
+      "p_ising": 0.7366666666666667,
+      "p_free": 0.59,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "pump",
+      "class": "crypto",
+      "auc_ising": 0.4932201619086168,
+      "auc_free": 0.5057809239483833,
+      "p_ising": 0.87,
+      "p_free": 0.16666666666666666,
+      "n_oos": 8879,
+      "n_folds": 10
+    },
+    {
+      "asset": "pypl",
+      "class": "stock",
+      "auc_ising": 0.4995652607406649,
+      "auc_free": 0.4913530919076001,
+      "p_ising": 0.5866666666666667,
+      "p_free": 0.9233333333333333,
+      "n_oos": 10841,
+      "n_folds": 12
+    },
+    {
+      "asset": "pyth",
+      "class": "crypto",
+      "auc_ising": 0.4960968223762253,
+      "auc_free": 0.49350000541869865,
+      "p_ising": 0.8533333333333334,
+      "p_free": 0.9733333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "qcom",
+      "class": "stock",
+      "auc_ising": 0.5013230134915576,
+      "auc_free": 0.505169522222302,
+      "p_ising": 0.4266666666666667,
+      "p_free": 0.13666666666666666,
+      "n_oos": 8732,
+      "n_folds": 10
+    },
+    {
+      "asset": "qnt",
+      "class": "crypto",
+      "auc_ising": 0.4982560386908359,
+      "auc_free": 0.5018978599260132,
+      "p_ising": 0.7166666666666667,
+      "p_free": 0.2633333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "qqq",
+      "class": "stock",
+      "auc_ising": 0.5015509757093702,
+      "auc_free": 0.49227053634429535,
+      "p_ising": 0.4533333333333333,
+      "p_free": 0.9333333333333333,
+      "n_oos": 11994,
+      "n_folds": 13
+    },
+    {
+      "asset": "rdnt",
+      "class": "crypto",
+      "auc_ising": 0.4972500332377412,
+      "auc_free": 0.4980656165554306,
+      "p_ising": 0.8033333333333333,
+      "p_free": 0.69,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "render",
+      "class": "crypto",
+      "auc_ising": 0.498065088256726,
+      "auc_free": 0.4948179403379778,
+      "p_ising": 0.7433333333333333,
+      "p_free": 0.9766666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "resolv",
+      "class": "crypto",
+      "auc_ising": 0.5036020059341528,
+      "auc_free": 0.4990348072435591,
+      "p_ising": 0.2,
+      "p_free": 0.59,
+      "n_oos": 17703,
+      "n_folds": 19
+    },
+    {
+      "asset": "rsp",
+      "class": "stock",
+      "auc_ising": 0.5014730291154924,
+      "auc_free": 0.48566849816849816,
+      "p_ising": 0.4066666666666667,
+      "p_free": 0.99,
+      "n_oos": 4936,
+      "n_folds": 6
+    },
+    {
+      "asset": "rtx",
+      "class": "stock",
+      "auc_ising": 0.5023534605006352,
+      "auc_free": 0.4906082371039227,
+      "p_ising": 0.37333333333333335,
+      "p_free": 0.93,
+      "n_oos": 5129,
+      "n_folds": 6
+    },
+    {
+      "asset": "rune",
+      "class": "crypto",
+      "auc_ising": 0.4944055037984105,
+      "auc_free": 0.4969969269692613,
+      "p_ising": 0.9533333333333334,
+      "p_free": 0.8166666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "s",
+      "class": "crypto",
+      "auc_ising": 0.5026734235762765,
+      "auc_free": 0.5001006263460016,
+      "p_ising": 0.24666666666666667,
+      "p_free": 0.47,
+      "n_oos": 31745,
+      "n_folds": 34
+    },
+    {
+      "asset": "saga",
+      "class": "crypto",
+      "auc_ising": 0.5001049671377671,
+      "auc_free": 0.49707654865599493,
+      "p_ising": 0.42333333333333334,
+      "p_free": 0.8066666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "sahara",
+      "class": "crypto",
+      "auc_ising": 0.5032853285192511,
+      "auc_free": 0.4999262080503798,
+      "p_ising": 0.24,
+      "p_free": 0.5033333333333333,
+      "n_oos": 16273,
+      "n_folds": 17
+    },
+    {
+      "asset": "sand",
+      "class": "crypto",
+      "auc_ising": 0.5033674326710681,
+      "auc_free": 0.4991084383414307,
+      "p_ising": 0.10333333333333333,
+      "p_free": 0.6333333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "santos",
+      "class": "crypto",
+      "auc_ising": 0.4956519099591544,
+      "auc_free": 0.4966346959718414,
+      "p_ising": 0.9233333333333333,
+      "p_free": 0.82,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "sbux",
+      "class": "stock",
+      "auc_ising": 0.5066262522939919,
+      "auc_free": 0.4994312571243285,
+      "p_ising": 0.12666666666666668,
+      "p_free": 0.4633333333333333,
+      "n_oos": 7863,
+      "n_folds": 9
+    },
+    {
+      "asset": "schw",
+      "class": "stock",
+      "auc_ising": 0.4807276298006677,
+      "auc_free": 0.48788409396106813,
+      "p_ising": 0.9933333333333333,
+      "p_free": 0.95,
+      "n_oos": 4480,
+      "n_folds": 5
+    },
+    {
+      "asset": "sei",
+      "class": "crypto",
+      "auc_ising": 0.49702498050314203,
+      "auc_free": 0.4934716528261489,
+      "p_ising": 0.8366666666666667,
+      "p_free": 0.99,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "shib",
+      "class": "crypto",
+      "auc_ising": 0.49947394900352365,
+      "auc_free": 0.501878973163065,
+      "p_ising": 0.62,
+      "p_free": 0.31,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "shop",
+      "class": "stock",
+      "auc_ising": 0.4996191409263937,
+      "auc_free": 0.502843419422806,
+      "p_ising": 0.5,
+      "p_free": 0.3466666666666667,
+      "n_oos": 8648,
+      "n_folds": 10
+    },
+    {
+      "asset": "shy",
+      "class": "stock",
+      "auc_ising": 0.49645375119490043,
+      "auc_free": 0.496016098859844,
+      "p_ising": 0.5533333333333333,
+      "p_free": 0.7266666666666667,
+      "n_oos": 5205,
+      "n_folds": 6
+    },
+    {
+      "asset": "sky",
+      "class": "crypto",
+      "auc_ising": 0.4864407900089497,
+      "auc_free": 0.4950886203689322,
+      "p_ising": 0.9933333333333333,
+      "p_free": 0.8933333333333333,
+      "n_oos": 8321,
+      "n_folds": 9
+    },
+    {
+      "asset": "slb",
+      "class": "stock",
+      "auc_ising": 0.48459421019216153,
+      "auc_free": 0.49907246209302825,
+      "p_ising": 0.9933333333333333,
+      "p_free": 0.44333333333333336,
+      "n_oos": 7209,
+      "n_folds": 8
+    },
+    {
+      "asset": "slv",
+      "class": "stock",
+      "auc_ising": 0.49478047522125396,
+      "auc_free": 0.4954723581338126,
+      "p_ising": 0.81,
+      "p_free": 0.8433333333333334,
+      "n_oos": 11881,
+      "n_folds": 13
+    },
+    {
+      "asset": "smh",
+      "class": "stock",
+      "auc_ising": 0.49548650159376667,
+      "auc_free": 0.5046765203409653,
+      "p_ising": 0.8066666666666666,
+      "p_free": 0.27666666666666667,
+      "n_oos": 9685,
+      "n_folds": 11
+    },
+    {
+      "asset": "snow",
+      "class": "stock",
+      "auc_ising": 0.4851149664386239,
+      "auc_free": 0.49539987223670146,
+      "p_ising": 0.97,
+      "p_free": 0.7966666666666666,
+      "n_oos": 7891,
+      "n_folds": 9
+    },
+    {
+      "asset": "snps",
+      "class": "stock",
+      "auc_ising": 0.498652288824128,
+      "auc_free": 0.4754417477594362,
+      "p_ising": 0.61,
+      "p_free": 0.98,
+      "n_oos": 4098,
+      "n_folds": 5
+    },
+    {
+      "asset": "so",
+      "class": "stock",
+      "auc_ising": 0.5031003219778232,
+      "auc_free": 0.49390086061693506,
+      "p_ising": 0.32,
+      "p_free": 0.6266666666666667,
+      "n_oos": 3018,
+      "n_folds": 4
+    },
+    {
+      "asset": "sol",
+      "class": "crypto",
+      "auc_ising": 0.496396902618032,
+      "auc_free": 0.49563536985498746,
+      "p_ising": 0.8966666666666666,
+      "p_free": 0.88,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "soxx",
+      "class": "stock",
+      "auc_ising": 0.497450985324596,
+      "auc_free": 0.5047885242747663,
+      "p_ising": 0.62,
+      "p_free": 0.3433333333333333,
+      "n_oos": 9333,
+      "n_folds": 10
+    },
+    {
+      "asset": "spk",
+      "class": "crypto",
+      "auc_ising": 0.5042848694893073,
+      "auc_free": 0.4992893466923224,
+      "p_ising": 0.11,
+      "p_free": 0.5533333333333333,
+      "n_oos": 17149,
+      "n_folds": 18
+    },
+    {
+      "asset": "spy",
+      "class": "stock",
+      "auc_ising": 0.49408646123795763,
+      "auc_free": 0.4862416949501639,
+      "p_ising": 0.8533333333333334,
+      "p_free": 0.9933333333333333,
+      "n_oos": 12006,
+      "n_folds": 13
+    },
+    {
+      "asset": "stg",
+      "class": "crypto",
+      "auc_ising": 0.4948192507105735,
+      "auc_free": 0.49878794030542994,
+      "p_ising": 0.9633333333333334,
+      "p_free": 0.5466666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "sto",
+      "class": "crypto",
+      "auc_ising": 0.4984388773912144,
+      "auc_free": 0.49717147902932923,
+      "p_ising": 0.65,
+      "p_free": 0.7766666666666666,
+      "n_oos": 21537,
+      "n_folds": 23
+    },
+    {
+      "asset": "strax",
+      "class": "crypto",
+      "auc_ising": 0.4962089517139503,
+      "auc_free": 0.4974219575908114,
+      "p_ising": 0.8533333333333334,
+      "p_free": 0.7433333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "strk",
+      "class": "crypto",
+      "auc_ising": 0.5003008486184478,
+      "auc_free": 0.5007112596897473,
+      "p_ising": 0.4633333333333333,
+      "p_free": 0.42,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "sui",
+      "class": "crypto",
+      "auc_ising": 0.4994431818834467,
+      "auc_free": 0.5009445530838637,
+      "p_ising": 0.5466666666666666,
+      "p_free": 0.34,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "sun",
+      "class": "crypto",
+      "auc_ising": 0.49594070385784833,
+      "auc_free": 0.4990915058481371,
+      "p_ising": 0.8833333333333333,
+      "p_free": 0.6233333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "sxp",
+      "class": "crypto",
+      "auc_ising": 0.4980425590033979,
+      "auc_free": 0.5054863277635071,
+      "p_ising": 0.7566666666666667,
+      "p_free": 0.07333333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "sys",
+      "class": "crypto",
+      "auc_ising": 0.4967557174205121,
+      "auc_free": 0.5000001429807442,
+      "p_ising": 0.8033333333333333,
+      "p_free": 0.49666666666666665,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "t",
+      "class": "stock",
+      "auc_ising": 0.4980672953383424,
+      "auc_free": 0.48296220842506155,
+      "p_ising": 0.74,
+      "p_free": 1.0,
+      "n_oos": 9699,
+      "n_folds": 11
+    },
+    {
+      "asset": "tao",
+      "class": "crypto",
+      "auc_ising": 0.49251132376930495,
+      "auc_free": 0.49837552943417707,
+      "p_ising": 0.9933333333333333,
+      "p_free": 0.76,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "tfc",
+      "class": "stock",
+      "auc_ising": 0.4823904623232266,
+      "auc_free": 0.48449926993009274,
+      "p_ising": 0.9466666666666667,
+      "p_free": 0.9433333333333334,
+      "n_oos": 3469,
+      "n_folds": 4
+    },
+    {
+      "asset": "tgt",
+      "class": "stock",
+      "auc_ising": 0.49730298081394575,
+      "auc_free": 0.4994849402105394,
+      "p_ising": 0.7766666666666666,
+      "p_free": 0.5033333333333333,
+      "n_oos": 7800,
+      "n_folds": 9
+    },
+    {
+      "asset": "tia",
+      "class": "crypto",
+      "auc_ising": 0.5030200509265907,
+      "auc_free": 0.5032967816763205,
+      "p_ising": 0.17333333333333334,
+      "p_free": 0.12,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "tjx",
+      "class": "stock",
+      "auc_ising": 0.5100086605497687,
+      "auc_free": 0.4946849611685664,
+      "p_ising": 0.1,
+      "p_free": 0.52,
+      "n_oos": 3480,
+      "n_folds": 4
+    },
+    {
+      "asset": "tlt",
+      "class": "stock",
+      "auc_ising": 0.49945368027883746,
+      "auc_free": 0.4935308520484736,
+      "p_ising": 0.47333333333333333,
+      "p_free": 0.92,
+      "n_oos": 11917,
+      "n_folds": 13
+    },
+    {
+      "asset": "tmus",
+      "class": "stock",
+      "auc_ising": 0.4925225446041035,
+      "auc_free": 0.49522391413135614,
+      "p_ising": 0.6533333333333333,
+      "p_free": 0.6966666666666667,
+      "n_oos": 4475,
+      "n_folds": 5
+    },
+    {
+      "asset": "ton",
+      "class": "crypto",
+      "auc_ising": 0.502504774255353,
+      "auc_free": 0.5015125438126382,
+      "p_ising": 0.23666666666666666,
+      "p_free": 0.37333333333333335,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "tree",
+      "class": "crypto",
+      "auc_ising": 0.5010804191958772,
+      "auc_free": 0.503848352741586,
+      "p_ising": 0.44,
+      "p_free": 0.22333333333333333,
+      "n_oos": 13097,
+      "n_folds": 14
+    },
+    {
+      "asset": "tru",
+      "class": "crypto",
+      "auc_ising": 0.4992608863635457,
+      "auc_free": 0.49961896623688257,
+      "p_ising": 0.7233333333333334,
+      "p_free": 0.5733333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "trump",
+      "class": "crypto",
+      "auc_ising": 0.5035171312826637,
+      "auc_free": 0.5005681628043382,
+      "p_ising": 0.23333333333333334,
+      "p_free": 0.43333333333333335,
+      "n_oos": 31455,
+      "n_folds": 33
+    },
+    {
+      "asset": "trx",
+      "class": "crypto",
+      "auc_ising": 0.49916186172824456,
+      "auc_free": 0.49629611309462857,
+      "p_ising": 0.5766666666666667,
+      "p_free": 0.84,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "tsla",
+      "class": "stock",
+      "auc_ising": 0.48554304350973665,
+      "auc_free": 0.49570284399016457,
+      "p_ising": 0.99,
+      "p_free": 0.68,
+      "n_oos": 11996,
+      "n_folds": 13
+    },
+    {
+      "asset": "tut",
+      "class": "crypto",
+      "auc_ising": 0.4978698928034198,
+      "auc_free": 0.5124298436288113,
+      "p_ising": 0.77,
+      "p_free": 0.0,
+      "n_oos": 24973,
+      "n_folds": 27
+    },
+    {
+      "asset": "twt",
+      "class": "crypto",
+      "auc_ising": 0.49829129700676467,
+      "auc_free": 0.5038161796199383,
+      "p_ising": 0.67,
+      "p_free": 0.09666666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "txn",
+      "class": "stock",
+      "auc_ising": 0.4850284965603872,
+      "auc_free": 0.5057970218847212,
+      "p_ising": 0.99,
+      "p_free": 0.36,
+      "n_oos": 5361,
+      "n_folds": 6
+    },
+    {
+      "asset": "uber",
+      "class": "stock",
+      "auc_ising": 0.5012091592600536,
+      "auc_free": 0.4987436632493667,
+      "p_ising": 0.37666666666666665,
+      "p_free": 0.6,
+      "n_oos": 10701,
+      "n_folds": 12
+    },
+    {
+      "asset": "ung",
+      "class": "stock",
+      "auc_ising": 0.4991993116748934,
+      "auc_free": 0.4955671648094049,
+      "p_ising": 0.6533333333333333,
+      "p_free": 0.8266666666666667,
+      "n_oos": 11217,
+      "n_folds": 12
+    },
+    {
+      "asset": "unh",
+      "class": "stock",
+      "auc_ising": 0.49214142654986825,
+      "auc_free": 0.4908358732010213,
+      "p_ising": 0.9266666666666666,
+      "p_free": 0.8066666666666666,
+      "n_oos": 9692,
+      "n_folds": 11
+    },
+    {
+      "asset": "uni",
+      "class": "crypto",
+      "auc_ising": 0.49867472522937834,
+      "auc_free": 0.5027905909155761,
+      "p_ising": 0.67,
+      "p_free": 0.18333333333333332,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "ups",
+      "class": "stock",
+      "auc_ising": 0.5107007590376182,
+      "auc_free": 0.5049745790084299,
+      "p_ising": 0.07666666666666666,
+      "p_free": 0.2966666666666667,
+      "n_oos": 7465,
+      "n_folds": 8
+    },
+    {
+      "asset": "usb",
+      "class": "stock",
+      "auc_ising": 0.5018019680113981,
+      "auc_free": 0.49951264313330473,
+      "p_ising": 0.39666666666666667,
+      "p_free": 0.25,
+      "n_oos": 3914,
+      "n_folds": 5
+    },
+    {
+      "asset": "usd1",
+      "class": "crypto",
+      "auc_ising": 0.49612813317522375,
+      "auc_free": 0.49910444837149154,
+      "p_ising": 0.7466666666666667,
+      "p_free": 0.5433333333333333,
+      "n_oos": 19633,
+      "n_folds": 21
+    },
+    {
+      "asset": "usde",
+      "class": "crypto",
+      "auc_ising": 0.4930808187506881,
+      "auc_free": 0.5097247473019255,
+      "p_ising": 0.6866666666666666,
+      "p_free": 0.056666666666666664,
+      "n_oos": 9073,
+      "n_folds": 10
+    },
+    {
+      "asset": "uso",
+      "class": "stock",
+      "auc_ising": 0.49122155478788765,
+      "auc_free": 0.49597337418441867,
+      "p_ising": 0.8833333333333333,
+      "p_free": 0.78,
+      "n_oos": 10124,
+      "n_folds": 11
+    },
+    {
+      "asset": "utk",
+      "class": "crypto",
+      "auc_ising": 0.49442127323038965,
+      "auc_free": 0.5003090957753363,
+      "p_ising": 0.9766666666666667,
+      "p_free": 0.5266666666666666,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "v",
+      "class": "stock",
+      "auc_ising": 0.495746704016859,
+      "auc_free": 0.4941701575389993,
+      "p_ising": 0.64,
+      "p_free": 0.65,
+      "n_oos": 5670,
+      "n_folds": 6
+    },
+    {
+      "asset": "vea",
+      "class": "stock",
+      "auc_ising": 0.49687683390130655,
+      "auc_free": 0.5008573649476469,
+      "p_ising": 0.5266666666666666,
+      "p_free": 0.47,
+      "n_oos": 4009,
+      "n_folds": 5
+    },
+    {
+      "asset": "vet",
+      "class": "crypto",
+      "auc_ising": 0.4937694207453909,
+      "auc_free": 0.4958630853510995,
+      "p_ising": 0.9633333333333334,
+      "p_free": 0.9033333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "vic",
+      "class": "crypto",
+      "auc_ising": 0.49147801402757707,
+      "auc_free": 0.5005575033629932,
+      "p_ising": 0.9966666666666667,
+      "p_free": 0.45666666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "vici",
+      "class": "stock",
+      "auc_ising": 0.49436073758606935,
+      "auc_free": 0.5102219283687268,
+      "p_ising": 0.57,
+      "p_free": 0.17,
+      "n_oos": 4969,
+      "n_folds": 6
+    },
+    {
+      "asset": "virtual",
+      "class": "crypto",
+      "auc_ising": 0.49461656867025394,
+      "auc_free": 0.5004834327451778,
+      "p_ising": 0.91,
+      "p_free": 0.37333333333333335,
+      "n_oos": 23561,
+      "n_folds": 25
+    },
+    {
+      "asset": "vlo",
+      "class": "stock",
+      "auc_ising": 0.48838275047704305,
+      "auc_free": 0.5114578670875639,
+      "p_ising": 0.9066666666666666,
+      "p_free": 0.13333333333333333,
+      "n_oos": 3312,
+      "n_folds": 4
+    },
+    {
+      "asset": "vnq",
+      "class": "stock",
+      "auc_ising": 0.4827240736989685,
+      "auc_free": 0.4865511429906679,
+      "p_ising": 0.9333333333333333,
+      "p_free": 0.8566666666666667,
+      "n_oos": 3523,
+      "n_folds": 4
+    },
+    {
+      "asset": "voo",
+      "class": "stock",
+      "auc_ising": 0.4992420001605857,
+      "auc_free": 0.49243604401597907,
+      "p_ising": 0.5133333333333333,
+      "p_free": 0.9166666666666666,
+      "n_oos": 11144,
+      "n_folds": 12
+    },
+    {
+      "asset": "vti",
+      "class": "stock",
+      "auc_ising": 0.4960481470621788,
+      "auc_free": 0.49367209501191234,
+      "p_ising": 0.5266666666666666,
+      "p_free": 0.76,
+      "n_oos": 6633,
+      "n_folds": 7
+    },
+    {
+      "asset": "vwo",
+      "class": "stock",
+      "auc_ising": 0.4962873109648499,
+      "auc_free": 0.49872888065788146,
+      "p_ising": 0.6166666666666667,
+      "p_free": 0.4166666666666667,
+      "n_oos": 3882,
+      "n_folds": 5
+    },
+    {
+      "asset": "vz",
+      "class": "stock",
+      "auc_ising": 0.5042126453531495,
+      "auc_free": 0.5046010390906822,
+      "p_ising": 0.25333333333333335,
+      "p_free": 0.28,
+      "n_oos": 9727,
+      "n_folds": 11
+    },
+    {
+      "asset": "w",
+      "class": "crypto",
+      "auc_ising": 0.49689630067609003,
+      "auc_free": 0.49607586923227454,
+      "p_ising": 0.7866666666666666,
+      "p_free": 0.8266666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "wbeth",
+      "class": "crypto",
+      "auc_ising": 0.49810521136428443,
+      "auc_free": 0.4996338534844309,
+      "p_ising": 0.6866666666666666,
+      "p_free": 0.5033333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "wbtc",
+      "class": "crypto",
+      "auc_ising": 0.49845794819924694,
+      "auc_free": 0.4988248261261692,
+      "p_ising": 0.7166666666666667,
+      "p_free": 0.68,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "wfc",
+      "class": "stock",
+      "auc_ising": 0.4946703850523092,
+      "auc_free": 0.49729234084510654,
+      "p_ising": 0.71,
+      "p_free": 0.56,
+      "n_oos": 6727,
+      "n_folds": 8
+    },
+    {
+      "asset": "wif",
+      "class": "crypto",
+      "auc_ising": 0.5010446486796489,
+      "auc_free": 0.49406953314116653,
+      "p_ising": 0.4166666666666667,
+      "p_free": 0.98,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "wld",
+      "class": "crypto",
+      "auc_ising": 0.5027012947951629,
+      "auc_free": 0.5051864635390898,
+      "p_ising": 0.24666666666666667,
+      "p_free": 0.043333333333333335,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "wlfi",
+      "class": "crypto",
+      "auc_ising": 0.4876397004118752,
+      "auc_free": 0.5063794077833155,
+      "p_ising": 0.9733333333333334,
+      "p_free": 0.12666666666666668,
+      "n_oos": 9837,
+      "n_folds": 11
+    },
+    {
+      "asset": "wm",
+      "class": "stock",
+      "auc_ising": 0.4952228245312723,
+      "auc_free": 0.49413151209388867,
+      "p_ising": 0.8133333333333334,
+      "p_free": 0.6466666666666666,
+      "n_oos": 3004,
+      "n_folds": 4
+    },
+    {
+      "asset": "wmb",
+      "class": "stock",
+      "auc_ising": 0.4976796272356421,
+      "auc_free": 0.5009046379241869,
+      "p_ising": 0.72,
+      "p_free": 0.34,
+      "n_oos": 3353,
+      "n_folds": 4
+    },
+    {
+      "asset": "wmt",
+      "class": "stock",
+      "auc_ising": 0.49854660955193675,
+      "auc_free": 0.5012932536834463,
+      "p_ising": 0.5833333333333334,
+      "p_free": 0.4666666666666667,
+      "n_oos": 9720,
+      "n_folds": 11
+    },
+    {
+      "asset": "xbi",
+      "class": "stock",
+      "auc_ising": 0.4856593823755004,
+      "auc_free": 0.5022581769357746,
+      "p_ising": 1.0,
+      "p_free": 0.51,
+      "n_oos": 7261,
+      "n_folds": 8
+    },
+    {
+      "asset": "xlb",
+      "class": "stock",
+      "auc_ising": 0.48661631121642973,
+      "auc_free": 0.48815835872263597,
+      "p_ising": 0.81,
+      "p_free": 0.9233333333333333,
+      "n_oos": 3397,
+      "n_folds": 4
+    },
+    {
+      "asset": "xlc",
+      "class": "stock",
+      "auc_ising": 0.48444767168266234,
+      "auc_free": 0.49465827966651693,
+      "p_ising": 0.99,
+      "p_free": 0.7133333333333334,
+      "n_oos": 3163,
+      "n_folds": 4
+    },
+    {
+      "asset": "xle",
+      "class": "stock",
+      "auc_ising": 0.49471758695810997,
+      "auc_free": 0.4942065950923162,
+      "p_ising": 0.6566666666666666,
+      "p_free": 0.7766666666666666,
+      "n_oos": 8688,
+      "n_folds": 10
+    },
+    {
+      "asset": "xlf",
+      "class": "stock",
+      "auc_ising": 0.502497671319013,
+      "auc_free": 0.4997839151876878,
+      "p_ising": 0.25333333333333335,
+      "p_free": 0.45,
+      "n_oos": 10658,
+      "n_folds": 12
+    },
+    {
+      "asset": "xli",
+      "class": "stock",
+      "auc_ising": 0.49067099197711794,
+      "auc_free": 0.49679194498253004,
+      "p_ising": 0.9,
+      "p_free": 0.74,
+      "n_oos": 4037,
+      "n_folds": 5
+    },
+    {
+      "asset": "xlk",
+      "class": "stock",
+      "auc_ising": 0.4973265559475867,
+      "auc_free": 0.4879809805528826,
+      "p_ising": 0.8066666666666666,
+      "p_free": 0.99,
+      "n_oos": 8282,
+      "n_folds": 9
+    },
+    {
+      "asset": "xlm",
+      "class": "crypto",
+      "auc_ising": 0.5017971800075198,
+      "auc_free": 0.4997802652710886,
+      "p_ising": 0.35,
+      "p_free": 0.4866666666666667,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "xlp",
+      "class": "stock",
+      "auc_ising": 0.4915441157466517,
+      "auc_free": 0.4820726742032252,
+      "p_ising": 0.8233333333333334,
+      "p_free": 0.9966666666666667,
+      "n_oos": 4883,
+      "n_folds": 6
+    },
+    {
+      "asset": "xlre",
+      "class": "stock",
+      "auc_ising": 0.5041237604051675,
+      "auc_free": 0.5008657671974255,
+      "p_ising": 0.4166666666666667,
+      "p_free": 0.3933333333333333,
+      "n_oos": 3234,
+      "n_folds": 4
+    },
+    {
+      "asset": "xlu",
+      "class": "stock",
+      "auc_ising": 0.4961471874290314,
+      "auc_free": 0.491839731028771,
+      "p_ising": 0.7266666666666667,
+      "p_free": 0.8833333333333333,
+      "n_oos": 5698,
+      "n_folds": 6
+    },
+    {
+      "asset": "xlv",
+      "class": "stock",
+      "auc_ising": 0.5001212687588009,
+      "auc_free": 0.5003798397114592,
+      "p_ising": 0.3466666666666667,
+      "p_free": 0.5066666666666667,
+      "n_oos": 5701,
+      "n_folds": 6
+    },
+    {
+      "asset": "xly",
+      "class": "stock",
+      "auc_ising": 0.5033701224553363,
+      "auc_free": 0.5099286219653081,
+      "p_ising": 0.3433333333333333,
+      "p_free": 0.11666666666666667,
+      "n_oos": 3665,
+      "n_folds": 4
+    },
+    {
+      "asset": "xom",
+      "class": "stock",
+      "auc_ising": 0.4878868059554098,
+      "auc_free": 0.48797221527931656,
+      "p_ising": 0.96,
+      "p_free": 0.98,
+      "n_oos": 8574,
+      "n_folds": 9
+    },
+    {
+      "asset": "xpl",
+      "class": "crypto",
+      "auc_ising": 0.49136307213115593,
+      "auc_free": 0.5003722801529223,
+      "p_ising": 0.8766666666666667,
+      "p_free": 0.5333333333333333,
+      "n_oos": 7533,
+      "n_folds": 8
+    },
+    {
+      "asset": "xrp",
+      "class": "crypto",
+      "auc_ising": 0.50115562732492,
+      "auc_free": 0.5002734693384125,
+      "p_ising": 0.36,
+      "p_free": 0.49666666666666665,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "xusd",
+      "class": "crypto",
+      "auc_ising": 0.4968236666107403,
+      "auc_free": 0.5004856097635428,
+      "p_ising": 0.81,
+      "p_free": 0.4866666666666667,
+      "n_oos": 25793,
+      "n_folds": 27
+    },
+    {
+      "asset": "yb",
+      "class": "crypto",
+      "auc_ising": 0.5159583948296093,
+      "auc_free": 0.5049568223046834,
+      "p_ising": 0.006666666666666667,
+      "p_free": 0.22,
+      "n_oos": 5621,
+      "n_folds": 6
+    },
+    {
+      "asset": "zbt",
+      "class": "crypto",
+      "auc_ising": 0.4942323984847055,
+      "auc_free": 0.48084791505848146,
+      "p_ising": 0.8333333333333334,
+      "p_free": 1.0,
+      "n_oos": 5421,
+      "n_folds": 6
+    },
+    {
+      "asset": "zec",
+      "class": "crypto",
+      "auc_ising": 0.49682978350201135,
+      "auc_free": 0.5014254641029765,
+      "p_ising": 0.7633333333333333,
+      "p_free": 0.28,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "zen",
+      "class": "crypto",
+      "auc_ising": 0.495276970817852,
+      "auc_free": 0.5000072518236094,
+      "p_ising": 0.8766666666666667,
+      "p_free": 0.47333333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "zk",
+      "class": "crypto",
+      "auc_ising": 0.49909556208509354,
+      "auc_free": 0.4952596909115316,
+      "p_ising": 0.6333333333333333,
+      "p_free": 0.9433333333333334,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "zro",
+      "class": "crypto",
+      "auc_ising": 0.49696012249423394,
+      "auc_free": 0.49999177839241515,
+      "p_ising": 0.85,
+      "p_free": 0.5133333333333333,
+      "n_oos": 33217,
+      "n_folds": 35
+    },
+    {
+      "asset": "zs",
+      "class": "stock",
+      "auc_ising": 0.5062533519703694,
+      "auc_free": 0.49584928798579553,
+      "p_ising": 0.2833333333333333,
+      "p_free": 0.6933333333333334,
+      "n_oos": 5041,
+      "n_folds": 6
+    }
+  ]
+}

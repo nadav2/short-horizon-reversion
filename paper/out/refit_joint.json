@@ -1,0 +1,18 @@
+{
+  "n_assets": 28,
+  "per_class": 14,
+  "n_boot_requested": 150,
+  "n_boot_used": 150,
+  "fit_conditional_gap": 0.030992318493991255,
+  "fit_conditional_crypto": 0.5303154980715999,
+  "fit_conditional_stock": 0.4993231795776087,
+  "refit_joint_gap_mean": 0.016584771160712983,
+  "refit_joint_gap_ci": [
+    0.009094222874898469,
+    0.0241224868622605
+  ],
+  "refit_joint_gap_sd": 0.0038491171228484176,
+  "refit_crypto_mean": 0.5181603881791895,
+  "refit_stock_mean": 0.5015756170184765,
+  "bias_vs_conditional": -0.014407547333278273
+}

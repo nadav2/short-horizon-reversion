@@ -1,0 +1,56 @@
+{
+ "selection": "pairs with Binance quote volume over 2025-01-01..2025-01-31 (the first sample month); see exante.py",
+ "n_crypto": 133,
+ "n_stocks": 187,
+ "crypto_mean_auc_ising": 0.5338203103525543,
+ "crypto_mean_auc_free": 0.5298148400425685,
+ "stock_mean_auc_ising": 0.49927215176993844,
+ "coupling": {
+  "mean_A": -0.15189227970439118,
+  "frac_neg": 0.9849624060150376
+ },
+ "fdr_q05_conjunction": {
+  "crypto": {
+   "n": 133,
+   "bh_conj_sig": 129,
+   "bh_conj_frac": 0.9699248120300752
+  },
+  "stock": {
+   "n": 187,
+   "bh_conj_sig": 5,
+   "bh_conj_frac": 0.026737967914438502
+  }
+ },
+ "joint_gap": {
+  "n_assets_used": 320,
+  "n_boot": 1000,
+  "block_slots": 384,
+  "ising": {
+   "obs_gap": 0.03454741847287901,
+   "gap_ci": [
+    0.030246675979331318,
+    0.03832678536848781
+   ],
+   "p_gap_le0": 0.0,
+   "crypto_mean_auc": 0.5338203434787566,
+   "stock_mean_auc": 0.4992729250058776
+  },
+  "free": {
+   "obs_gap": 0.02947546285109104,
+   "gap_ci": [
+    0.02562422988210445,
+    0.032787296431984365
+   ],
+   "p_gap_le0": 0.0,
+   "crypto_mean_auc": 0.5298148384792549,
+   "stock_mean_auc": 0.5003393756281639
+  }
+ },
+ "crypto_dependence": {
+  "n_assets": 133,
+  "n_pairs": 8778,
+  "mean_corr": 0.5356491208076477,
+  "median_corr": 0.5818072557449341,
+  "n_eff": 1.8548041477301704
+ }
+}

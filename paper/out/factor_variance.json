@@ -1,0 +1,29 @@
+{
+  "factor": {
+    "n_pairs": 157,
+    "beta_median": 0.8453517105590702,
+    "R_raw_mean": -0.03584564028107467,
+    "R_residual_mean": -0.029043849773233106,
+    "R_raw_frac_negative": 0.9808917197452229,
+    "R_residual_frac_negative": 0.9808917197452229,
+    "retained_fraction": 0.8102477608292943,
+    "factor_R": null
+  },
+  "variance": {
+    "crypto": {
+      "n": 183,
+      "auc_pooled_mean": 0.5305370911356356,
+      "auc_stratified_mean": 0.5313572141653238,
+      "median_score_dispersion_ratio_p90_p10": 1.1326745627234003
+    },
+    "stock": {
+      "n": 187,
+      "auc_pooled_mean": 0.4992729250058776,
+      "auc_stratified_mean": 0.49782702103447335,
+      "median_score_dispersion_ratio_p90_p10": 1.5312834133050808
+    },
+    "gap_pooled": 0.03126416612975802,
+    "gap_stratified": 0.03353019313085043,
+    "gap_change": 0.0022660270010924077
+  }
+}

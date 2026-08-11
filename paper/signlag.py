@@ -23,7 +23,10 @@ construction):
     fully model-free statistic, not a re-read of the fitted model);
   * the class contrast crypto vs stocks, with a JOINT moving-block bootstrap on
     the shared 15m grid -- the same dependence-aware inference used for the AUC
-    gap in dependence.py.
+    gap in dependence.py;
+  * the class-pooled sign-flip rate by decile of |r_{t-1}| (flat bars excluded
+    on both sides), i.e. per-asset decile curves averaged within class -- the
+    mechanism panel: reversal strengthens with the size of the preceding move.
 
     uv run python -m paper.signlag
 """
@@ -81,6 +84,30 @@ def corr(a: np.ndarray, b: np.ndarray) -> float:
     a = a - a.mean(); b = b - b.mean()
     den = np.sqrt(float(a @ a) * float(b @ b))
     return float(a @ b / den) if den > 0 else 0.0
+
+
+def flip_by_decile(ch: np.ndarray, n_bins: int = 10) -> list[float] | None:
+    """Strict sign-flip rate P(sign(r_t) = -sign(r_{t-1})) by decile of |r_{t-1}|,
+    with flat bars excluded on BOTH sides. Without the exclusion a flat next bar
+    counts as a "flip" (sign 0 != sign r_{t-1}), which inflates the rate on
+    illiquid assets exactly where |r_{t-1}| is small -- the pooled stock curve
+    then bends UP at the small-move end for reasons that have nothing to do
+    with reversal. Returns None when an asset's deciles are degenerate (e.g.
+    stablecoins whose |r| quantiles collapse onto identical values)."""
+    r_prev, r_now = ch[:-1], ch[1:]
+    keep = (r_prev != 0) & (r_now != 0)
+    r_prev, r_now = r_prev[keep], r_now[keep]
+    if len(r_prev) < MIN_OBS:
+        return None
+    edges = np.quantile(np.abs(r_prev), np.linspace(0, 1, n_bins + 1))
+    edges[-1] = np.inf
+    rates = []
+    for i in range(n_bins):
+        m = (np.abs(r_prev) >= edges[i]) & (np.abs(r_prev) < edges[i + 1])
+        if m.sum() < 50:
+            return None
+        rates.append(float(np.mean(np.sign(r_now[m]) == -np.sign(r_prev[m]))))
+    return rates
 
 
 def reversal_by_magnitude(ch: np.ndarray, n_bins: int = 10) -> dict:
@@ -205,6 +232,7 @@ def joint_kernel_bootstrap(assets: dict[str, str]) -> dict:
 def main():
     wide = {r["asset"]: r for r in json.loads((OUT / "wide.json").read_text())}
     rows = []
+    flips: dict[str, list[list[float]]] = {"crypto": [], "stock": []}
     files = sorted(BULK.glob("*-15m.json"))
     for i, f in enumerate(files):
         asset = f.name[: -len("-15m.json")]
@@ -220,6 +248,10 @@ def main():
         st.update({"asset": asset, "class": w["class"],
                    "auc_ising": w["auc_ising"], "A": w["A"]})
         rows.append(st)
+        if w["class"] in flips:
+            fr = flip_by_decile(ch)
+            if fr is not None:
+                flips[w["class"]].append(fr)
         if (i + 1) % 100 == 0:
             print(f"  [{i+1}/{len(files)}]", flush=True)
 
@@ -239,6 +271,19 @@ def main():
             "mean_rho_by_lag": [float(np.mean([r["rho_sign_lags"][k] for r in sel]))
                                 for k in range(N_LAGS)],
         }
+    # class-pooled sign-flip rate by decile of |r_{t-1}| (flat bars excluded):
+    # per-asset decile curves averaged within class, with the cross-asset s.e.
+    summary["flip_by_class"] = {}
+    for c, curves in flips.items():
+        arr = np.array(curves)
+        summary["flip_by_class"][c] = {
+            "n_assets": int(arr.shape[0]),
+            "mean": [float(x) for x in arr.mean(axis=0)],
+            "se": [float(x) for x in arr.std(axis=0, ddof=1) / np.sqrt(arr.shape[0])],
+            # fraction of assets whose top-3-decile mean exceeds the bottom-3
+            "frac_rising": float(np.mean(arr[:, -3:].mean(axis=1) > arr[:, :3].mean(axis=1))),
+        }
+
     # magnitude decomposition on the focal coins + a stock reference
     summary["magnitude_decomposition"] = {}
     for a in ("btc", "eth", "xrp", "sol", "aapl"):

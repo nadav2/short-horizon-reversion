@@ -48,7 +48,7 @@ def fig_auc_15m(R):
     ax.axvline(0.5, color="k", lw=0.8, ls="--")
     ax.set_yticks(y)
     ax.set_yticklabels(labels, fontsize=7)
-    ax.set_xlabel("out-of-sample AUC (Ising), 95% block-bootstrap CI")
+    ax.set_xlabel("out-of-sample AUC (constrained logit), 95% block-bootstrap CI")
     handles = [plt.Line2D([], [], marker="o", ls="", color=c, label=l) for c, l in
                [(C_CRYPTO, "crypto"), (C_FX, "FX"), (C_TRAD, "equity/commodity/bond")]]
     ax.legend(handles=handles, loc="lower right")
@@ -60,8 +60,8 @@ def fig_horizon(R):
     intervals = ["15m", "1h", "4h"]
     groups = [("crypto", lambda r: r["class"] == "crypto", C_CRYPTO),
               ("FX", lambda r: r["asset_class"] == "fx", C_FX),
-              ("traditional (ex FX)", lambda r: r["class"] == "traditional"
-                                                and r["asset_class"] != "fx", C_TRAD)]
+              ("US-listed", lambda r: r["class"] == "traditional"
+                                      and r["asset_class"] != "fx", C_TRAD)]
     fig, ax = plt.subplots(figsize=(SINGLE, 2.6))
     for label, fsel, color in groups:
         means, ses = [], []
