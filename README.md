@@ -6,8 +6,7 @@ Replication code, frozen symbol lists, and frozen result files for the paper
 > kernel-constrained logit measurement of directional predictability**
 > (N. Kitron)
 
-**The manuscript is included here as [`paper.pdf`](paper.pdf) until the
-arXiv version is live; it will then be replaced by the arXiv link.**
+**The arXiv version of the manuscript will be linked here once it is live.**
 
 Every number, table, and figure in the manuscript is produced by a module in
 `paper/`. The result files the manuscript was typeset from are frozen in
