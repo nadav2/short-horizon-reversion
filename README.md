@@ -91,6 +91,8 @@ uv run python -m paper.fetch_paper2
 uv run python -m paper.fetch_bulk_flow            # flow fields, full 183-pair universe
 uv run python -m paper.fetch_flow                 # focal-coin flow series
 uv run python -m paper.fetch_perp                 # USDT-M perp klines + funding history
+uv run python -m paper.fetch_bookdepth           # UM-perp bookDepth snapshots -> 15m bar features (+ same-tape flow klines)
+uv run python -m paper.fetch_liq                 # CM-perp forced-order (liquidation) archive + matched CM/UM klines, 2023-06..2024-10
 ```
 
 Notes on data quirks documented in the paper: US-listed bars are 24-hour
@@ -188,6 +190,8 @@ uv run python -m paper.flow_test           # flow-driven vs flow-opposed conditi
 uv run python -m paper.flow_boot           # block-bootstrap CIs for the flip-rate differences
 uv run python -m paper.flow_cross          # 183-pair cross-section: delta-flip vs coupling/AUC
 uv run python -m paper.perp_test           # perpetual-futures replication; basis/funding conditioning
+uv run python -m paper.depth_test          # depth-conditioned reversal: flip(consumed)-flip(replenished), flow x depth, book-state gradients
+uv run python -m paper.liq_test           # forced-flow identification: matched gradient, first stage, placebo, robustness, AUC by class
 uv run python -m paper.fee_test            # fee-band accounting behind the cost-of-capture figures
 
 # figures (written to figures/)

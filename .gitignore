@@ -12,3 +12,5 @@ paper/exchange_data/
 paper/mid_raw/
 paper/out/exante_volume.json
 paper/natural_raw/
+paper/depth_data/
+paper/liq_data/
