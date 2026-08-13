@@ -208,6 +208,7 @@ uv run python -m paper.nbaseline_figure
 uv run python -m paper.stability_figures
 uv run python -m paper.panel_figures
 uv run python -m paper.merged_figures      # m_location / m_transmission / m_flow
+uv run python -m paper.liq_figures         # m_forced: forced-flow dose-response + matched-contrast forest
 ```
 
 Dependencies between steps: `paper.run` and `paper.wide --dump-oos` write
