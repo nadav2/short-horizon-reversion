@@ -92,7 +92,6 @@ uv run python -m paper.fetch_bulk_flow            # flow fields, full 183-pair u
 uv run python -m paper.fetch_flow                 # focal-coin flow series
 uv run python -m paper.fetch_perp                 # USDT-M perp klines + funding history
 uv run python -m paper.fetch_bookdepth           # UM-perp bookDepth snapshots -> 15m bar features (+ same-tape flow klines)
-uv run python -m paper.fetch_liq                 # CM-perp forced-order (liquidation) archive + matched CM/UM klines, 2023-06..2024-10
 ```
 
 Notes on data quirks documented in the paper: US-listed bars are 24-hour
@@ -191,7 +190,6 @@ uv run python -m paper.flow_boot           # block-bootstrap CIs for the flip-ra
 uv run python -m paper.flow_cross          # 183-pair cross-section: delta-flip vs coupling/AUC
 uv run python -m paper.perp_test           # perpetual-futures replication; basis/funding conditioning
 uv run python -m paper.depth_test          # depth-conditioned reversal: flip(consumed)-flip(replenished), flow x depth, book-state gradients
-uv run python -m paper.liq_test           # forced-flow identification: matched gradient, first stage, placebo, robustness, AUC by class
 uv run python -m paper.fee_test            # fee-band accounting behind the cost-of-capture figures
 
 # figures (written to figures/)
@@ -208,7 +206,6 @@ uv run python -m paper.nbaseline_figure
 uv run python -m paper.stability_figures
 uv run python -m paper.panel_figures
 uv run python -m paper.merged_figures      # m_location / m_transmission / m_flow
-uv run python -m paper.liq_figures         # m_forced: forced-flow dose-response + matched-contrast forest
 ```
 
 Dependencies between steps: `paper.run` and `paper.wide --dump-oos` write
@@ -219,6 +216,18 @@ the out-of-sample dumps (`paper/out/oos_*.npz`, `paper/out/wide_oos/`) that
 (`paper/bulk_data/`); `paper.iaaft_diagnostic` reads frozen results plus
 the focal candles; `paper.micro_regression` reads only `liquidity.json`. These intermediates are large and therefore not
 frozen in the repository; rerun the two producer commands to rebuild them.
+
+## Liquidation companion paper
+
+Three modules and their frozen outputs belong to a separate companion
+paper on forced liquidations, which shares this package's data layer;
+no exhibit in this paper reads them:
+
+```bash
+uv run python -m paper.fetch_liq       # CM-perp forced-order (liquidation) archive + matched CM/UM klines, 2023-06..2024-10
+uv run python -m paper.liq_test        # forced-flow contrast: matched gradient, first stage, placebo, robustness
+uv run python -m paper.liq_figures     # forced-flow dose-response + matched-contrast forest
+```
 
 ## Verifying the frozen results
 
