@@ -2,9 +2,9 @@
 
 Replication code, frozen symbol lists, and frozen result files for the paper
 
-> **Short-horizon mean reversion in cryptocurrency markets: a
-> kernel-constrained logit measurement of directional predictability**
-> (N. Kitron)
+> **Short-horizon mean reversion in cryptocurrency markets:
+> a matched cross-market measurement**
+> (N. A. Kitron, J. M. Wengrowicz)
 
 **The arXiv version of the manuscript will be linked here once it is live.**
 
